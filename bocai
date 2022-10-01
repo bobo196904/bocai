@@ -5,51 +5,155 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _SG_新加坡, server: 5.44.249.155, port: 3389, type: trojan, password: d02058f4f819dced, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 2, server: ffr6.awscn.buzz, port: 44651, type: trojan, password: JmcedGAn, sni: ffr6.awscn.buzz, skip-cert-verify: true, udp: true}
+  - {name: "Singapore, SS - B Group", server: bgroup.node3.s.nodelist-gfwairport.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 882fa816-9fd4-4882-9920-e133a80af626, udp: true}
+  - {name: "Hongkong, Tj - B Group", server: bgroup.node4.t.nodelist-gfwairport.download, port: 50001, type: trojan, password: 882fa816-9fd4-4882-9920-e133a80af626, sni: bgroup.node4.t.nodelist-gfwairport.download, skip-cert-verify: true, udp: true}
+  - {name: "Singapore, V2 - B Group", server: bgroup.node3.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: 882fa816-9fd4-4882-9920-e133a80af626, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "Singapore, Tj - B Group", server: bgroup.node3.t.nodelist-gfwairport.download, port: 50001, type: trojan, password: 882fa816-9fd4-4882-9920-e133a80af626, sni: bgroup.node3.t.nodelist-gfwairport.download, skip-cert-verify: true, udp: true}
+  - {name: "Incheon, SS - B Group", server: bgroup.node2.s.nodelist-gfwairport.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 882fa816-9fd4-4882-9920-e133a80af626, udp: true}
+  - {name: _HK_香港, server: ssl.tcpbbr.net, port: 12163, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: "Tokyo, SS - B Group", server: bgroup.node1.s.nodelist-gfwairport.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 882fa816-9fd4-4882-9920-e133a80af626, udp: true}
+  - {name: "California, SS - B Group", server: bgroup.node5.s.nodelist-gfwairport.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 882fa816-9fd4-4882-9920-e133a80af626, udp: true}
+  - {name: "California, V2 - B Group", server: bgroup.node5.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: 882fa816-9fd4-4882-9920-e133a80af626, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _NL_荷兰 2, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 6, server: 129.146.190.42, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 20.233.12.144, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.233.12.144}, udp: true}
-  - {name: _SG_新加坡 2, server: 139.162.29.179, port: 18231, type: vmess, uuid: cb185001-85ed-4186-e391-fdeb7b624403, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _JP_日本 2, server: 168.138.43.89, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: "California, Tj - B Group", server: bgroup.node5.t.nodelist-gfwairport.download, port: 50001, type: trojan, password: 882fa816-9fd4-4882-9920-e133a80af626, sni: bgroup.node5.t.nodelist-gfwairport.download, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: _SE_瑞典, server: se-1.tiktokcdn.sbs, port: 49494, type: trojan, password: bFUAnc6jeU, sni: se-1.tiktokcdn.sbs, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大, server: nice-ca01.tiktokcdn.buzz, port: 443, type: trojan, password: ff37081f-9043-476a-a6ea-854297b06839, sni: nice-ca01.tiktokcdn.buzz, skip-cert-verify: true, udp: true}
+  - {name: "Incheon, V2 - B Group", server: bgroup.node2.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: 882fa816-9fd4-4882-9920-e133a80af626, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "Hongkong, SS - B Group", server: bgroup.node4.s.nodelist-gfwairport.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 882fa816-9fd4-4882-9920-e133a80af626, udp: true}
+  - {name: "Tokyo, V2 - B Group", server: bgroup.node1.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: 882fa816-9fd4-4882-9920-e133a80af626, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "Hongkong, V2 - B Group", server: bgroup.node4.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: 882fa816-9fd4-4882-9920-e133a80af626, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: riop.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: riop.miaoge110.cf}, udp: true}
   - {name: _US_美国 7, server: riop.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: riop.miaoge110.cf}, udp: true}
+  - {name: _GB_英国, server: 132.145.51.172, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港 2, server: 103.103.245.125, port: 50350, type: trojan, password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国, server: 213.226.71.174, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: 169.197.141.14, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _NL_荷兰, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 5, server: 20.233.12.144, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.233.12.144}, udp: true}
+  - {name: _IN_印度, server: 152.67.162.166, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾, server: tw.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 6, server: c702s801.jamjams3.net, port: 21237, type: vmess, uuid: 722c4c77-b7c1-4cf4-880d-0b4843d7b33a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 8, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本 2
+      - Singapore, SS - B Group
+      - Hongkong, Tj - B Group
+      - Singapore, V2 - B Group
+      - Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - _HK_香港
+      - Tokyo, SS - B Group
+      - California, SS - B Group
+      - California, V2 - B Group
       - _NL_荷兰 2
-      - _US_美国 6
+      - _JP_日本
+      - _JP_日本 2
+      - California, Tj - B Group
       - _US_美国
-      - _SG_新加坡 2
+      - _SE_瑞典
+      - _CA_加拿大
+      - Incheon, V2 - B Group
+      - Hongkong, SS - B Group
+      - Tokyo, V2 - B Group
+      - Hongkong, V2 - B Group
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 7
+      - _GB_英国
+      - _HK_香港 2
+      - _DE_德国
+      - _US_美国 4
+      - _NL_荷兰
+      - _US_美国 5
+      - _IN_印度
+      - _TW_台湾
+      - _US_美国 6
+      - _US_美国 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本 2
+      - Singapore, SS - B Group
+      - Hongkong, Tj - B Group
+      - Singapore, V2 - B Group
+      - Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - _HK_香港
+      - Tokyo, SS - B Group
+      - California, SS - B Group
+      - California, V2 - B Group
       - _NL_荷兰 2
-      - _US_美国 6
+      - _JP_日本
+      - _JP_日本 2
+      - California, Tj - B Group
       - _US_美国
-      - _SG_新加坡 2
+      - _SE_瑞典
+      - _CA_加拿大
+      - Incheon, V2 - B Group
+      - Hongkong, SS - B Group
+      - Tokyo, V2 - B Group
+      - Hongkong, V2 - B Group
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 7
+      - _GB_英国
+      - _HK_香港 2
+      - _DE_德国
+      - _US_美国 4
+      - _NL_荷兰
+      - _US_美国 5
+      - _IN_印度
+      - _TW_台湾
+      - _US_美国 6
+      - _US_美国 8
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本 2
+      - Singapore, SS - B Group
+      - Hongkong, Tj - B Group
+      - Singapore, V2 - B Group
+      - Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - _HK_香港
+      - Tokyo, SS - B Group
+      - California, SS - B Group
+      - California, V2 - B Group
       - _NL_荷兰 2
-      - _US_美国 6
+      - _JP_日本
+      - _JP_日本 2
+      - California, Tj - B Group
       - _US_美国
-      - _SG_新加坡 2
+      - _SE_瑞典
+      - _CA_加拿大
+      - Incheon, V2 - B Group
+      - Hongkong, SS - B Group
+      - Tokyo, V2 - B Group
+      - Hongkong, V2 - B Group
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 7
+      - _GB_英国
+      - _HK_香港 2
+      - _DE_德国
+      - _US_美国 4
+      - _NL_荷兰
+      - _US_美国 5
+      - _IN_印度
+      - _TW_台湾
+      - _US_美国 6
+      - _US_美国 8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,55 +172,162 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本 2
+      - Singapore, SS - B Group
+      - Hongkong, Tj - B Group
+      - Singapore, V2 - B Group
+      - Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - _HK_香港
+      - Tokyo, SS - B Group
+      - California, SS - B Group
+      - California, V2 - B Group
       - _NL_荷兰 2
-      - _US_美国 6
+      - _JP_日本
+      - _JP_日本 2
+      - California, Tj - B Group
       - _US_美国
-      - _SG_新加坡 2
+      - _SE_瑞典
+      - _CA_加拿大
+      - Incheon, V2 - B Group
+      - Hongkong, SS - B Group
+      - Tokyo, V2 - B Group
+      - Hongkong, V2 - B Group
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 7
+      - _GB_英国
+      - _HK_香港 2
+      - _DE_德国
+      - _US_美国 4
+      - _NL_荷兰
+      - _US_美国 5
+      - _IN_印度
+      - _TW_台湾
+      - _US_美国 6
+      - _US_美国 8
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - _HK_香港
+      - _HK_香港 2
+      - _TW_台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本 2
+      - Singapore, SS - B Group
+      - Hongkong, Tj - B Group
+      - Singapore, V2 - B Group
+      - Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - _HK_香港
+      - Tokyo, SS - B Group
+      - California, SS - B Group
+      - California, V2 - B Group
       - _NL_荷兰 2
-      - _US_美国 6
+      - _JP_日本
+      - _JP_日本 2
+      - California, Tj - B Group
       - _US_美国
-      - _SG_新加坡 2
+      - _SE_瑞典
+      - _CA_加拿大
+      - Incheon, V2 - B Group
+      - Hongkong, SS - B Group
+      - Tokyo, V2 - B Group
+      - Hongkong, V2 - B Group
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 7
+      - _GB_英国
+      - _HK_香港 2
+      - _DE_德国
+      - _US_美国 4
+      - _NL_荷兰
+      - _US_美国 5
+      - _IN_印度
+      - _TW_台湾
+      - _US_美国 6
+      - _US_美国 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本 2
+      - Singapore, SS - B Group
+      - Hongkong, Tj - B Group
+      - Singapore, V2 - B Group
+      - Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - _HK_香港
+      - Tokyo, SS - B Group
+      - California, SS - B Group
+      - California, V2 - B Group
       - _NL_荷兰 2
-      - _US_美国 6
+      - _JP_日本
+      - _JP_日本 2
+      - California, Tj - B Group
       - _US_美国
-      - _SG_新加坡 2
+      - _SE_瑞典
+      - _CA_加拿大
+      - Incheon, V2 - B Group
+      - Hongkong, SS - B Group
+      - Tokyo, V2 - B Group
+      - Hongkong, V2 - B Group
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 7
+      - _GB_英国
+      - _HK_香港 2
+      - _DE_德国
+      - _US_美国 4
+      - _NL_荷兰
+      - _US_美国 5
+      - _IN_印度
+      - _TW_台湾
+      - _US_美国 6
+      - _US_美国 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本 2
+      - Singapore, SS - B Group
+      - Hongkong, Tj - B Group
+      - Singapore, V2 - B Group
+      - Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - _HK_香港
+      - Tokyo, SS - B Group
+      - California, SS - B Group
+      - California, V2 - B Group
       - _NL_荷兰 2
-      - _US_美国 6
+      - _JP_日本
+      - _JP_日本 2
+      - California, Tj - B Group
       - _US_美国
-      - _SG_新加坡 2
+      - _SE_瑞典
+      - _CA_加拿大
+      - Incheon, V2 - B Group
+      - Hongkong, SS - B Group
+      - Tokyo, V2 - B Group
+      - Hongkong, V2 - B Group
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 7
+      - _GB_英国
+      - _HK_香港 2
+      - _DE_德国
+      - _US_美国 4
+      - _NL_荷兰
+      - _US_美国 5
+      - _IN_印度
+      - _TW_台湾
+      - _US_美国 6
+      - _US_美国 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,13 +343,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SG_新加坡
-      - _CN_中国->🇯🇵_JP_日本 2
+      - Singapore, SS - B Group
+      - Hongkong, Tj - B Group
+      - Singapore, V2 - B Group
+      - Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - _HK_香港
+      - Tokyo, SS - B Group
+      - California, SS - B Group
+      - California, V2 - B Group
       - _NL_荷兰 2
-      - _US_美国 6
+      - _JP_日本
+      - _JP_日本 2
+      - California, Tj - B Group
       - _US_美国
-      - _SG_新加坡 2
+      - _SE_瑞典
+      - _CA_加拿大
+      - Incheon, V2 - B Group
+      - Hongkong, SS - B Group
+      - Tokyo, V2 - B Group
+      - Hongkong, V2 - B Group
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 7
+      - _GB_英国
+      - _HK_香港 2
+      - _DE_德国
+      - _US_美国 4
+      - _NL_荷兰
+      - _US_美国 5
+      - _IN_印度
+      - _TW_台湾
+      - _US_美国 6
+      - _US_美国 8
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
