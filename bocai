@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-14 22:22:08
+# 创建时间：2023-08-17 10:26:48
 # 使用模版：V2RaySE 默认模版
 # 节点数量：6
 ####################################
@@ -24,9 +24,9 @@ dns:
 proxies:
   - {"name":"gigantic-steadfast-alpaca.glitch.me","type":"vless","server":"gigantic-steadfast-alpaca.glitch.me","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"gigantic-steadfast-alpaca.glitch.me","network":"ws","ws-opts":{"path":"/","headers":{"host":"gigantic-steadfast-alpaca.glitch.me"}}}
   - {"name":"0721.135051.link","type":"vless","server":"125.227.91.176","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0721.135051.link"}}}
-  - {"name":"0719.135051.xyz","type":"vless","server":"8.217.35.66","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
+  - {"name":"0719.135051.xyz","type":"vless","server":"0719.135051.xyz","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
   - {"name":"jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1","type":"vless","server":"cdn.xn--b6gac.eu.org","port":8880,"uuid":"deaa1c71-62c2-4291-87b4-6d6141fe31c8","tls":false,"servername":"jd0805.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jd0805.7993922.workers.dev"}}}
-  - {"name":"us.netherserver.com:25866","type":"vless","server":"8.217.35.66","port":443,"uuid":"81e9e301-241f-46fe-ad18-946cd8e73ff9","tls":true,"servername":"888.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"888.135051.xyz"}}}
+  - {"name":"us.netherserver.com:25866","type":"vless","server":"888.135051.xyz","port":443,"uuid":"81e9e301-241f-46fe-ad18-946cd8e73ff9","tls":true,"servername":"888.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"888.135051.xyz"}}}
   - {"name":"jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2","type":"vless","server":"cdn.xn--b6gac.eu.org","port":2095,"uuid":"deaa1c71-62c2-4291-87b4-6d6141fe31c8","tls":false,"servername":"jd0805.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jd0805.7993922.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
