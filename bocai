@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-17 18:14:55
+# 创建时间：2023-08-24 13:48:27
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：8
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -28,6 +28,8 @@ proxies:
   - {"name":"jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1","type":"vless","server":"cdn.xn--b6gac.eu.org","port":8880,"uuid":"deaa1c71-62c2-4291-87b4-6d6141fe31c8","tls":false,"servername":"jd0805.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jd0805.7993922.workers.dev"}}}
   - {"name":"us.netherserver.com:25866","type":"vless","server":"125.227.91.176","port":443,"uuid":"81e9e301-241f-46fe-ad18-946cd8e73ff9","tls":true,"servername":"888.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"888.135051.xyz"}}}
   - {"name":"jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2","type":"vless","server":"cdn.xn--b6gac.eu.org","port":2095,"uuid":"deaa1c71-62c2-4291-87b4-6d6141fe31c8","tls":false,"servername":"jd0805.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jd0805.7993922.workers.dev"}}}
+  - {"name":"vmess+ws|taK9.love@xray.com","type":"vmess","server":"4.157.249.248","port":57399,"cipher":"auto","uuid":"9071cfab-f21c-4e87-e1d2-67230e5021d4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9071cfab-f21c-4e87-e1d2-67230e5021d4"}}
+  - {"name":"vless+vision+reality|gkTV.love@xray.com","type":"vless","server":"4.157.249.248","port":443,"udp":true,"uuid":"3e495646-fb1a-4107-b6ff-935ca1779f17","tls":true,"servername":"3e495646.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -40,6 +42,8 @@ proxy-groups:
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
       - us.netherserver.com:25866
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
+      - vmess+ws|taK9.love@xray.com
+      - vless+vision+reality|gkTV.love@xray.com
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -52,6 +56,8 @@ proxy-groups:
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
       - us.netherserver.com:25866
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
+      - vmess+ws|taK9.love@xray.com
+      - vless+vision+reality|gkTV.love@xray.com
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -64,6 +70,8 @@ proxy-groups:
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
       - us.netherserver.com:25866
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
+      - vmess+ws|taK9.love@xray.com
+      - vless+vision+reality|gkTV.love@xray.com
   - name: 📲 电报信息
     type: select
     proxies:
@@ -75,6 +83,8 @@ proxy-groups:
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
       - us.netherserver.com:25866
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
+      - vmess+ws|taK9.love@xray.com
+      - vless+vision+reality|gkTV.love@xray.com
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -86,6 +96,8 @@ proxy-groups:
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
       - us.netherserver.com:25866
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
+      - vmess+ws|taK9.love@xray.com
+      - vless+vision+reality|gkTV.love@xray.com
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -97,6 +109,8 @@ proxy-groups:
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
       - us.netherserver.com:25866
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
+      - vmess+ws|taK9.love@xray.com
+      - vless+vision+reality|gkTV.love@xray.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,6 +139,8 @@ proxy-groups:
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
       - us.netherserver.com:25866
       - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
+      - vmess+ws|taK9.love@xray.com
+      - vless+vision+reality|gkTV.love@xray.com
 
 rules:
 # 本地/局域网地址
