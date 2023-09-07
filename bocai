@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-24 13:48:27
+# 创建时间：2023-09-07 16:34:43
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：5
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -12,105 +12,148 @@ log-level: info
 external-controller: 0.0.0.0:9090
 dns:
   enabled: true
-  nameserver:
-    - 119.29.29.29
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
     - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
 
 proxies:
-  - {"name":"gigantic-steadfast-alpaca.glitch.me","type":"vless","server":"gigantic-steadfast-alpaca.glitch.me","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"gigantic-steadfast-alpaca.glitch.me","network":"ws","ws-opts":{"path":"/","headers":{"host":"gigantic-steadfast-alpaca.glitch.me"}}}
-  - {"name":"0721.135051.link","type":"vless","server":"125.227.91.176","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0721.135051.link"}}}
-  - {"name":"0719.135051.xyz","type":"vless","server":"125.227.91.176","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
-  - {"name":"jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1","type":"vless","server":"cdn.xn--b6gac.eu.org","port":8880,"uuid":"deaa1c71-62c2-4291-87b4-6d6141fe31c8","tls":false,"servername":"jd0805.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jd0805.7993922.workers.dev"}}}
-  - {"name":"us.netherserver.com:25866","type":"vless","server":"125.227.91.176","port":443,"uuid":"81e9e301-241f-46fe-ad18-946cd8e73ff9","tls":true,"servername":"888.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"888.135051.xyz"}}}
-  - {"name":"jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2","type":"vless","server":"cdn.xn--b6gac.eu.org","port":2095,"uuid":"deaa1c71-62c2-4291-87b4-6d6141fe31c8","tls":false,"servername":"jd0805.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jd0805.7993922.workers.dev"}}}
-  - {"name":"vmess+ws|taK9.love@xray.com","type":"vmess","server":"4.157.249.248","port":57399,"cipher":"auto","uuid":"9071cfab-f21c-4e87-e1d2-67230e5021d4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9071cfab-f21c-4e87-e1d2-67230e5021d4"}}
-  - {"name":"vless+vision+reality|gkTV.love@xray.com","type":"vless","server":"4.157.249.248","port":443,"udp":true,"uuid":"3e495646-fb1a-4107-b6ff-935ca1779f17","tls":true,"servername":"3e495646.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14"},"client-fingerprint":"chrome"}
+  - {"name":"0721.135051.link","type":"vless","server":"0721.135051.link","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0721.135051.link"}}}
+  - {"name":"0719.135051.xyz_1","type":"vless","server":"0719.135051.xyz","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
+  - {"name":"0907.13505.pp.ua_1","type":"vless","server":"0907.13505.pp.ua","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0907.13505.pp.ua"}},"client-fingerprint":"randomized"}
+  - {"name":"0907.13505.pp.ua_2","type":"vless","server":"158.178.229.68","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0907.13505.pp.ua"}},"client-fingerprint":"randomized"}
+  - {"name":"0719.135051.xyz_2","type":"vless","server":"193.122.103.122","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - gigantic-steadfast-alpaca.glitch.me
       - 0721.135051.link
-      - 0719.135051.xyz
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
-      - us.netherserver.com:25866
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
-      - vmess+ws|taK9.love@xray.com
-      - vless+vision+reality|gkTV.love@xray.com
+      - 0719.135051.xyz_1
+      - 0907.13505.pp.ua_1
+      - 0907.13505.pp.ua_2
+      - 0719.135051.xyz_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - gigantic-steadfast-alpaca.glitch.me
       - 0721.135051.link
-      - 0719.135051.xyz
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
-      - us.netherserver.com:25866
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
-      - vmess+ws|taK9.love@xray.com
-      - vless+vision+reality|gkTV.love@xray.com
+      - 0719.135051.xyz_1
+      - 0907.13505.pp.ua_1
+      - 0907.13505.pp.ua_2
+      - 0719.135051.xyz_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - gigantic-steadfast-alpaca.glitch.me
       - 0721.135051.link
-      - 0719.135051.xyz
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
-      - us.netherserver.com:25866
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
-      - vmess+ws|taK9.love@xray.com
-      - vless+vision+reality|gkTV.love@xray.com
+      - 0719.135051.xyz_1
+      - 0907.13505.pp.ua_1
+      - 0907.13505.pp.ua_2
+      - 0719.135051.xyz_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - gigantic-steadfast-alpaca.glitch.me
       - 0721.135051.link
-      - 0719.135051.xyz
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
-      - us.netherserver.com:25866
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
-      - vmess+ws|taK9.love@xray.com
-      - vless+vision+reality|gkTV.love@xray.com
+      - 0719.135051.xyz_1
+      - 0907.13505.pp.ua_1
+      - 0907.13505.pp.ua_2
+      - 0719.135051.xyz_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - gigantic-steadfast-alpaca.glitch.me
       - 0721.135051.link
-      - 0719.135051.xyz
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
-      - us.netherserver.com:25866
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
-      - vmess+ws|taK9.love@xray.com
-      - vless+vision+reality|gkTV.love@xray.com
+      - 0719.135051.xyz_1
+      - 0907.13505.pp.ua_1
+      - 0907.13505.pp.ua_2
+      - 0719.135051.xyz_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - gigantic-steadfast-alpaca.glitch.me
       - 0721.135051.link
-      - 0719.135051.xyz
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
-      - us.netherserver.com:25866
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
-      - vmess+ws|taK9.love@xray.com
-      - vless+vision+reality|gkTV.love@xray.com
+      - 0719.135051.xyz_1
+      - 0907.13505.pp.ua_1
+      - 0907.13505.pp.ua_2
+      - 0719.135051.xyz_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -133,14 +176,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - gigantic-steadfast-alpaca.glitch.me
       - 0721.135051.link
-      - 0719.135051.xyz
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_1
-      - us.netherserver.com:25866
-      - jd0805.7993922.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel_2
-      - vmess+ws|taK9.love@xray.com
-      - vless+vision+reality|gkTV.love@xray.com
+      - 0719.135051.xyz_1
+      - 0907.13505.pp.ua_1
+      - 0907.13505.pp.ua_2
+      - 0719.135051.xyz_2
 
 rules:
 # 本地/局域网地址
