@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-09-07 16:34:43
+# 创建时间：2023-09-11 18:13:16
 # 使用模版：V2RaySE 默认模版
-# 节点数量：5
+# 节点数量：8
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -91,6 +91,9 @@ proxies:
   - {"name":"0907.13505.pp.ua_1","type":"vless","server":"0907.13505.pp.ua","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0907.13505.pp.ua"}},"client-fingerprint":"randomized"}
   - {"name":"0907.13505.pp.ua_2","type":"vless","server":"158.178.229.68","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0907.13505.pp.ua"}},"client-fingerprint":"randomized"}
   - {"name":"0719.135051.xyz_2","type":"vless","server":"193.122.103.122","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
+  - {"name":"GLITCH","type":"vless","server":"scarlet-purring-telephone.glitch.me","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"scarlet-purring-telephone.glitch.me","network":"ws","ws-opts":{"path":"/","headers":{"host":"scarlet-purring-telephone.glitch.me"}}}
+  - {"name":"GLITCH1","type":"vless","server":"0911.135051.xyz","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
+  - {"name":"GLITCH2","type":"vless","server":"152.70.237.26","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -102,6 +105,9 @@ proxy-groups:
       - 0907.13505.pp.ua_1
       - 0907.13505.pp.ua_2
       - 0719.135051.xyz_2
+      - GLITCH
+      - GLITCH1
+      - GLITCH2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -113,6 +119,9 @@ proxy-groups:
       - 0907.13505.pp.ua_1
       - 0907.13505.pp.ua_2
       - 0719.135051.xyz_2
+      - GLITCH
+      - GLITCH1
+      - GLITCH2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -124,6 +133,9 @@ proxy-groups:
       - 0907.13505.pp.ua_1
       - 0907.13505.pp.ua_2
       - 0719.135051.xyz_2
+      - GLITCH
+      - GLITCH1
+      - GLITCH2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -134,6 +146,9 @@ proxy-groups:
       - 0907.13505.pp.ua_1
       - 0907.13505.pp.ua_2
       - 0719.135051.xyz_2
+      - GLITCH
+      - GLITCH1
+      - GLITCH2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -144,6 +159,9 @@ proxy-groups:
       - 0907.13505.pp.ua_1
       - 0907.13505.pp.ua_2
       - 0719.135051.xyz_2
+      - GLITCH
+      - GLITCH1
+      - GLITCH2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -154,6 +172,9 @@ proxy-groups:
       - 0907.13505.pp.ua_1
       - 0907.13505.pp.ua_2
       - 0719.135051.xyz_2
+      - GLITCH
+      - GLITCH1
+      - GLITCH2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -181,6 +202,9 @@ proxy-groups:
       - 0907.13505.pp.ua_1
       - 0907.13505.pp.ua_2
       - 0719.135051.xyz_2
+      - GLITCH
+      - GLITCH1
+      - GLITCH2
 
 rules:
 # 本地/局域网地址
