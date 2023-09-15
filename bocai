@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-09-11 18:13:16
+# 创建时间：2023-09-15 20:35:04
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：13
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -94,6 +94,11 @@ proxies:
   - {"name":"GLITCH","type":"vless","server":"scarlet-purring-telephone.glitch.me","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"scarlet-purring-telephone.glitch.me","network":"ws","ws-opts":{"path":"/","headers":{"host":"scarlet-purring-telephone.glitch.me"}}}
   - {"name":"GLITCH1","type":"vless","server":"0911.135051.xyz","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
   - {"name":"GLITCH2","type":"vless","server":"152.70.237.26","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
+  - {"name":"repl_1","type":"vmess","server":"SuperStainedComputationalscience.bobo196904.repl.co","port":443,"cipher":"auto","uuid":"68a32b4a-e0f9-4d38-9247-89798e509bce","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vm?ed=2048","headers":{"host":"SuperStainedComputationalscience.bobo196904.repl.co"}}}
+  - {"name":"repl_2","type":"vless","server":"superstainedcomputationalscience.bobo196904.repl.co","port":443,"uuid":"68a32b4a-e0f9-4d38-9247-89798e509bce","tls":true,"servername":"SuperStainedComputationalscience.bobo196904.repl.co","network":"ws","ws-opts":{"path":"/vl?ed=2048","headers":{"host":"SuperStainedComputationalscience.bobo196904.repl.co"}}}
+  - {"name":"repl_3","type":"trojan","server":"superstainedcomputationalscience.bobo196904.repl.co","port":443,"udp":true,"password":"68a32b4a-e0f9-4d38-9247-89798e509bce","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tr","headers":{"host":"SuperStainedComputationalscience.bobo196904.repl.co"}}}
+  - {"name":"waifiy","type":"vless","server":"146.56.154.121","port":443,"uuid":"867b63bb-a966-426a-b445-02dd05243073","tls":true,"servername":"wai.135051.link","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"wai.135051.link"}}}
+  - {"name":"wailiy","type":"vmess","server":"146.56.176.255","port":443,"cipher":"auto","uuid":"867b63bb-a966-426a-b445-02dd05243073","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"wai.135051.link","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"wai.135051.link"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -108,6 +113,11 @@ proxy-groups:
       - GLITCH
       - GLITCH1
       - GLITCH2
+      - repl_1
+      - repl_2
+      - repl_3
+      - waifiy
+      - wailiy
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -122,6 +132,11 @@ proxy-groups:
       - GLITCH
       - GLITCH1
       - GLITCH2
+      - repl_1
+      - repl_2
+      - repl_3
+      - waifiy
+      - wailiy
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -136,6 +151,11 @@ proxy-groups:
       - GLITCH
       - GLITCH1
       - GLITCH2
+      - repl_1
+      - repl_2
+      - repl_3
+      - waifiy
+      - wailiy
   - name: 📲 电报信息
     type: select
     proxies:
@@ -149,6 +169,11 @@ proxy-groups:
       - GLITCH
       - GLITCH1
       - GLITCH2
+      - repl_1
+      - repl_2
+      - repl_3
+      - waifiy
+      - wailiy
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -162,6 +187,11 @@ proxy-groups:
       - GLITCH
       - GLITCH1
       - GLITCH2
+      - repl_1
+      - repl_2
+      - repl_3
+      - waifiy
+      - wailiy
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -175,6 +205,11 @@ proxy-groups:
       - GLITCH
       - GLITCH1
       - GLITCH2
+      - repl_1
+      - repl_2
+      - repl_3
+      - waifiy
+      - wailiy
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,6 +240,11 @@ proxy-groups:
       - GLITCH
       - GLITCH1
       - GLITCH2
+      - repl_1
+      - repl_2
+      - repl_3
+      - waifiy
+      - wailiy
 
 rules:
 # 本地/局域网地址
