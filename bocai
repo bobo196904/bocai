@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-09-15 20:35:04
+# 创建时间：2023-09-27 16:16:39
 # 使用模版：V2RaySE 默认模版
-# 节点数量：13
+# 节点数量：16
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,130 +86,151 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"0721.135051.link","type":"vless","server":"0721.135051.link","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0721.135051.link"}}}
-  - {"name":"0719.135051.xyz_1","type":"vless","server":"0719.135051.xyz","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
+  - {"name":"0926.7993922.workers.dev_1","type":"vless","server":"2.135051.xyz","port":80,"uuid":"623d1d8a-d98a-42bf-9f0a-f9a437f1ec1a","tls":false,"servername":"0926.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0926.7993922.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"wailiy","type":"vmess","server":"104.16.60.79","port":443,"cipher":"auto","uuid":"867b63bb-a966-426a-b445-02dd05243073","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"wai.135051.link","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"wai.135051.link"}}}
   - {"name":"0907.13505.pp.ua_1","type":"vless","server":"0907.13505.pp.ua","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0907.13505.pp.ua"}},"client-fingerprint":"randomized"}
-  - {"name":"0907.13505.pp.ua_2","type":"vless","server":"158.178.229.68","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0907.13505.pp.ua"}},"client-fingerprint":"randomized"}
-  - {"name":"0719.135051.xyz_2","type":"vless","server":"193.122.103.122","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
-  - {"name":"GLITCH","type":"vless","server":"scarlet-purring-telephone.glitch.me","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"scarlet-purring-telephone.glitch.me","network":"ws","ws-opts":{"path":"/","headers":{"host":"scarlet-purring-telephone.glitch.me"}}}
+  - {"name":"waifiy","type":"vless","server":"wai.135051.link","port":443,"uuid":"867b63bb-a966-426a-b445-02dd05243073","tls":true,"servername":"wai.135051.link","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"wai.135051.link"}}}
+  - {"name":"0721.135051.link","type":"vless","server":"0721.135051.link","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0721.135051.link"}}}
+  - {"name":"0918.7993922.workers.dev_1","type":"vless","server":"4.135051.xyz","port":8880,"uuid":"908c29f6-ab6b-44e1-88bf-1f65661237ad","tls":false,"servername":"0918.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0918.7993922.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"0907.13505.pp.ua_2","type":"vless","server":"0907.13505.pp.ua","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0907.13505.pp.ua"}},"client-fingerprint":"randomized"}
+  - {"name":"0926.7993922.workers.dev_2","type":"vless","server":"1.135051.xyz","port":80,"uuid":"623d1d8a-d98a-42bf-9f0a-f9a437f1ec1a","tls":false,"servername":"0926.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0926.7993922.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"0918.7993922.workers.dev_2","type":"vless","server":"3.135051.xyz","port":8080,"uuid":"908c29f6-ab6b-44e1-88bf-1f65661237ad","tls":false,"servername":"0918.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0918.7993922.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"0719.135051.xyz_1","type":"vless","server":"0719.135051.xyz","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
+  - {"name":"0926.7993922.workers.dev_3","type":"vless","server":"2.135051.xyz","port":8080,"uuid":"623d1d8a-d98a-42bf-9f0a-f9a437f1ec1a","tls":false,"servername":"0926.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0926.7993922.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"GLITCH1","type":"vless","server":"0911.135051.xyz","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
-  - {"name":"GLITCH2","type":"vless","server":"152.70.237.26","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
-  - {"name":"repl_1","type":"vmess","server":"SuperStainedComputationalscience.bobo196904.repl.co","port":443,"cipher":"auto","uuid":"68a32b4a-e0f9-4d38-9247-89798e509bce","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vm?ed=2048","headers":{"host":"SuperStainedComputationalscience.bobo196904.repl.co"}}}
-  - {"name":"repl_2","type":"vless","server":"superstainedcomputationalscience.bobo196904.repl.co","port":443,"uuid":"68a32b4a-e0f9-4d38-9247-89798e509bce","tls":true,"servername":"SuperStainedComputationalscience.bobo196904.repl.co","network":"ws","ws-opts":{"path":"/vl?ed=2048","headers":{"host":"SuperStainedComputationalscience.bobo196904.repl.co"}}}
-  - {"name":"repl_3","type":"trojan","server":"superstainedcomputationalscience.bobo196904.repl.co","port":443,"udp":true,"password":"68a32b4a-e0f9-4d38-9247-89798e509bce","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tr","headers":{"host":"SuperStainedComputationalscience.bobo196904.repl.co"}}}
-  - {"name":"waifiy","type":"vless","server":"146.56.154.121","port":443,"uuid":"867b63bb-a966-426a-b445-02dd05243073","tls":true,"servername":"wai.135051.link","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"wai.135051.link"}}}
-  - {"name":"wailiy","type":"vmess","server":"146.56.176.255","port":443,"cipher":"auto","uuid":"867b63bb-a966-426a-b445-02dd05243073","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"wai.135051.link","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"wai.135051.link"}}}
+  - {"name":"0719.135051.xyz_2","type":"vless","server":"a.135051.link","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
+  - {"name":"0918.7993922.workers.dev_3","type":"vless","server":"speedip.eu.org","port":8080,"uuid":"908c29f6-ab6b-44e1-88bf-1f65661237ad","tls":false,"servername":"0918.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0918.7993922.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"GLITCH2","type":"vless","server":"4.135051.xyz","port":8880,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":false,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
+  - {"name":"GLITCH","type":"vless","server":"scarlet-purring-telephone.glitch.me","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"scarlet-purring-telephone.glitch.me","network":"ws","ws-opts":{"path":"/","headers":{"host":"scarlet-purring-telephone.glitch.me"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 0721.135051.link
-      - 0719.135051.xyz_1
-      - 0907.13505.pp.ua_1
-      - 0907.13505.pp.ua_2
-      - 0719.135051.xyz_2
-      - GLITCH
-      - GLITCH1
-      - GLITCH2
-      - repl_1
-      - repl_2
-      - repl_3
-      - waifiy
+      - 0926.7993922.workers.dev_1
       - wailiy
+      - 0907.13505.pp.ua_1
+      - waifiy
+      - 0721.135051.link
+      - 0918.7993922.workers.dev_1
+      - 0907.13505.pp.ua_2
+      - 0926.7993922.workers.dev_2
+      - 0918.7993922.workers.dev_2
+      - 0719.135051.xyz_1
+      - 0926.7993922.workers.dev_3
+      - GLITCH1
+      - 0719.135051.xyz_2
+      - 0918.7993922.workers.dev_3
+      - GLITCH2
+      - GLITCH
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 0721.135051.link
-      - 0719.135051.xyz_1
-      - 0907.13505.pp.ua_1
-      - 0907.13505.pp.ua_2
-      - 0719.135051.xyz_2
-      - GLITCH
-      - GLITCH1
-      - GLITCH2
-      - repl_1
-      - repl_2
-      - repl_3
-      - waifiy
+      - 0926.7993922.workers.dev_1
       - wailiy
+      - 0907.13505.pp.ua_1
+      - waifiy
+      - 0721.135051.link
+      - 0918.7993922.workers.dev_1
+      - 0907.13505.pp.ua_2
+      - 0926.7993922.workers.dev_2
+      - 0918.7993922.workers.dev_2
+      - 0719.135051.xyz_1
+      - 0926.7993922.workers.dev_3
+      - GLITCH1
+      - 0719.135051.xyz_2
+      - 0918.7993922.workers.dev_3
+      - GLITCH2
+      - GLITCH
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0721.135051.link
-      - 0719.135051.xyz_1
-      - 0907.13505.pp.ua_1
-      - 0907.13505.pp.ua_2
-      - 0719.135051.xyz_2
-      - GLITCH
-      - GLITCH1
-      - GLITCH2
-      - repl_1
-      - repl_2
-      - repl_3
-      - waifiy
+      - 0926.7993922.workers.dev_1
       - wailiy
+      - 0907.13505.pp.ua_1
+      - waifiy
+      - 0721.135051.link
+      - 0918.7993922.workers.dev_1
+      - 0907.13505.pp.ua_2
+      - 0926.7993922.workers.dev_2
+      - 0918.7993922.workers.dev_2
+      - 0719.135051.xyz_1
+      - 0926.7993922.workers.dev_3
+      - GLITCH1
+      - 0719.135051.xyz_2
+      - 0918.7993922.workers.dev_3
+      - GLITCH2
+      - GLITCH
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 0721.135051.link
-      - 0719.135051.xyz_1
-      - 0907.13505.pp.ua_1
-      - 0907.13505.pp.ua_2
-      - 0719.135051.xyz_2
-      - GLITCH
-      - GLITCH1
-      - GLITCH2
-      - repl_1
-      - repl_2
-      - repl_3
-      - waifiy
+      - 0926.7993922.workers.dev_1
       - wailiy
+      - 0907.13505.pp.ua_1
+      - waifiy
+      - 0721.135051.link
+      - 0918.7993922.workers.dev_1
+      - 0907.13505.pp.ua_2
+      - 0926.7993922.workers.dev_2
+      - 0918.7993922.workers.dev_2
+      - 0719.135051.xyz_1
+      - 0926.7993922.workers.dev_3
+      - GLITCH1
+      - 0719.135051.xyz_2
+      - 0918.7993922.workers.dev_3
+      - GLITCH2
+      - GLITCH
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 0721.135051.link
-      - 0719.135051.xyz_1
-      - 0907.13505.pp.ua_1
-      - 0907.13505.pp.ua_2
-      - 0719.135051.xyz_2
-      - GLITCH
-      - GLITCH1
-      - GLITCH2
-      - repl_1
-      - repl_2
-      - repl_3
-      - waifiy
+      - 0926.7993922.workers.dev_1
       - wailiy
+      - 0907.13505.pp.ua_1
+      - waifiy
+      - 0721.135051.link
+      - 0918.7993922.workers.dev_1
+      - 0907.13505.pp.ua_2
+      - 0926.7993922.workers.dev_2
+      - 0918.7993922.workers.dev_2
+      - 0719.135051.xyz_1
+      - 0926.7993922.workers.dev_3
+      - GLITCH1
+      - 0719.135051.xyz_2
+      - 0918.7993922.workers.dev_3
+      - GLITCH2
+      - GLITCH
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 0721.135051.link
-      - 0719.135051.xyz_1
-      - 0907.13505.pp.ua_1
-      - 0907.13505.pp.ua_2
-      - 0719.135051.xyz_2
-      - GLITCH
-      - GLITCH1
-      - GLITCH2
-      - repl_1
-      - repl_2
-      - repl_3
-      - waifiy
+      - 0926.7993922.workers.dev_1
       - wailiy
+      - 0907.13505.pp.ua_1
+      - waifiy
+      - 0721.135051.link
+      - 0918.7993922.workers.dev_1
+      - 0907.13505.pp.ua_2
+      - 0926.7993922.workers.dev_2
+      - 0918.7993922.workers.dev_2
+      - 0719.135051.xyz_1
+      - 0926.7993922.workers.dev_3
+      - GLITCH1
+      - 0719.135051.xyz_2
+      - 0918.7993922.workers.dev_3
+      - GLITCH2
+      - GLITCH
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -232,19 +253,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 0721.135051.link
-      - 0719.135051.xyz_1
-      - 0907.13505.pp.ua_1
-      - 0907.13505.pp.ua_2
-      - 0719.135051.xyz_2
-      - GLITCH
-      - GLITCH1
-      - GLITCH2
-      - repl_1
-      - repl_2
-      - repl_3
-      - waifiy
+      - 0926.7993922.workers.dev_1
       - wailiy
+      - 0907.13505.pp.ua_1
+      - waifiy
+      - 0721.135051.link
+      - 0918.7993922.workers.dev_1
+      - 0907.13505.pp.ua_2
+      - 0926.7993922.workers.dev_2
+      - 0918.7993922.workers.dev_2
+      - 0719.135051.xyz_1
+      - 0926.7993922.workers.dev_3
+      - GLITCH1
+      - 0719.135051.xyz_2
+      - 0918.7993922.workers.dev_3
+      - GLITCH2
+      - GLITCH
 
 rules:
 # 本地/局域网地址
