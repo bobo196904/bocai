@@ -86,7 +86,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"0926.7993922.workers.dev_1","type":"vless","server":"8.135051.xyz","port":80,"uuid":"623d1d8a-d98a-42bf-9f0a-f9a437f1ec1a","tls":false,"servername":"0926.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0926.7993922.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"0926.7993922.workers.dev_1","type":"vless","server":"3.135051.xyz","port":80,"uuid":"623d1d8a-d98a-42bf-9f0a-f9a437f1ec1a","tls":false,"servername":"0926.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0926.7993922.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"wailiy","type":"vmess","server":"a.135051.xyz","port":443,"cipher":"auto","uuid":"867b63bb-a966-426a-b445-02dd05243073","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"wai.135051.link","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"wai.135051.link"}}}
   - {"name":"0907.13505.pp.ua_1","type":"vless","server":"b.135051.xyz","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0907.13505.pp.ua"}},"client-fingerprint":"randomized"}
   - {"name":"waifiy","type":"vless","server":"wai.135051.link","port":443,"uuid":"867b63bb-a966-426a-b445-02dd05243073","tls":true,"servername":"wai.135051.link","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"wai.135051.link"}}}
