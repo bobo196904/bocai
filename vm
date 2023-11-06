@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-20 12:27:31
+# 创建时间：2023-11-06 09:00:44
 # 使用模版：V2RaySE 默认模版
-# 节点数量：40
+# 节点数量：36
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,319 +85,291 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"peasoft-1,2,4,12|🇺🇸TG频道 @oeo12  =US_9","type":"vmess","server":"brcf.duaaoped.xyz","port":8443,"cipher":"auto","uuid":"865897ad-8d07-4021-b7c3-d8eb4a29ee8d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xtsmol"}}
-  - {"name":"peasoft-12|频道22@wxgqlfx","type":"vmess","server":"172.64.109.218","port":2052,"cipher":"auto","uuid":"b63efdd5-bdb8-4eb4-f918-9846cd7321e6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
-  - {"name":"peasoft-12|频道42@wxgqlfx","type":"vmess","server":"172.64.87.47","port":2052,"cipher":"auto","uuid":"b63efdd5-bdb8-4eb4-f918-9846cd7321e6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
-  - {"name":"peasoft-7|中转 🇺🇸 United States 33 @nodpai","type":"vmess","server":"12.kccic2pa.xyz","port":50012,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-0,7,8|🇧🇷 Brazil 02 @nodpai #1","type":"vmess","server":"brcf.duaaoped.xyz","port":8443,"cipher":"auto","uuid":"865897ad-8d07-4021-b7c3-d8eb4a29ee8d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xtsmol","headers":{"host":"brcf.duaaoped.xyz"}}}
-  - {"name":"peasoft-12|美国 #2","type":"vmess","server":"lt1.992688.xyz","port":2052,"cipher":"auto","uuid":"b63efdd5-bdb8-4eb4-f918-9846cd7321e6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
-  - {"name":"peasoft-7|中转 🇺🇸 United States 15 @nodpai","type":"vmess","server":"20.kccic2pa.xyz","port":50020,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-11,12|🇸🇬 VM-WS-NA 🇸🇬 SG-146.190.108....","type":"vmess","server":"146.190.108.6","port":26448,"cipher":"auto","uuid":"72cc1029-b304-44ab-d181-5582aea3ab43","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Shalana","headers":{"host":"media-exp1.licdn.com"}}}
-  - {"name":"peasoft-0,2,4,7,8|🇫🇷 France 01 @nodpai #1","type":"vmess","server":"nomore.hideip.tk","port":8443,"cipher":"auto","uuid":"874a60cd-f099-499a-8aee-e4606ccf3e86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nomore.hideip.tk","network":"ws","ws-opts":{"path":"/","headers":{"host":"nomore.hideip.tk"}}}
-  - {"name":"mahdibland-🏁RELAY-172.67.237.15-0140","type":"vmess","server":"yd1.992688.xyz","port":2052,"cipher":"auto","uuid":"b63efdd5-bdb8-4eb4-f918-9846cd7321e6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
-  - {"name":"peasoft-12|美国","type":"vmess","server":"yd1.992688.xyz","port":2052,"cipher":"auto","uuid":"b63efdd5-bdb8-4eb4-f918-9846cd7321e6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
-  - {"name":"peasoft-7|中转 🇭🇰 Hong Kong 13 @nodpai","type":"vmess","server":"10.kccic2pa.xyz","port":50010,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-7|中转 🇸🇬 Singapore 16 @nodpai","type":"vmess","server":"www.lp-airdrop.top","port":12580,"cipher":"auto","uuid":"1296f28f-fbc3-41a0-800d-84e236d33f16","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-7|中转 🇺🇸 United States 25 @nodpai","type":"vmess","server":"14.kccic2pa.xyz","port":50014,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-7|中转 🇺🇸 United States 31 @nodpai","type":"vmess","server":"01.kccic2pa.xyz","port":50001,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-0,2,4,6,7,8|🇦🇪 United Arab Emirates 01 @no... #1","type":"vmess","server":"db4.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"db4.shabijichang.com"}}}
-  - {"name":"peasoft-7|中转 🇺🇸 United States 16 @nodpai","type":"vmess","server":"06.kccic2pa.xyz","port":50006,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-7|中转 🇦🇹 Austria 01 @nodpai","type":"vmess","server":"07.kccic2pa.xyz","port":50007,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-7|中转 🇬🇧 United Kingdom 03 @nodpa...","type":"vmess","server":"09.kccic2pa.xyz","port":50009,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-7|中转 🇺🇸 United States 05 @nodpai","type":"vmess","server":"02.kccic2pa.xyz","port":50002,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-7,15|美国C|@ripaojiedian","type":"vmess","server":"b.baozinet.top","port":25006,"cipher":"auto","uuid":"50b479e6-888d-42bb-b0dd-0ea9935f7a7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-7|中转 🇺🇸 United States 06 @nodpai","type":"vmess","server":"04.kccic2pa.xyz","port":50004,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-7,15|香港C|@ripaojiedian","type":"vmess","server":"a.baozinet.top","port":25001,"cipher":"auto","uuid":"50b479e6-888d-42bb-b0dd-0ea9935f7a7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-1|_US_->_FR_","type":"vmess","server":"nomore.hideip.tk","port":8443,"cipher":"auto","uuid":"874a60cd-f099-499a-8aee-e4606ccf3e86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"peasoft-7|中转 🇺🇸 United States 10 @nodpai","type":"vmess","server":"03.kccic2pa.xyz","port":50003,"cipher":"auto","uuid":"1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-12|🇨🇳_CN_中国_yui科技_103","type":"vmess","server":"a.baozinet.top","port":25005,"cipher":"auto","uuid":"50b479e6-888d-42bb-b0dd-0ea9935f7a7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-0,2,4,19|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com1","type":"vmess","server":"jd2.shabijichang.com","port":80,"cipher":"auto","uuid":"56278a1a-c7cc-459f-b00c-3037e4f99590","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jd2.shabijichang.com"}}}
-  - {"name":"peasoft-7,8|🇮🇹 Italy 01 @nodpai #1","type":"vmess","server":"ml2.shabijichang.com","port":80,"cipher":"auto","uuid":"10ea3b2a-b615-45f1-b1b7-c62bafe8c80c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ml2.shabijichang.com"}}}
-  - {"name":"peasoft-1|_US__10","type":"vmess","server":"jd2.shabijichang.com","port":80,"cipher":"auto","uuid":"56278a1a-c7cc-459f-b00c-3037e4f99590","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"peasoft-6|🇺🇸_US_美国 #26","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"d3f830a2-205a-4bba-a7ca-5e87899ac04d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v001.ssrsub.com"}}}
-  - {"name":"peasoft-1|_US__1","type":"vmess","server":"sbl3.shabijichang.com","port":80,"cipher":"auto","uuid":"10ea3b2a-b615-45f1-b1b7-c62bafe8c80c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"peasoft-0,2,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #6","type":"vmess","server":"mm3.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"mm3.shabijichang.com"}}}
-  - {"name":"peasoft-1|_US_->_AE__1","type":"vmess","server":"db5.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"peasoft-7|中转 🇹🇼 Taiwan 03 @nodpai","type":"vmess","server":"b.baozinet.top","port":25010,"cipher":"auto","uuid":"50b479e6-888d-42bb-b0dd-0ea9935f7a7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-0,2,3,4,12,19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_42","type":"vmess","server":"fhc2.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"fhc2.shabijichang.com"}}}
-  - {"name":"peasoft-6|🇺🇸_US_美国 #25","type":"vmess","server":"lt1.992688.xyz","port":2052,"cipher":"auto","uuid":"fa5fc74f-0f0b-4221-82ba-dc7cd24e24e5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus2.vpn66.eu.org"}}}
-  - {"name":"peasoft-0,2,4,19|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47","type":"vmess","server":"db5.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"db5.shabijichang.com"}}}
-  - {"name":"peasoft-1|_US__9","type":"vmess","server":"fhc2.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"mahdibland-🏁RELAY-104.21.75.246-0059","type":"vmess","server":"fhc2.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"fhc2.shabijichang.com"}}}
-  - {"name":"mahdibland-🏁RELAY-172.67.75.194-0424","type":"vmess","server":"singapore.com","port":8080,"cipher":"auto","uuid":"d3f830a2-205a-4bba-a7ca-5e87899ac04d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v002.ssrsub.com"}}}
+  - {"name":"peasoft-9|🇦🇷阿根廷04","type":"vmess","server":"9a8r04.abzoones.xyz","port":36861,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ar04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-13|土耳其 04 | 1x TR","type":"vmess","server":"4t1u6r04.mcfront.xyz","port":31868,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tr04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇸🇬新加坡06","type":"vmess","server":"9s5g06.abzoones.xyz","port":36211,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg06.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇲🇾马来西亚04","type":"vmess","server":"8m6y01.abzoones.xyz","port":36887,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"my04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-13|新加坡 05 | 1x SG","type":"vmess","server":"1c7s2g05.mcfront.xyz","port":31206,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg05.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...","type":"vmess","server":"51.210.110.248","port":34310,"cipher":"auto","uuid":"03873ff8-7e49-434e-8024-a92b6f1d2d7d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-14|🇯🇵 日本2|@ripaojiedian","type":"vmess","server":"110.72.101.136","port":35005,"cipher":"auto","uuid":"942fa1bb-a34f-35a9-9ef6-af8a023eb67f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-11|github.com/freefq - 广东省移动 11","type":"vmess","server":"183.240.232.65","port":35013,"cipher":"auto","uuid":"942fa1bb-a34f-35a9-9ef6-af8a023eb67f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-9|🇷🇺俄罗斯04","type":"vmess","server":"8r5u04.abzoones.xyz","port":36851,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ru04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-13|巴西 04 | 1x BR","type":"vmess","server":"7c6i2r04.mcfront.xyz","port":31877,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"br04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇵🇭菲律宾04","type":"vmess","server":"7p3h04.abzoones.xyz","port":36801,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ph04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇯🇵日本05","type":"vmess","server":"1j8p05.abzoones.xyz","port":36106,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp05.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-13|俄罗斯 04 | 1x RU","type":"vmess","server":"4t1r5u04.mcfront.xyz","port":31851,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ru04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇹🇼台湾06","type":"vmess","server":"8t6w06.abzoones.xyz","port":36311,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw06.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-15|新加坡|@ripaojiedian","type":"vmess","server":"36.140.102.210","port":25008,"cipher":"auto","uuid":"50b479e6-888d-42bb-b0dd-0ea9935f7a7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-13|德国 04 | 1x AU","type":"vmess","server":"9t1d5e04.mcfront.xyz","port":31841,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇹🇼台湾04 PRO","type":"vmess","server":"8t6w04.abzoones.xyz","port":36301,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-13|台湾 04  | 1x TWN PRO","type":"vmess","server":"2d1t5w04.mcfront.xyz","port":31301,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-13|香港 05 | 1x HK","type":"vmess","server":"5m4h0k05.mcfront.xyz","port":31606,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk05.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇭🇰香港05","type":"vmess","server":"8h2k05.abzoones.xyz","port":36606,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk05.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇭🇰香港04 PRO","type":"vmess","server":"8h2k04.abzoones.xyz","port":36601,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇨🇦加拿大04","type":"vmess","server":"5c1a04.abzoones.xyz","port":36701,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ca04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-13|香港 06 | 1x HK","type":"vmess","server":"5m4h0k06.mcfront.xyz","port":31611,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk06.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-15|新加坡2|@ripaojiedian","type":"vmess","server":"36.134.165.186","port":25003,"cipher":"auto","uuid":"50b479e6-888d-42bb-b0dd-0ea9935f7a7e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-9|🇰🇷韩国04","type":"vmess","server":"8k2r04.abzoones.xyz","port":36401,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"kr04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-15|香港1|@ripaojiedian","type":"vmess","server":"1.36.65.86","port":553,"cipher":"auto","uuid":"611d6f50-56c6-3a24-af24-faf2037dec59","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"peasoft-13|阿根廷 04 | 1x AR","type":"vmess","server":"7c1a1r04.mcfront.xyz","port":31861,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ar04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-13|加拿大 02 | 1x CA","type":"vmess","server":"3d1c4a04.mcfront.xyz","port":31701,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ca04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-13|马来西亚 04 | 1x MY","type":"vmess","server":"6e3m6y04.mcfront.xyz","port":31887,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"my04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇹🇭泰国04","type":"vmess","server":"1t8h04.abzoones.xyz","port":36904,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"th04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-13|泰国 04 | 1x TH","type":"vmess","server":"2c2t8h04.mcfront.xyz","port":31904,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"th04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-13|印度 04 | 1x IN","type":"vmess","server":"6q3i1n04.mcfront.xyz","port":31831,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"in04.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-9|🇻🇳越南04","type":"vmess","server":"3v4n04.abzoones.xyz","port":36874,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vn04.abpilot.xyz","network":"tcp"}
+  - {"name":"peasoft-13|美国 05 | 1x US","type":"vmess","server":"4a2u0a05.mcfront.xyz","port":31506,"cipher":"auto","uuid":"c41f8762-ef89-4145-b9c8-e7b6762196ea","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us05.lovemc.xyz","network":"tcp"}
+  - {"name":"peasoft-0,6,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #5","type":"vmess","server":"162.159.136.232","port":2096,"cipher":"auto","uuid":"49dc7300-1fc1-4c93-866f-aa493c4a3e5b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"0pefestL0udust8z.pouriya.cf","network":"ws","ws-opts":{"path":"/Amsterdam","headers":{"host":"yuxORu6Ljohicef9.pouriya.cf"}}}
+  - {"name":"peasoft-9|🇺🇸美国05","type":"vmess","server":"3u1s05.abzoones.xyz","port":36506,"cipher":"auto","uuid":"f85873e7-ba85-44e3-b65e-fd969432ffcf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us05.abpilot.xyz","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - peasoft-1,2,4,12|🇺🇸TG频道 @oeo12  =US_9
-      - peasoft-12|频道22@wxgqlfx
-      - peasoft-12|频道42@wxgqlfx
-      - peasoft-7|中转 🇺🇸 United States 33 @nodpai
-      - 'peasoft-0,7,8|🇧🇷 Brazil 02 @nodpai #1'
-      - 'peasoft-12|美国 #2'
-      - peasoft-7|中转 🇺🇸 United States 15 @nodpai
-      - peasoft-11,12|🇸🇬 VM-WS-NA 🇸🇬 SG-146.190.108....
-      - 'peasoft-0,2,4,7,8|🇫🇷 France 01 @nodpai #1'
-      - mahdibland-🏁RELAY-172.67.237.15-0140
-      - peasoft-12|美国
-      - peasoft-7|中转 🇭🇰 Hong Kong 13 @nodpai
-      - peasoft-7|中转 🇸🇬 Singapore 16 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 25 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 31 @nodpai
-      - 'peasoft-0,2,4,6,7,8|🇦🇪 United Arab Emirates 01 @no... #1'
-      - peasoft-7|中转 🇺🇸 United States 16 @nodpai
-      - peasoft-7|中转 🇦🇹 Austria 01 @nodpai
-      - peasoft-7|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - peasoft-7|中转 🇺🇸 United States 05 @nodpai
-      - peasoft-7,15|美国C|@ripaojiedian
-      - peasoft-7|中转 🇺🇸 United States 06 @nodpai
-      - peasoft-7,15|香港C|@ripaojiedian
-      - peasoft-1|_US_->_FR_
-      - peasoft-7|中转 🇺🇸 United States 10 @nodpai
-      - peasoft-12|🇨🇳_CN_中国_yui科技_103
-      - peasoft-0,2,4,19|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com1
-      - 'peasoft-7,8|🇮🇹 Italy 01 @nodpai #1'
-      - peasoft-1|_US__10
-      - 'peasoft-6|🇺🇸_US_美国 #26'
-      - peasoft-1|_US__1
-      - 'peasoft-0,2,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
-      - peasoft-1|_US_->_AE__1
-      - peasoft-7|中转 🇹🇼 Taiwan 03 @nodpai
-      - peasoft-0,2,3,4,12,19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_42
-      - 'peasoft-6|🇺🇸_US_美国 #25'
-      - peasoft-0,2,4,19|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
-      - peasoft-1|_US__9
-      - mahdibland-🏁RELAY-104.21.75.246-0059
-      - mahdibland-🏁RELAY-172.67.75.194-0424
+      - peasoft-9|🇦🇷阿根廷04
+      - peasoft-13|土耳其 04 | 1x TR
+      - peasoft-9|🇸🇬新加坡06
+      - peasoft-9|🇲🇾马来西亚04
+      - peasoft-13|新加坡 05 | 1x SG
+      - peasoft-12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...
+      - peasoft-14|🇯🇵 日本2|@ripaojiedian
+      - peasoft-11|github.com/freefq - 广东省移动 11
+      - peasoft-9|🇷🇺俄罗斯04
+      - peasoft-13|巴西 04 | 1x BR
+      - peasoft-9|🇵🇭菲律宾04
+      - peasoft-9|🇯🇵日本05
+      - peasoft-13|俄罗斯 04 | 1x RU
+      - peasoft-9|🇹🇼台湾06
+      - peasoft-15|新加坡|@ripaojiedian
+      - peasoft-13|德国 04 | 1x AU
+      - peasoft-9|🇹🇼台湾04 PRO
+      - peasoft-13|台湾 04  | 1x TWN PRO
+      - peasoft-13|香港 05 | 1x HK
+      - peasoft-9|🇭🇰香港05
+      - peasoft-9|🇭🇰香港04 PRO
+      - peasoft-9|🇨🇦加拿大04
+      - peasoft-13|香港 06 | 1x HK
+      - peasoft-15|新加坡2|@ripaojiedian
+      - peasoft-9|🇰🇷韩国04
+      - peasoft-15|香港1|@ripaojiedian
+      - peasoft-13|阿根廷 04 | 1x AR
+      - peasoft-13|加拿大 02 | 1x CA
+      - peasoft-13|马来西亚 04 | 1x MY
+      - peasoft-9|🇹🇭泰国04
+      - peasoft-13|泰国 04 | 1x TH
+      - peasoft-13|印度 04 | 1x IN
+      - peasoft-9|🇻🇳越南04
+      - peasoft-13|美国 05 | 1x US
+      - 'peasoft-0,6,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #5'
+      - peasoft-9|🇺🇸美国05
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - peasoft-1,2,4,12|🇺🇸TG频道 @oeo12  =US_9
-      - peasoft-12|频道22@wxgqlfx
-      - peasoft-12|频道42@wxgqlfx
-      - peasoft-7|中转 🇺🇸 United States 33 @nodpai
-      - 'peasoft-0,7,8|🇧🇷 Brazil 02 @nodpai #1'
-      - 'peasoft-12|美国 #2'
-      - peasoft-7|中转 🇺🇸 United States 15 @nodpai
-      - peasoft-11,12|🇸🇬 VM-WS-NA 🇸🇬 SG-146.190.108....
-      - 'peasoft-0,2,4,7,8|🇫🇷 France 01 @nodpai #1'
-      - mahdibland-🏁RELAY-172.67.237.15-0140
-      - peasoft-12|美国
-      - peasoft-7|中转 🇭🇰 Hong Kong 13 @nodpai
-      - peasoft-7|中转 🇸🇬 Singapore 16 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 25 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 31 @nodpai
-      - 'peasoft-0,2,4,6,7,8|🇦🇪 United Arab Emirates 01 @no... #1'
-      - peasoft-7|中转 🇺🇸 United States 16 @nodpai
-      - peasoft-7|中转 🇦🇹 Austria 01 @nodpai
-      - peasoft-7|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - peasoft-7|中转 🇺🇸 United States 05 @nodpai
-      - peasoft-7,15|美国C|@ripaojiedian
-      - peasoft-7|中转 🇺🇸 United States 06 @nodpai
-      - peasoft-7,15|香港C|@ripaojiedian
-      - peasoft-1|_US_->_FR_
-      - peasoft-7|中转 🇺🇸 United States 10 @nodpai
-      - peasoft-12|🇨🇳_CN_中国_yui科技_103
-      - peasoft-0,2,4,19|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com1
-      - 'peasoft-7,8|🇮🇹 Italy 01 @nodpai #1'
-      - peasoft-1|_US__10
-      - 'peasoft-6|🇺🇸_US_美国 #26'
-      - peasoft-1|_US__1
-      - 'peasoft-0,2,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
-      - peasoft-1|_US_->_AE__1
-      - peasoft-7|中转 🇹🇼 Taiwan 03 @nodpai
-      - peasoft-0,2,3,4,12,19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_42
-      - 'peasoft-6|🇺🇸_US_美国 #25'
-      - peasoft-0,2,4,19|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
-      - peasoft-1|_US__9
-      - mahdibland-🏁RELAY-104.21.75.246-0059
-      - mahdibland-🏁RELAY-172.67.75.194-0424
+      - peasoft-9|🇦🇷阿根廷04
+      - peasoft-13|土耳其 04 | 1x TR
+      - peasoft-9|🇸🇬新加坡06
+      - peasoft-9|🇲🇾马来西亚04
+      - peasoft-13|新加坡 05 | 1x SG
+      - peasoft-12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...
+      - peasoft-14|🇯🇵 日本2|@ripaojiedian
+      - peasoft-11|github.com/freefq - 广东省移动 11
+      - peasoft-9|🇷🇺俄罗斯04
+      - peasoft-13|巴西 04 | 1x BR
+      - peasoft-9|🇵🇭菲律宾04
+      - peasoft-9|🇯🇵日本05
+      - peasoft-13|俄罗斯 04 | 1x RU
+      - peasoft-9|🇹🇼台湾06
+      - peasoft-15|新加坡|@ripaojiedian
+      - peasoft-13|德国 04 | 1x AU
+      - peasoft-9|🇹🇼台湾04 PRO
+      - peasoft-13|台湾 04  | 1x TWN PRO
+      - peasoft-13|香港 05 | 1x HK
+      - peasoft-9|🇭🇰香港05
+      - peasoft-9|🇭🇰香港04 PRO
+      - peasoft-9|🇨🇦加拿大04
+      - peasoft-13|香港 06 | 1x HK
+      - peasoft-15|新加坡2|@ripaojiedian
+      - peasoft-9|🇰🇷韩国04
+      - peasoft-15|香港1|@ripaojiedian
+      - peasoft-13|阿根廷 04 | 1x AR
+      - peasoft-13|加拿大 02 | 1x CA
+      - peasoft-13|马来西亚 04 | 1x MY
+      - peasoft-9|🇹🇭泰国04
+      - peasoft-13|泰国 04 | 1x TH
+      - peasoft-13|印度 04 | 1x IN
+      - peasoft-9|🇻🇳越南04
+      - peasoft-13|美国 05 | 1x US
+      - 'peasoft-0,6,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #5'
+      - peasoft-9|🇺🇸美国05
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - peasoft-1,2,4,12|🇺🇸TG频道 @oeo12  =US_9
-      - peasoft-12|频道22@wxgqlfx
-      - peasoft-12|频道42@wxgqlfx
-      - peasoft-7|中转 🇺🇸 United States 33 @nodpai
-      - 'peasoft-0,7,8|🇧🇷 Brazil 02 @nodpai #1'
-      - 'peasoft-12|美国 #2'
-      - peasoft-7|中转 🇺🇸 United States 15 @nodpai
-      - peasoft-11,12|🇸🇬 VM-WS-NA 🇸🇬 SG-146.190.108....
-      - 'peasoft-0,2,4,7,8|🇫🇷 France 01 @nodpai #1'
-      - mahdibland-🏁RELAY-172.67.237.15-0140
-      - peasoft-12|美国
-      - peasoft-7|中转 🇭🇰 Hong Kong 13 @nodpai
-      - peasoft-7|中转 🇸🇬 Singapore 16 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 25 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 31 @nodpai
-      - 'peasoft-0,2,4,6,7,8|🇦🇪 United Arab Emirates 01 @no... #1'
-      - peasoft-7|中转 🇺🇸 United States 16 @nodpai
-      - peasoft-7|中转 🇦🇹 Austria 01 @nodpai
-      - peasoft-7|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - peasoft-7|中转 🇺🇸 United States 05 @nodpai
-      - peasoft-7,15|美国C|@ripaojiedian
-      - peasoft-7|中转 🇺🇸 United States 06 @nodpai
-      - peasoft-7,15|香港C|@ripaojiedian
-      - peasoft-1|_US_->_FR_
-      - peasoft-7|中转 🇺🇸 United States 10 @nodpai
-      - peasoft-12|🇨🇳_CN_中国_yui科技_103
-      - peasoft-0,2,4,19|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com1
-      - 'peasoft-7,8|🇮🇹 Italy 01 @nodpai #1'
-      - peasoft-1|_US__10
-      - 'peasoft-6|🇺🇸_US_美国 #26'
-      - peasoft-1|_US__1
-      - 'peasoft-0,2,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
-      - peasoft-1|_US_->_AE__1
-      - peasoft-7|中转 🇹🇼 Taiwan 03 @nodpai
-      - peasoft-0,2,3,4,12,19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_42
-      - 'peasoft-6|🇺🇸_US_美国 #25'
-      - peasoft-0,2,4,19|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
-      - peasoft-1|_US__9
-      - mahdibland-🏁RELAY-104.21.75.246-0059
-      - mahdibland-🏁RELAY-172.67.75.194-0424
+      - peasoft-9|🇦🇷阿根廷04
+      - peasoft-13|土耳其 04 | 1x TR
+      - peasoft-9|🇸🇬新加坡06
+      - peasoft-9|🇲🇾马来西亚04
+      - peasoft-13|新加坡 05 | 1x SG
+      - peasoft-12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...
+      - peasoft-14|🇯🇵 日本2|@ripaojiedian
+      - peasoft-11|github.com/freefq - 广东省移动 11
+      - peasoft-9|🇷🇺俄罗斯04
+      - peasoft-13|巴西 04 | 1x BR
+      - peasoft-9|🇵🇭菲律宾04
+      - peasoft-9|🇯🇵日本05
+      - peasoft-13|俄罗斯 04 | 1x RU
+      - peasoft-9|🇹🇼台湾06
+      - peasoft-15|新加坡|@ripaojiedian
+      - peasoft-13|德国 04 | 1x AU
+      - peasoft-9|🇹🇼台湾04 PRO
+      - peasoft-13|台湾 04  | 1x TWN PRO
+      - peasoft-13|香港 05 | 1x HK
+      - peasoft-9|🇭🇰香港05
+      - peasoft-9|🇭🇰香港04 PRO
+      - peasoft-9|🇨🇦加拿大04
+      - peasoft-13|香港 06 | 1x HK
+      - peasoft-15|新加坡2|@ripaojiedian
+      - peasoft-9|🇰🇷韩国04
+      - peasoft-15|香港1|@ripaojiedian
+      - peasoft-13|阿根廷 04 | 1x AR
+      - peasoft-13|加拿大 02 | 1x CA
+      - peasoft-13|马来西亚 04 | 1x MY
+      - peasoft-9|🇹🇭泰国04
+      - peasoft-13|泰国 04 | 1x TH
+      - peasoft-13|印度 04 | 1x IN
+      - peasoft-9|🇻🇳越南04
+      - peasoft-13|美国 05 | 1x US
+      - 'peasoft-0,6,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #5'
+      - peasoft-9|🇺🇸美国05
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - peasoft-1,2,4,12|🇺🇸TG频道 @oeo12  =US_9
-      - peasoft-12|频道22@wxgqlfx
-      - peasoft-12|频道42@wxgqlfx
-      - peasoft-7|中转 🇺🇸 United States 33 @nodpai
-      - 'peasoft-0,7,8|🇧🇷 Brazil 02 @nodpai #1'
-      - 'peasoft-12|美国 #2'
-      - peasoft-7|中转 🇺🇸 United States 15 @nodpai
-      - peasoft-11,12|🇸🇬 VM-WS-NA 🇸🇬 SG-146.190.108....
-      - 'peasoft-0,2,4,7,8|🇫🇷 France 01 @nodpai #1'
-      - mahdibland-🏁RELAY-172.67.237.15-0140
-      - peasoft-12|美国
-      - peasoft-7|中转 🇭🇰 Hong Kong 13 @nodpai
-      - peasoft-7|中转 🇸🇬 Singapore 16 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 25 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 31 @nodpai
-      - 'peasoft-0,2,4,6,7,8|🇦🇪 United Arab Emirates 01 @no... #1'
-      - peasoft-7|中转 🇺🇸 United States 16 @nodpai
-      - peasoft-7|中转 🇦🇹 Austria 01 @nodpai
-      - peasoft-7|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - peasoft-7|中转 🇺🇸 United States 05 @nodpai
-      - peasoft-7,15|美国C|@ripaojiedian
-      - peasoft-7|中转 🇺🇸 United States 06 @nodpai
-      - peasoft-7,15|香港C|@ripaojiedian
-      - peasoft-1|_US_->_FR_
-      - peasoft-7|中转 🇺🇸 United States 10 @nodpai
-      - peasoft-12|🇨🇳_CN_中国_yui科技_103
-      - peasoft-0,2,4,19|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com1
-      - 'peasoft-7,8|🇮🇹 Italy 01 @nodpai #1'
-      - peasoft-1|_US__10
-      - 'peasoft-6|🇺🇸_US_美国 #26'
-      - peasoft-1|_US__1
-      - 'peasoft-0,2,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
-      - peasoft-1|_US_->_AE__1
-      - peasoft-7|中转 🇹🇼 Taiwan 03 @nodpai
-      - peasoft-0,2,3,4,12,19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_42
-      - 'peasoft-6|🇺🇸_US_美国 #25'
-      - peasoft-0,2,4,19|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
-      - peasoft-1|_US__9
-      - mahdibland-🏁RELAY-104.21.75.246-0059
-      - mahdibland-🏁RELAY-172.67.75.194-0424
+      - peasoft-9|🇦🇷阿根廷04
+      - peasoft-13|土耳其 04 | 1x TR
+      - peasoft-9|🇸🇬新加坡06
+      - peasoft-9|🇲🇾马来西亚04
+      - peasoft-13|新加坡 05 | 1x SG
+      - peasoft-12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...
+      - peasoft-14|🇯🇵 日本2|@ripaojiedian
+      - peasoft-11|github.com/freefq - 广东省移动 11
+      - peasoft-9|🇷🇺俄罗斯04
+      - peasoft-13|巴西 04 | 1x BR
+      - peasoft-9|🇵🇭菲律宾04
+      - peasoft-9|🇯🇵日本05
+      - peasoft-13|俄罗斯 04 | 1x RU
+      - peasoft-9|🇹🇼台湾06
+      - peasoft-15|新加坡|@ripaojiedian
+      - peasoft-13|德国 04 | 1x AU
+      - peasoft-9|🇹🇼台湾04 PRO
+      - peasoft-13|台湾 04  | 1x TWN PRO
+      - peasoft-13|香港 05 | 1x HK
+      - peasoft-9|🇭🇰香港05
+      - peasoft-9|🇭🇰香港04 PRO
+      - peasoft-9|🇨🇦加拿大04
+      - peasoft-13|香港 06 | 1x HK
+      - peasoft-15|新加坡2|@ripaojiedian
+      - peasoft-9|🇰🇷韩国04
+      - peasoft-15|香港1|@ripaojiedian
+      - peasoft-13|阿根廷 04 | 1x AR
+      - peasoft-13|加拿大 02 | 1x CA
+      - peasoft-13|马来西亚 04 | 1x MY
+      - peasoft-9|🇹🇭泰国04
+      - peasoft-13|泰国 04 | 1x TH
+      - peasoft-13|印度 04 | 1x IN
+      - peasoft-9|🇻🇳越南04
+      - peasoft-13|美国 05 | 1x US
+      - 'peasoft-0,6,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #5'
+      - peasoft-9|🇺🇸美国05
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - peasoft-1,2,4,12|🇺🇸TG频道 @oeo12  =US_9
-      - peasoft-12|频道22@wxgqlfx
-      - peasoft-12|频道42@wxgqlfx
-      - peasoft-7|中转 🇺🇸 United States 33 @nodpai
-      - 'peasoft-0,7,8|🇧🇷 Brazil 02 @nodpai #1'
-      - 'peasoft-12|美国 #2'
-      - peasoft-7|中转 🇺🇸 United States 15 @nodpai
-      - peasoft-11,12|🇸🇬 VM-WS-NA 🇸🇬 SG-146.190.108....
-      - 'peasoft-0,2,4,7,8|🇫🇷 France 01 @nodpai #1'
-      - mahdibland-🏁RELAY-172.67.237.15-0140
-      - peasoft-12|美国
-      - peasoft-7|中转 🇭🇰 Hong Kong 13 @nodpai
-      - peasoft-7|中转 🇸🇬 Singapore 16 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 25 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 31 @nodpai
-      - 'peasoft-0,2,4,6,7,8|🇦🇪 United Arab Emirates 01 @no... #1'
-      - peasoft-7|中转 🇺🇸 United States 16 @nodpai
-      - peasoft-7|中转 🇦🇹 Austria 01 @nodpai
-      - peasoft-7|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - peasoft-7|中转 🇺🇸 United States 05 @nodpai
-      - peasoft-7,15|美国C|@ripaojiedian
-      - peasoft-7|中转 🇺🇸 United States 06 @nodpai
-      - peasoft-7,15|香港C|@ripaojiedian
-      - peasoft-1|_US_->_FR_
-      - peasoft-7|中转 🇺🇸 United States 10 @nodpai
-      - peasoft-12|🇨🇳_CN_中国_yui科技_103
-      - peasoft-0,2,4,19|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com1
-      - 'peasoft-7,8|🇮🇹 Italy 01 @nodpai #1'
-      - peasoft-1|_US__10
-      - 'peasoft-6|🇺🇸_US_美国 #26'
-      - peasoft-1|_US__1
-      - 'peasoft-0,2,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
-      - peasoft-1|_US_->_AE__1
-      - peasoft-7|中转 🇹🇼 Taiwan 03 @nodpai
-      - peasoft-0,2,3,4,12,19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_42
-      - 'peasoft-6|🇺🇸_US_美国 #25'
-      - peasoft-0,2,4,19|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
-      - peasoft-1|_US__9
-      - mahdibland-🏁RELAY-104.21.75.246-0059
-      - mahdibland-🏁RELAY-172.67.75.194-0424
+      - peasoft-9|🇦🇷阿根廷04
+      - peasoft-13|土耳其 04 | 1x TR
+      - peasoft-9|🇸🇬新加坡06
+      - peasoft-9|🇲🇾马来西亚04
+      - peasoft-13|新加坡 05 | 1x SG
+      - peasoft-12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...
+      - peasoft-14|🇯🇵 日本2|@ripaojiedian
+      - peasoft-11|github.com/freefq - 广东省移动 11
+      - peasoft-9|🇷🇺俄罗斯04
+      - peasoft-13|巴西 04 | 1x BR
+      - peasoft-9|🇵🇭菲律宾04
+      - peasoft-9|🇯🇵日本05
+      - peasoft-13|俄罗斯 04 | 1x RU
+      - peasoft-9|🇹🇼台湾06
+      - peasoft-15|新加坡|@ripaojiedian
+      - peasoft-13|德国 04 | 1x AU
+      - peasoft-9|🇹🇼台湾04 PRO
+      - peasoft-13|台湾 04  | 1x TWN PRO
+      - peasoft-13|香港 05 | 1x HK
+      - peasoft-9|🇭🇰香港05
+      - peasoft-9|🇭🇰香港04 PRO
+      - peasoft-9|🇨🇦加拿大04
+      - peasoft-13|香港 06 | 1x HK
+      - peasoft-15|新加坡2|@ripaojiedian
+      - peasoft-9|🇰🇷韩国04
+      - peasoft-15|香港1|@ripaojiedian
+      - peasoft-13|阿根廷 04 | 1x AR
+      - peasoft-13|加拿大 02 | 1x CA
+      - peasoft-13|马来西亚 04 | 1x MY
+      - peasoft-9|🇹🇭泰国04
+      - peasoft-13|泰国 04 | 1x TH
+      - peasoft-13|印度 04 | 1x IN
+      - peasoft-9|🇻🇳越南04
+      - peasoft-13|美国 05 | 1x US
+      - 'peasoft-0,6,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #5'
+      - peasoft-9|🇺🇸美国05
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - peasoft-1,2,4,12|🇺🇸TG频道 @oeo12  =US_9
-      - peasoft-12|频道22@wxgqlfx
-      - peasoft-12|频道42@wxgqlfx
-      - peasoft-7|中转 🇺🇸 United States 33 @nodpai
-      - 'peasoft-0,7,8|🇧🇷 Brazil 02 @nodpai #1'
-      - 'peasoft-12|美国 #2'
-      - peasoft-7|中转 🇺🇸 United States 15 @nodpai
-      - peasoft-11,12|🇸🇬 VM-WS-NA 🇸🇬 SG-146.190.108....
-      - 'peasoft-0,2,4,7,8|🇫🇷 France 01 @nodpai #1'
-      - mahdibland-🏁RELAY-172.67.237.15-0140
-      - peasoft-12|美国
-      - peasoft-7|中转 🇭🇰 Hong Kong 13 @nodpai
-      - peasoft-7|中转 🇸🇬 Singapore 16 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 25 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 31 @nodpai
-      - 'peasoft-0,2,4,6,7,8|🇦🇪 United Arab Emirates 01 @no... #1'
-      - peasoft-7|中转 🇺🇸 United States 16 @nodpai
-      - peasoft-7|中转 🇦🇹 Austria 01 @nodpai
-      - peasoft-7|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - peasoft-7|中转 🇺🇸 United States 05 @nodpai
-      - peasoft-7,15|美国C|@ripaojiedian
-      - peasoft-7|中转 🇺🇸 United States 06 @nodpai
-      - peasoft-7,15|香港C|@ripaojiedian
-      - peasoft-1|_US_->_FR_
-      - peasoft-7|中转 🇺🇸 United States 10 @nodpai
-      - peasoft-12|🇨🇳_CN_中国_yui科技_103
-      - peasoft-0,2,4,19|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com1
-      - 'peasoft-7,8|🇮🇹 Italy 01 @nodpai #1'
-      - peasoft-1|_US__10
-      - 'peasoft-6|🇺🇸_US_美国 #26'
-      - peasoft-1|_US__1
-      - 'peasoft-0,2,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
-      - peasoft-1|_US_->_AE__1
-      - peasoft-7|中转 🇹🇼 Taiwan 03 @nodpai
-      - peasoft-0,2,3,4,12,19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_42
-      - 'peasoft-6|🇺🇸_US_美国 #25'
-      - peasoft-0,2,4,19|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
-      - peasoft-1|_US__9
-      - mahdibland-🏁RELAY-104.21.75.246-0059
-      - mahdibland-🏁RELAY-172.67.75.194-0424
+      - peasoft-9|🇦🇷阿根廷04
+      - peasoft-13|土耳其 04 | 1x TR
+      - peasoft-9|🇸🇬新加坡06
+      - peasoft-9|🇲🇾马来西亚04
+      - peasoft-13|新加坡 05 | 1x SG
+      - peasoft-12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...
+      - peasoft-14|🇯🇵 日本2|@ripaojiedian
+      - peasoft-11|github.com/freefq - 广东省移动 11
+      - peasoft-9|🇷🇺俄罗斯04
+      - peasoft-13|巴西 04 | 1x BR
+      - peasoft-9|🇵🇭菲律宾04
+      - peasoft-9|🇯🇵日本05
+      - peasoft-13|俄罗斯 04 | 1x RU
+      - peasoft-9|🇹🇼台湾06
+      - peasoft-15|新加坡|@ripaojiedian
+      - peasoft-13|德国 04 | 1x AU
+      - peasoft-9|🇹🇼台湾04 PRO
+      - peasoft-13|台湾 04  | 1x TWN PRO
+      - peasoft-13|香港 05 | 1x HK
+      - peasoft-9|🇭🇰香港05
+      - peasoft-9|🇭🇰香港04 PRO
+      - peasoft-9|🇨🇦加拿大04
+      - peasoft-13|香港 06 | 1x HK
+      - peasoft-15|新加坡2|@ripaojiedian
+      - peasoft-9|🇰🇷韩国04
+      - peasoft-15|香港1|@ripaojiedian
+      - peasoft-13|阿根廷 04 | 1x AR
+      - peasoft-13|加拿大 02 | 1x CA
+      - peasoft-13|马来西亚 04 | 1x MY
+      - peasoft-9|🇹🇭泰国04
+      - peasoft-13|泰国 04 | 1x TH
+      - peasoft-13|印度 04 | 1x IN
+      - peasoft-9|🇻🇳越南04
+      - peasoft-13|美国 05 | 1x US
+      - 'peasoft-0,6,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #5'
+      - peasoft-9|🇺🇸美国05
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -420,46 +392,42 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - peasoft-1,2,4,12|🇺🇸TG频道 @oeo12  =US_9
-      - peasoft-12|频道22@wxgqlfx
-      - peasoft-12|频道42@wxgqlfx
-      - peasoft-7|中转 🇺🇸 United States 33 @nodpai
-      - 'peasoft-0,7,8|🇧🇷 Brazil 02 @nodpai #1'
-      - 'peasoft-12|美国 #2'
-      - peasoft-7|中转 🇺🇸 United States 15 @nodpai
-      - peasoft-11,12|🇸🇬 VM-WS-NA 🇸🇬 SG-146.190.108....
-      - 'peasoft-0,2,4,7,8|🇫🇷 France 01 @nodpai #1'
-      - mahdibland-🏁RELAY-172.67.237.15-0140
-      - peasoft-12|美国
-      - peasoft-7|中转 🇭🇰 Hong Kong 13 @nodpai
-      - peasoft-7|中转 🇸🇬 Singapore 16 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 25 @nodpai
-      - peasoft-7|中转 🇺🇸 United States 31 @nodpai
-      - 'peasoft-0,2,4,6,7,8|🇦🇪 United Arab Emirates 01 @no... #1'
-      - peasoft-7|中转 🇺🇸 United States 16 @nodpai
-      - peasoft-7|中转 🇦🇹 Austria 01 @nodpai
-      - peasoft-7|中转 🇬🇧 United Kingdom 03 @nodpa...
-      - peasoft-7|中转 🇺🇸 United States 05 @nodpai
-      - peasoft-7,15|美国C|@ripaojiedian
-      - peasoft-7|中转 🇺🇸 United States 06 @nodpai
-      - peasoft-7,15|香港C|@ripaojiedian
-      - peasoft-1|_US_->_FR_
-      - peasoft-7|中转 🇺🇸 United States 10 @nodpai
-      - peasoft-12|🇨🇳_CN_中国_yui科技_103
-      - peasoft-0,2,4,19|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com1
-      - 'peasoft-7,8|🇮🇹 Italy 01 @nodpai #1'
-      - peasoft-1|_US__10
-      - 'peasoft-6|🇺🇸_US_美国 #26'
-      - peasoft-1|_US__1
-      - 'peasoft-0,2,4,6|🇺🇸_US_美国->🇮🇳_IN_印度 #6'
-      - peasoft-1|_US_->_AE__1
-      - peasoft-7|中转 🇹🇼 Taiwan 03 @nodpai
-      - peasoft-0,2,3,4,12,19|🇺🇸_US_美国_由快嘴科技提供：kkzui.com4_42
-      - 'peasoft-6|🇺🇸_US_美国 #25'
-      - peasoft-0,2,4,19|🇺🇸_US_美国->🇦🇪_AE_阿联酋_47
-      - peasoft-1|_US__9
-      - mahdibland-🏁RELAY-104.21.75.246-0059
-      - mahdibland-🏁RELAY-172.67.75.194-0424
+      - peasoft-9|🇦🇷阿根廷04
+      - peasoft-13|土耳其 04 | 1x TR
+      - peasoft-9|🇸🇬新加坡06
+      - peasoft-9|🇲🇾马来西亚04
+      - peasoft-13|新加坡 05 | 1x SG
+      - peasoft-12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...
+      - peasoft-14|🇯🇵 日本2|@ripaojiedian
+      - peasoft-11|github.com/freefq - 广东省移动 11
+      - peasoft-9|🇷🇺俄罗斯04
+      - peasoft-13|巴西 04 | 1x BR
+      - peasoft-9|🇵🇭菲律宾04
+      - peasoft-9|🇯🇵日本05
+      - peasoft-13|俄罗斯 04 | 1x RU
+      - peasoft-9|🇹🇼台湾06
+      - peasoft-15|新加坡|@ripaojiedian
+      - peasoft-13|德国 04 | 1x AU
+      - peasoft-9|🇹🇼台湾04 PRO
+      - peasoft-13|台湾 04  | 1x TWN PRO
+      - peasoft-13|香港 05 | 1x HK
+      - peasoft-9|🇭🇰香港05
+      - peasoft-9|🇭🇰香港04 PRO
+      - peasoft-9|🇨🇦加拿大04
+      - peasoft-13|香港 06 | 1x HK
+      - peasoft-15|新加坡2|@ripaojiedian
+      - peasoft-9|🇰🇷韩国04
+      - peasoft-15|香港1|@ripaojiedian
+      - peasoft-13|阿根廷 04 | 1x AR
+      - peasoft-13|加拿大 02 | 1x CA
+      - peasoft-13|马来西亚 04 | 1x MY
+      - peasoft-9|🇹🇭泰国04
+      - peasoft-13|泰国 04 | 1x TH
+      - peasoft-13|印度 04 | 1x IN
+      - peasoft-9|🇻🇳越南04
+      - peasoft-13|美国 05 | 1x US
+      - 'peasoft-0,6,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #5'
+      - peasoft-9|🇺🇸美国05
 
 rules:
 # 本地/局域网地址
