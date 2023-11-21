@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-11-19 14:10:03
+# 创建时间：2023-11-21 10:25:23
 # 使用模版：V2RaySE 默认模版
-# 节点数量：11
+# 节点数量：12
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -94,9 +94,10 @@ proxies:
   - {"name":"0832.135051.xyz","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":false,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
   - {"name":"0918.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"908c29f6-ab6b-44e1-88bf-1f65661237ad","tls":false,"servername":"0918.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0918.7993922.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"0721.135051.link","type":"vless","server":"0721.135051.link","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"0832-tls","type":"vless","server":"4.135051.xyz","port":8443,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":true,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
-  - {"name":"p-15s.pages.dev","type":"vless","server":"4.135051.xyz","port":8443,"uuid":"77a571fb-4fd2-4b37-8596-1b7d9728bb5c","tls":true,"servername":"p.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"p.135051.xyz"}}}
-  - {"name":"0719.135051.xyz","type":"vless","server":"4.135051.xyz","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
+  - {"name":"0719.135051.xyz","type":"vless","server":"8.135051.xyz","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
+  - {"name":"p-15s.pages.dev","type":"vless","server":"8.135051.xyz","port":8443,"uuid":"77a571fb-4fd2-4b37-8596-1b7d9728bb5c","tls":true,"servername":"p.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"p.135051.xyz"}}}
+  - {"name":"0832-tls","type":"vless","server":"8.135051.xyz","port":8443,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":true,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
+  - {"name":"pl","type":"vless","server":"pl.135051.xyz","port":48920,"uuid":"5193d176-cff5-4a36-9052-2fa978fb296b","tls":false,"servername":"pl.135051.xyz","network":"ws","ws-opts":{"headers":{"host":"pl.135051.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,9 +112,10 @@ proxy-groups:
       - 0832.135051.xyz
       - 0918.7993922.workers.dev
       - 0721.135051.link
-      - 0832-tls
-      - p-15s.pages.dev
       - 0719.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - pl
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -128,9 +130,10 @@ proxy-groups:
       - 0832.135051.xyz
       - 0918.7993922.workers.dev
       - 0721.135051.link
-      - 0832-tls
-      - p-15s.pages.dev
       - 0719.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - pl
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -145,9 +148,10 @@ proxy-groups:
       - 0832.135051.xyz
       - 0918.7993922.workers.dev
       - 0721.135051.link
-      - 0832-tls
-      - p-15s.pages.dev
       - 0719.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - pl
   - name: 📲 电报信息
     type: select
     proxies:
@@ -161,9 +165,10 @@ proxy-groups:
       - 0832.135051.xyz
       - 0918.7993922.workers.dev
       - 0721.135051.link
-      - 0832-tls
-      - p-15s.pages.dev
       - 0719.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - pl
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -177,9 +182,10 @@ proxy-groups:
       - 0832.135051.xyz
       - 0918.7993922.workers.dev
       - 0721.135051.link
-      - 0832-tls
-      - p-15s.pages.dev
       - 0719.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - pl
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -193,9 +199,10 @@ proxy-groups:
       - 0832.135051.xyz
       - 0918.7993922.workers.dev
       - 0721.135051.link
-      - 0832-tls
-      - p-15s.pages.dev
       - 0719.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - pl
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -226,9 +233,10 @@ proxy-groups:
       - 0832.135051.xyz
       - 0918.7993922.workers.dev
       - 0721.135051.link
-      - 0832-tls
-      - p-15s.pages.dev
       - 0719.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - pl
 
 rules:
 # 本地/局域网地址
