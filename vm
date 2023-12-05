@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-11-24 09:02:31
+# 创建时间：2023-12-05 09:36:27
 # 使用模版：V2RaySE 默认模版
-# 节点数量：30
+# 节点数量：49
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,249 +86,382 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"0831.7993922.workers.dev-HTTP-2082-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2095-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-8080-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-8080-cdn.anycast.eu.org-EDtunnel","type":"vless","server":"cdn.anycast.eu.org","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2086-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-8880-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-80-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2052-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2095-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2082-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-8080-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2086-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2052-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-8880-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-80-104.16.60.79-EDtunnel","type":"vless","server":"104.16.60.79","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2082-104.16.60.79-EDtunnel","type":"vless","server":"104.16.60.79","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2086-104.16.60.79-EDtunnel","type":"vless","server":"104.16.60.79","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-8080-104.16.60.79-EDtunnel","type":"vless","server":"104.16.60.79","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2095-104.16.60.79-EDtunnel","type":"vless","server":"104.16.60.79","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2052-104.16.60.79-EDtunnel","type":"vless","server":"104.16.60.79","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2082-cdn.anycast.eu.org-EDtunnel","type":"vless","server":"cdn.anycast.eu.org","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-80-cdn.anycast.eu.org-EDtunnel","type":"vless","server":"cdn.anycast.eu.org","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-80-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2086-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-8880-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2082-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2052-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-8080-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-2095-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
-  - {"name":"0831.7993922.workers.dev-HTTP-80-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.7993922.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"套餐到期：2024-01-02_1","type":"ss","server":"free-relay.m.themars.top","port":32102,"password":"de27a10c-0352-42c1-90bc-cdd212b99ec9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"火星互联 通知 @https://t.me/marsix2","type":"ss","server":"free-relay.m.themars.top","port":32103,"password":"de27a10c-0352-42c1-90bc-cdd212b99ec9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"火星互联 注册免费使用","type":"ss","server":"free-relay.m.themars.top","port":32103,"password":"de27a10c-0352-42c1-90bc-cdd212b99ec9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"👍www13.henet.uk-免费节点03","type":"vmess","server":"free-relay.themars.top","port":32203,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"剩余流量：83.69 GB","type":"ss","server":"free-relay.m.themars.top","port":32102,"password":"de27a10c-0352-42c1-90bc-cdd212b99ec9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"距离下次重置剩余：26 天_1","type":"ss","server":"free-relay.m.themars.top","port":32102,"password":"de27a10c-0352-42c1-90bc-cdd212b99ec9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"👍电报群:https://t.me/helium_network_group","type":"vmess","server":"free-relay.themars.top","port":32201,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"火星互联 电报群 @https://t.me/marsix1","type":"ss","server":"free-relay.m.themars.top","port":32103,"password":"de27a10c-0352-42c1-90bc-cdd212b99ec9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"0918.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"908c29f6-ab6b-44e1-88bf-1f65661237ad","tls":false,"servername":"0918.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0918.7993922.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"🇺🇸美国1号-0.1倍","type":"trojan","server":"209.46.30.206","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"k9us1.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us1","headers":{"host":"k9us1.djjc.sbs"}}}
+  - {"name":"🇺🇸美国1号-0.1倍率","type":"vless","server":"108.181.23.33","port":443,"udp":true,"uuid":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","tls":true,"servername":"cp501.prod.do.dsp.mp.microsoft.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"DGzXhLIUE3NQXX-IVo5YCSeANn1vECVBdnw7dtC0sTQ","short-id":"92388f50ce26394f"},"client-fingerprint":"chrome"}
+  - {"name":"🇺🇸美国2号-0.1倍率","type":"vless","server":"108.181.23.61","port":443,"udp":true,"uuid":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","tls":true,"servername":"cp501.prod.do.dsp.mp.microsoft.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Mh0o8m9x8LWqs6gJ0DcCm8tjEx7J55ay7CmmiJb5pHs","short-id":"97227e56417ff99b"},"client-fingerprint":"chrome"}
+  - {"name":"剩余流量：137.32 GB","type":"vless","server":"108.181.23.33","port":443,"udp":true,"uuid":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","tls":true,"servername":"cp501.prod.do.dsp.mp.microsoft.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"DGzXhLIUE3NQXX-IVo5YCSeANn1vECVBdnw7dtC0sTQ","short-id":"92388f50ce26394f"},"client-fingerprint":"chrome"}
+  - {"name":"🇯🇵日本-5倍率","type":"vless","server":"36.139.131.111","port":32920,"udp":true,"uuid":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","tls":true,"servername":"sfdataservice.microsoft.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"qZ5y_AZ8yXJV66BNQb2pIN42W-6cUKLQ-qedO1fr1Gw","short-id":"82cc37043da301b2"},"client-fingerprint":"chrome"}
+  - {"name":"🇹🇼台湾Hinet","type":"trojan","server":"hinet.djjsvip.cfd","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"0721.135051.link","type":"vless","server":"0721.135051.link","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"0926.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8080,"uuid":"623d1d8a-d98a-42bf-9f0a-f9a437f1ec1a","tls":false,"servername":"0926.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0926.7993922.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"0832.135051.xyz","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":false,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
+  - {"name":"p-15s.pages.dev","type":"vless","server":"8.135051.xyz","port":8443,"uuid":"77a571fb-4fd2-4b37-8596-1b7d9728bb5c","tls":true,"servername":"p.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"p.135051.xyz"}}}
+  - {"name":"0832-tls","type":"vless","server":"8.135051.xyz","port":8443,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":true,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
+  - {"name":"0719.135051.xyz","type":"vless","server":"4.135051.xyz","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
+  - {"name":"火星互联公益节点02","type":"ss","server":"free-relay.m.themars.top","port":32103,"password":"de27a10c-0352-42c1-90bc-cdd212b99ec9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"火星互联公益节点03","type":"ss","server":"free-relay.m.themars.top","port":32104,"password":"de27a10c-0352-42c1-90bc-cdd212b99ec9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"火星互联 https://ss.marsix.net/","type":"ss","server":"free-relay.m.themars.top","port":32103,"password":"de27a10c-0352-42c1-90bc-cdd212b99ec9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"距离下次重置剩余：13 天","type":"vless","server":"108.181.23.33","port":443,"udp":true,"uuid":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","tls":true,"servername":"cp501.prod.do.dsp.mp.microsoft.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"DGzXhLIUE3NQXX-IVo5YCSeANn1vECVBdnw7dtC0sTQ","short-id":"92388f50ce26394f"},"client-fingerprint":"chrome"}
+  - {"name":"套餐到期：2024-10-18","type":"vless","server":"108.181.23.33","port":443,"udp":true,"uuid":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","tls":true,"servername":"cp501.prod.do.dsp.mp.microsoft.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"DGzXhLIUE3NQXX-IVo5YCSeANn1vECVBdnw7dtC0sTQ","short-id":"92388f50ce26394f"},"client-fingerprint":"chrome"}
+  - {"name":"🇺🇸美国3号-0.1倍率","type":"vless","server":"108.181.24.29","port":443,"udp":true,"uuid":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","tls":true,"servername":"api.podcasts.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4jbsqjuINxDyH4n7Vhq9GwQdxvauilqi29iH6m5ol1I","short-id":"b5b6c16c6c639771"},"client-fingerprint":"chrome"}
+  - {"name":"🇳🇱荷兰-0.1倍率","type":"vless","server":"176.97.210.253","port":443,"udp":true,"uuid":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","tls":true,"servername":"cp501.prod.do.dsp.mp.microsoft.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"zQ8ePtLeKn6wzJx1t6hxPLmr0Gl4S-ZrV-RIjoka20A","short-id":"beb74d4120637c01"},"client-fingerprint":"chrome"}
+  - {"name":"🇺🇸美国2号-0.1倍","type":"trojan","server":"188.42.145.11","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"k2us2.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/us2","headers":{"host":"k2us2.djjc.sbs"}}}
+  - {"name":"🇩🇪德国1号","type":"trojan","server":"5.104.107.143","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"de1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪德国2号","type":"trojan","server":"185.176.24.105","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"k9de1.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/de1","headers":{"host":"k9de1.djjc.sbs"}}}
+  - {"name":"🇯🇵日本亚马逊","type":"trojan","server":"jp1.djjsvip.cfd","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵日本亚马逊2","type":"trojan","server":"jp2.djjsvip.cfd","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬新加坡亚马逊","type":"trojan","server":"sg1.djjsvip.cfd","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬新加坡亚马逊2","type":"trojan","server":"sg2.djjsvip.cfd","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵日本高速-5倍","type":"trojan","server":"42.7.24.147","port":38200,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"jp1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬新加坡高速-5倍","type":"trojan","server":"42.7.24.147","port":38200,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"sg1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱荷兰-0.1倍","type":"trojan","server":"209.46.30.106","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"nl4.djjc.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/nl1","headers":{"host":"nl4.djjc.sbs"}}}
+  - {"name":"🇭🇰香港HKT","type":"trojan","server":"42.2.160.107","port":443,"udp":true,"password":"1bcb5681-0856-4d5f-9b82-bccf2d3dc13c","sni":"downloadhk.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"距离下次重置剩余：26 天_2","type":"vmess","server":"free-relay.themars.top","port":32201,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"套餐到期：2024-01-02_2","type":"vmess","server":"free-relay.themars.top","port":32201,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"👍www13.henet.uk-免费节点01","type":"vmess","server":"free-relay.themars.top","port":32201,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"👍www13.henet.uk-免费节点02","type":"vmess","server":"free-relay.themars.top","port":32202,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"👍www13.henet.uk-免费节点04","type":"vmess","server":"free-relay.themars.top","port":32204,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"👍www13.henet.uk-免费节点05","type":"vmess","server":"free-relay.themars.top","port":32205,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"👍官网：www13.henet.uk","type":"vmess","server":"free-relay.themars.top","port":32201,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"👍永久免费 加群关注电报频道获取延期码","type":"vmess","server":"free-relay.themars.top","port":32201,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"👍不加群  不关注频道 不支持延期","type":"vmess","server":"free-relay.themars.top","port":32201,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
+  - {"name":"👍无法使用延期码 请邀请好友兑换","type":"vmess","server":"free-relay.themars.top","port":32201,"cipher":"auto","uuid":"7dfed906-8ea5-47f3-b347-57e56c8bd76c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cctv1.m3u8","headers":{"host":"www.cctv.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 0831.7993922.workers.dev-HTTP-2082-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-4.135051.xyz-EDtunnel
+      - 套餐到期：2024-01-02_1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 注册免费使用
+      - 👍www13.henet.uk-免费节点03
+      - 剩余流量：83.69 GB
+      - 距离下次重置剩余：26 天_1
+      - 👍电报群:https://t.me/helium_network_group
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 0918.7993922.workers.dev
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国1号-0.1倍率
+      - 🇺🇸美国2号-0.1倍率
+      - 剩余流量：137.32 GB
+      - 🇯🇵日本-5倍率
+      - 🇹🇼台湾Hinet
+      - 0721.135051.link
+      - 0926.7993922.workers.dev
+      - 0832.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - 0719.135051.xyz
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 https://ss.marsix.net/
+      - 距离下次重置剩余：13 天
+      - 套餐到期：2024-10-18
+      - 🇺🇸美国3号-0.1倍率
+      - 🇳🇱荷兰-0.1倍率
+      - 🇺🇸美国2号-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇳🇱荷兰-0.1倍
+      - 🇭🇰香港HKT
+      - 距离下次重置剩余：26 天_2
+      - 套餐到期：2024-01-02_2
+      - 👍www13.henet.uk-免费节点01
+      - 👍www13.henet.uk-免费节点02
+      - 👍www13.henet.uk-免费节点04
+      - 👍www13.henet.uk-免费节点05
+      - 👍官网：www13.henet.uk
+      - 👍永久免费 加群关注电报频道获取延期码
+      - 👍不加群  不关注频道 不支持延期
+      - 👍无法使用延期码 请邀请好友兑换
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 0831.7993922.workers.dev-HTTP-2082-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-4.135051.xyz-EDtunnel
+      - 套餐到期：2024-01-02_1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 注册免费使用
+      - 👍www13.henet.uk-免费节点03
+      - 剩余流量：83.69 GB
+      - 距离下次重置剩余：26 天_1
+      - 👍电报群:https://t.me/helium_network_group
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 0918.7993922.workers.dev
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国1号-0.1倍率
+      - 🇺🇸美国2号-0.1倍率
+      - 剩余流量：137.32 GB
+      - 🇯🇵日本-5倍率
+      - 🇹🇼台湾Hinet
+      - 0721.135051.link
+      - 0926.7993922.workers.dev
+      - 0832.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - 0719.135051.xyz
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 https://ss.marsix.net/
+      - 距离下次重置剩余：13 天
+      - 套餐到期：2024-10-18
+      - 🇺🇸美国3号-0.1倍率
+      - 🇳🇱荷兰-0.1倍率
+      - 🇺🇸美国2号-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇳🇱荷兰-0.1倍
+      - 🇭🇰香港HKT
+      - 距离下次重置剩余：26 天_2
+      - 套餐到期：2024-01-02_2
+      - 👍www13.henet.uk-免费节点01
+      - 👍www13.henet.uk-免费节点02
+      - 👍www13.henet.uk-免费节点04
+      - 👍www13.henet.uk-免费节点05
+      - 👍官网：www13.henet.uk
+      - 👍永久免费 加群关注电报频道获取延期码
+      - 👍不加群  不关注频道 不支持延期
+      - 👍无法使用延期码 请邀请好友兑换
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0831.7993922.workers.dev-HTTP-2082-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-4.135051.xyz-EDtunnel
+      - 套餐到期：2024-01-02_1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 注册免费使用
+      - 👍www13.henet.uk-免费节点03
+      - 剩余流量：83.69 GB
+      - 距离下次重置剩余：26 天_1
+      - 👍电报群:https://t.me/helium_network_group
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 0918.7993922.workers.dev
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国1号-0.1倍率
+      - 🇺🇸美国2号-0.1倍率
+      - 剩余流量：137.32 GB
+      - 🇯🇵日本-5倍率
+      - 🇹🇼台湾Hinet
+      - 0721.135051.link
+      - 0926.7993922.workers.dev
+      - 0832.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - 0719.135051.xyz
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 https://ss.marsix.net/
+      - 距离下次重置剩余：13 天
+      - 套餐到期：2024-10-18
+      - 🇺🇸美国3号-0.1倍率
+      - 🇳🇱荷兰-0.1倍率
+      - 🇺🇸美国2号-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇳🇱荷兰-0.1倍
+      - 🇭🇰香港HKT
+      - 距离下次重置剩余：26 天_2
+      - 套餐到期：2024-01-02_2
+      - 👍www13.henet.uk-免费节点01
+      - 👍www13.henet.uk-免费节点02
+      - 👍www13.henet.uk-免费节点04
+      - 👍www13.henet.uk-免费节点05
+      - 👍官网：www13.henet.uk
+      - 👍永久免费 加群关注电报频道获取延期码
+      - 👍不加群  不关注频道 不支持延期
+      - 👍无法使用延期码 请邀请好友兑换
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 0831.7993922.workers.dev-HTTP-2082-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-4.135051.xyz-EDtunnel
+      - 套餐到期：2024-01-02_1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 注册免费使用
+      - 👍www13.henet.uk-免费节点03
+      - 剩余流量：83.69 GB
+      - 距离下次重置剩余：26 天_1
+      - 👍电报群:https://t.me/helium_network_group
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 0918.7993922.workers.dev
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国1号-0.1倍率
+      - 🇺🇸美国2号-0.1倍率
+      - 剩余流量：137.32 GB
+      - 🇯🇵日本-5倍率
+      - 🇹🇼台湾Hinet
+      - 0721.135051.link
+      - 0926.7993922.workers.dev
+      - 0832.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - 0719.135051.xyz
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 https://ss.marsix.net/
+      - 距离下次重置剩余：13 天
+      - 套餐到期：2024-10-18
+      - 🇺🇸美国3号-0.1倍率
+      - 🇳🇱荷兰-0.1倍率
+      - 🇺🇸美国2号-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇳🇱荷兰-0.1倍
+      - 🇭🇰香港HKT
+      - 距离下次重置剩余：26 天_2
+      - 套餐到期：2024-01-02_2
+      - 👍www13.henet.uk-免费节点01
+      - 👍www13.henet.uk-免费节点02
+      - 👍www13.henet.uk-免费节点04
+      - 👍www13.henet.uk-免费节点05
+      - 👍官网：www13.henet.uk
+      - 👍永久免费 加群关注电报频道获取延期码
+      - 👍不加群  不关注频道 不支持延期
+      - 👍无法使用延期码 请邀请好友兑换
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 0831.7993922.workers.dev-HTTP-2082-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-4.135051.xyz-EDtunnel
+      - 套餐到期：2024-01-02_1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 注册免费使用
+      - 👍www13.henet.uk-免费节点03
+      - 剩余流量：83.69 GB
+      - 距离下次重置剩余：26 天_1
+      - 👍电报群:https://t.me/helium_network_group
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 0918.7993922.workers.dev
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国1号-0.1倍率
+      - 🇺🇸美国2号-0.1倍率
+      - 剩余流量：137.32 GB
+      - 🇯🇵日本-5倍率
+      - 🇹🇼台湾Hinet
+      - 0721.135051.link
+      - 0926.7993922.workers.dev
+      - 0832.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - 0719.135051.xyz
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 https://ss.marsix.net/
+      - 距离下次重置剩余：13 天
+      - 套餐到期：2024-10-18
+      - 🇺🇸美国3号-0.1倍率
+      - 🇳🇱荷兰-0.1倍率
+      - 🇺🇸美国2号-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇳🇱荷兰-0.1倍
+      - 🇭🇰香港HKT
+      - 距离下次重置剩余：26 天_2
+      - 套餐到期：2024-01-02_2
+      - 👍www13.henet.uk-免费节点01
+      - 👍www13.henet.uk-免费节点02
+      - 👍www13.henet.uk-免费节点04
+      - 👍www13.henet.uk-免费节点05
+      - 👍官网：www13.henet.uk
+      - 👍永久免费 加群关注电报频道获取延期码
+      - 👍不加群  不关注频道 不支持延期
+      - 👍无法使用延期码 请邀请好友兑换
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 0831.7993922.workers.dev-HTTP-2082-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-4.135051.xyz-EDtunnel
+      - 套餐到期：2024-01-02_1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 注册免费使用
+      - 👍www13.henet.uk-免费节点03
+      - 剩余流量：83.69 GB
+      - 距离下次重置剩余：26 天_1
+      - 👍电报群:https://t.me/helium_network_group
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 0918.7993922.workers.dev
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国1号-0.1倍率
+      - 🇺🇸美国2号-0.1倍率
+      - 剩余流量：137.32 GB
+      - 🇯🇵日本-5倍率
+      - 🇹🇼台湾Hinet
+      - 0721.135051.link
+      - 0926.7993922.workers.dev
+      - 0832.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - 0719.135051.xyz
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 https://ss.marsix.net/
+      - 距离下次重置剩余：13 天
+      - 套餐到期：2024-10-18
+      - 🇺🇸美国3号-0.1倍率
+      - 🇳🇱荷兰-0.1倍率
+      - 🇺🇸美国2号-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇳🇱荷兰-0.1倍
+      - 🇭🇰香港HKT
+      - 距离下次重置剩余：26 天_2
+      - 套餐到期：2024-01-02_2
+      - 👍www13.henet.uk-免费节点01
+      - 👍www13.henet.uk-免费节点02
+      - 👍www13.henet.uk-免费节点04
+      - 👍www13.henet.uk-免费节点05
+      - 👍官网：www13.henet.uk
+      - 👍永久免费 加群关注电报频道获取延期码
+      - 👍不加群  不关注频道 不支持延期
+      - 👍无法使用延期码 请邀请好友兑换
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -351,36 +484,55 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 0831.7993922.workers.dev-HTTP-2082-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-icook.hk-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-104.16.60.79-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-cdn.anycast.eu.org-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2052-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-2095-8.135051.xyz-EDtunnel
-      - 0831.7993922.workers.dev-HTTP-80-4.135051.xyz-EDtunnel
+      - 套餐到期：2024-01-02_1
+      - 火星互联 通知 @https://t.me/marsix2
+      - 火星互联 注册免费使用
+      - 👍www13.henet.uk-免费节点03
+      - 剩余流量：83.69 GB
+      - 距离下次重置剩余：26 天_1
+      - 👍电报群:https://t.me/helium_network_group
+      - 火星互联 电报群 @https://t.me/marsix1
+      - 0918.7993922.workers.dev
+      - 🇺🇸美国1号-0.1倍
+      - 🇺🇸美国1号-0.1倍率
+      - 🇺🇸美国2号-0.1倍率
+      - 剩余流量：137.32 GB
+      - 🇯🇵日本-5倍率
+      - 🇹🇼台湾Hinet
+      - 0721.135051.link
+      - 0926.7993922.workers.dev
+      - 0832.135051.xyz
+      - p-15s.pages.dev
+      - 0832-tls
+      - 0719.135051.xyz
+      - 火星互联公益节点02
+      - 火星互联公益节点03
+      - 火星互联 https://ss.marsix.net/
+      - 距离下次重置剩余：13 天
+      - 套餐到期：2024-10-18
+      - 🇺🇸美国3号-0.1倍率
+      - 🇳🇱荷兰-0.1倍率
+      - 🇺🇸美国2号-0.1倍
+      - 🇩🇪德国1号
+      - 🇩🇪德国2号
+      - 🇯🇵日本亚马逊
+      - 🇯🇵日本亚马逊2
+      - 🇸🇬新加坡亚马逊
+      - 🇸🇬新加坡亚马逊2
+      - 🇯🇵日本高速-5倍
+      - 🇸🇬新加坡高速-5倍
+      - 🇳🇱荷兰-0.1倍
+      - 🇭🇰香港HKT
+      - 距离下次重置剩余：26 天_2
+      - 套餐到期：2024-01-02_2
+      - 👍www13.henet.uk-免费节点01
+      - 👍www13.henet.uk-免费节点02
+      - 👍www13.henet.uk-免费节点04
+      - 👍www13.henet.uk-免费节点05
+      - 👍官网：www13.henet.uk
+      - 👍永久免费 加群关注电报频道获取延期码
+      - 👍不加群  不关注频道 不支持延期
+      - 👍无法使用延期码 请邀请好友兑换
 
 rules:
 # 本地/局域网地址
