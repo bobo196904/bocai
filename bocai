@@ -96,7 +96,7 @@ proxies:
   - {"name":"gpt-GLITCH2","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":false,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
   - {"name":"gpt.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":2095,"uuid":"49f6ccb9-ee68-4b9f-83a9-0f3fc5e7fb00","tls":false,"servername":"gpt.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gpt.7993922.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"GPT0831.135051.xyz","type":"vless","server":"4.135051.xyz","port":2096,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"randomized"}
- # - {"name":"x-ui","type":"vmess","server":"52.68.242.6","port":44463,"cipher":"auto","uuid":"ec3fe9ec-84b7-48f0-ce2a-a76527e075f3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ec3fe9ec"}}
+  #   - {"name":"x-ui","type":"vmess","server":"52.68.242.6","port":44463,"cipher":"auto","uuid":"ec3fe9ec-84b7-48f0-ce2a-a76527e075f3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ec3fe9ec"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
