@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：2024-01-30 12:17:21
+# 客户端：Clash.Meta
+# 创建时间：2024-02-01 18:27:24
 # 使用模版：V2RaySE 默认模版
-# 节点数量：39
+# 节点数量：4
 ####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -85,312 +86,67 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"peasoft-26|baipaovpn台湾省南投县","type":"vmess","server":"36.232.161.39","port":6122,"cipher":"auto","uuid":"f4595480-44d4-4d55-a37e-a5b1e0ec64d6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-19|美国 CloudFlare节点 #4_1","type":"vmess","server":"108.162.194.165","port":2052,"cipher":"auto","uuid":"4eff3792-6078-4ad1-aa31-7772830c78ac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/NgeVbib3","headers":{"host":"dwlwfykrjp1.zvhdeaof.xyz"}}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #6_1","type":"vmess","server":"94.131.8.32","port":8880,"cipher":"auto","uuid":"57e37a74-badc-4b71-87c7-5b9e20879b58","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #4","type":"vmess","server":"94.131.8.32","port":2086,"cipher":"auto","uuid":"57e37a74-badc-4b71-87c7-5b9e20879b58","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #6_2","type":"vmess","server":"94.131.8.32","port":8880,"cipher":"auto","uuid":"57e37a74-badc-4b71-87c7-5b9e20879b58","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #1_1","type":"vmess","server":"94.131.8.32","port":2095,"cipher":"auto","uuid":"57e37a74-badc-4b71-87c7-5b9e20879b58","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #1_2","type":"vmess","server":"94.131.8.32","port":2095,"cipher":"auto","uuid":"57e37a74-badc-4b71-87c7-5b9e20879b58","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #5_1","type":"vmess","server":"94.131.8.32","port":2082,"cipher":"auto","uuid":"57e37a74-badc-4b71-87c7-5b9e20879b58","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-6,19,20,26|baipaovpn乌克兰","type":"vmess","server":"94.131.8.32","port":80,"cipher":"auto","uuid":"57e37a74-badc-4b71-87c7-5b9e20879b58","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #5_2","type":"vmess","server":"94.131.8.32","port":2082,"cipher":"auto","uuid":"57e37a74-badc-4b71-87c7-5b9e20879b58","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-19,20|github.com/freefq - 乌克兰  6_1","type":"vmess","server":"pt2-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"099b5b7a-9d71-43cd-80e3-b8fbe1cc2695","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-19,20|github.com/freefq - 乌克兰  6_2","type":"vmess","server":"pt2-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"099b5b7a-9d71-43cd-80e3-b8fbe1cc2695","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-19,20|github.com/freefq - 台湾省新北市中华电信...","type":"vmess","server":"nb24.ntbq.dynu.net","port":4443,"cipher":"auto","uuid":"6b2e0602-bc1a-4ec3-88da-4238a6955ddd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-21|TW_speednode_0051","type":"vmess","server":"nb22.ntbq.dynu.net","port":12002,"cipher":"auto","uuid":"99e39047-9298-404e-b632-1867f7ed1b37","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"nb11.ntbq.dynu.net","network":"tcp"}
-  - {"name":"peasoft-19,20|github.com/freefq - 广东省移动 27_1","type":"vmess","server":"data-us-v1.shwjfkw.cn","port":20401,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-us-v1.shwjfkw.cn"}}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #3_1","type":"vmess","server":"94.131.10.135","port":2086,"cipher":"auto","uuid":"e2021c91-6e29-49d6-9641-14a8f2600e05","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #2_1","type":"vmess","server":"94.131.10.135","port":8080,"cipher":"auto","uuid":"e2021c91-6e29-49d6-9641-14a8f2600e05","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #3_2","type":"vmess","server":"94.131.10.135","port":2086,"cipher":"auto","uuid":"e2021c91-6e29-49d6-9641-14a8f2600e05","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-19,20|github.com/freefq - 美国CloudFla... #4","type":"vmess","server":"104.17.25.2","port":80,"cipher":"auto","uuid":"d6664518-c8e1-42cf-f2c1-d33dcc01a8a6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sgvpn.catnipballs.gay"}}}
-  - {"name":"peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_1","type":"vmess","server":"cz1-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"ef7cfdf6-63e1-4307-bb61-40eb81acb5bd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"cz1-vmess.sshmax.xyz"}}}
-  - {"name":"peasoft-26|baipaovpn乌克兰 #2_2","type":"vmess","server":"94.131.10.135","port":8080,"cipher":"auto","uuid":"e2021c91-6e29-49d6-9641-14a8f2600e05","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-19,20,21|🇺🇸_US_美国 #29_1","type":"vmess","server":"94.131.10.135","port":80,"cipher":"auto","uuid":"099b5b7a-9d71-43cd-80e3-b8fbe1cc2695","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-19,20,21|🇺🇸_US_美国 #29_2","type":"vmess","server":"94.131.10.135","port":80,"cipher":"auto","uuid":"099b5b7a-9d71-43cd-80e3-b8fbe1cc2695","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_2","type":"vmess","server":"cz1-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"ef7cfdf6-63e1-4307-bb61-40eb81acb5bd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"cz1-vmess.sshmax.xyz"}}}
-  - {"name":"peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_1","type":"vmess","server":"be1-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"38df59ec-30e2-45e9-86c7-5a58667e6994","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"mahdibland-%F0%9F%87%A8%F0%9F%87%B3CN-183.236.51.6-3501","type":"trojan","server":"falungong.19890604.day","port":10823,"udp":true,"password":"fdec7965-8ba7-434e-abd5-502a658550c7","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp","ws-opts":{"headers":{"host":"undefined"}}}
-  - {"name":"peasoft-19,20|github.com/freefq - 广东省移动 27_2","type":"vmess","server":"data-us-v1.shwjfkw.cn","port":20401,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-us-v1.shwjfkw.cn"}}}
-  - {"name":"peasoft-19|美国 CloudFlare节点 #4_2","type":"vmess","server":"108.162.194.165","port":2052,"cipher":"auto","uuid":"4eff3792-6078-4ad1-aa31-7772830c78ac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/NgeVbib3","headers":{"host":"dwlwfykrjp1.zvhdeaof.xyz"}}}
-  - {"name":"peasoft-26|baipaovpn台湾省_1","type":"vmess","server":"118.167.73.99","port":12002,"cipher":"auto","uuid":"7baddf37-f8bb-4744-bd9d-88d42dda603a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-26|baipaovpn台湾省_2","type":"vmess","server":"118.167.73.99","port":12002,"cipher":"auto","uuid":"7baddf37-f8bb-4744-bd9d-88d42dda603a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-0,3,4,9,25|🇺🇸 _US_美国 #31","type":"vmess","server":"be1-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"38df59ec-30e2-45e9-86c7-5a58667e6994","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be1-vmess.sshmax.xyz"}}}
-  - {"name":"peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_2","type":"vmess","server":"be1-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"38df59ec-30e2-45e9-86c7-5a58667e6994","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-26|baipaovpn美国","type":"vmess","server":"173.249.197.176","port":443,"cipher":"auto","uuid":"e4c9dc48-f9dc-4d9b-9318-a3933d113736","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-6,21|PT_speednode_0040","type":"vmess","server":"pt2-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"099b5b7a-9d71-43cd-80e3-b8fbe1cc2695","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pt2-vmess.sshmax.xyz"}}}
-  - {"name":"peasoft-19,20,21,24|台湾|@ripaojiedian #1","type":"vmess","server":"c12.twtc.dynu.net","port":6122,"cipher":"auto","uuid":"f4595480-44d4-4d55-a37e-a5b1e0ec64d6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"peasoft-19,20|github.com/freefq - 乌克兰  10_1","type":"vmess","server":"94.131.97.123","port":80,"cipher":"auto","uuid":"ef7cfdf6-63e1-4307-bb61-40eb81acb5bd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"cz1-vmess.sshmax.xyz"}}}
-  - {"name":"peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_1","type":"vmess","server":"94.131.97.123","port":80,"cipher":"auto","uuid":"ef7cfdf6-63e1-4307-bb61-40eb81acb5bd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_2","type":"vmess","server":"94.131.97.123","port":80,"cipher":"auto","uuid":"ef7cfdf6-63e1-4307-bb61-40eb81acb5bd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
-  - {"name":"peasoft-19,20|github.com/freefq - 乌克兰  10_2","type":"vmess","server":"94.131.97.123","port":80,"cipher":"auto","uuid":"ef7cfdf6-63e1-4307-bb61-40eb81acb5bd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"cz1-vmess.sshmax.xyz"}}}
+  - {"name":"ygkkk-vm-argo","type":"vmess","server":"4.135051.xyz","port":8443,"cipher":"auto","uuid":"f6705eaf-1714-4495-b9ab-e86200a73726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"edge-instrumentation-bent-appropriate.trycloudflare.com","network":"ws","ws-opts":{"path":"f6705eaf-1714-4495-b9ab-e86200a73726-vm","headers":{"host":"edge-instrumentation-bent-appropriate.trycloudflare.com"}}}
+  - {"name":"ygkkk-vm-ws","type":"vmess","server":"52.68.242.6","port":8880,"cipher":"auto","uuid":"f6705eaf-1714-4495-b9ab-e86200a73726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"f6705eaf-1714-4495-b9ab-e86200a73726-vm","headers":{"host":"www.bing.com"}}}
+  - {"name":"ygkkk-vl-reality","type":"vless","server":"52.68.242.6","port":15429,"udp":true,"uuid":"f6705eaf-1714-4495-b9ab-e86200a73726","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ZJIe6TkkyUIUS3gPxshTINXLzCsbteIUFN31rPZH5Fw","short-id":"7ed1ba58"},"client-fingerprint":"chrome"}
+  - {"name":"x-ui","type":"vmess","server":"52.68.242.6","port":44463,"cipher":"auto","uuid":"ec3fe9ec-84b7-48f0-ce2a-a76527e075f3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ec3fe9ec"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - peasoft-26|baipaovpn台湾省南投县
-      - 'peasoft-19|美国 CloudFlare节点 #4_1'
-      - 'peasoft-26|baipaovpn乌克兰 #6_1'
-      - 'peasoft-26|baipaovpn乌克兰 #4'
-      - 'peasoft-26|baipaovpn乌克兰 #6_2'
-      - 'peasoft-26|baipaovpn乌克兰 #1_1'
-      - 'peasoft-26|baipaovpn乌克兰 #1_2'
-      - 'peasoft-26|baipaovpn乌克兰 #5_1'
-      - peasoft-6,19,20,26|baipaovpn乌克兰
-      - 'peasoft-26|baipaovpn乌克兰 #5_2'
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_1
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_2
-      - peasoft-19,20|github.com/freefq - 台湾省新北市中华电信...
-      - peasoft-21|TW_speednode_0051
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_1
-      - 'peasoft-26|baipaovpn乌克兰 #3_1'
-      - 'peasoft-26|baipaovpn乌克兰 #2_1'
-      - 'peasoft-26|baipaovpn乌克兰 #3_2'
-      - 'peasoft-19,20|github.com/freefq - 美国CloudFla... #4'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_1
-      - 'peasoft-26|baipaovpn乌克兰 #2_2'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_1'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_2'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_2
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_1'
-      - mahdibland-%F0%9F%87%A8%F0%9F%87%B3CN-183.236.51.6-3501
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_2
-      - 'peasoft-19|美国 CloudFlare节点 #4_2'
-      - peasoft-26|baipaovpn台湾省_1
-      - peasoft-26|baipaovpn台湾省_2
-      - 'peasoft-0,3,4,9,25|🇺🇸 _US_美国 #31'
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_2'
-      - peasoft-26|baipaovpn美国
-      - peasoft-6,21|PT_speednode_0040
-      - 'peasoft-19,20,21,24|台湾|@ripaojiedian #1'
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_2
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_2
+      - ygkkk-vm-argo
+      - ygkkk-vm-ws
+      - ygkkk-vl-reality
+      - x-ui
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - peasoft-26|baipaovpn台湾省南投县
-      - 'peasoft-19|美国 CloudFlare节点 #4_1'
-      - 'peasoft-26|baipaovpn乌克兰 #6_1'
-      - 'peasoft-26|baipaovpn乌克兰 #4'
-      - 'peasoft-26|baipaovpn乌克兰 #6_2'
-      - 'peasoft-26|baipaovpn乌克兰 #1_1'
-      - 'peasoft-26|baipaovpn乌克兰 #1_2'
-      - 'peasoft-26|baipaovpn乌克兰 #5_1'
-      - peasoft-6,19,20,26|baipaovpn乌克兰
-      - 'peasoft-26|baipaovpn乌克兰 #5_2'
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_1
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_2
-      - peasoft-19,20|github.com/freefq - 台湾省新北市中华电信...
-      - peasoft-21|TW_speednode_0051
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_1
-      - 'peasoft-26|baipaovpn乌克兰 #3_1'
-      - 'peasoft-26|baipaovpn乌克兰 #2_1'
-      - 'peasoft-26|baipaovpn乌克兰 #3_2'
-      - 'peasoft-19,20|github.com/freefq - 美国CloudFla... #4'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_1
-      - 'peasoft-26|baipaovpn乌克兰 #2_2'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_1'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_2'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_2
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_1'
-      - mahdibland-%F0%9F%87%A8%F0%9F%87%B3CN-183.236.51.6-3501
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_2
-      - 'peasoft-19|美国 CloudFlare节点 #4_2'
-      - peasoft-26|baipaovpn台湾省_1
-      - peasoft-26|baipaovpn台湾省_2
-      - 'peasoft-0,3,4,9,25|🇺🇸 _US_美国 #31'
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_2'
-      - peasoft-26|baipaovpn美国
-      - peasoft-6,21|PT_speednode_0040
-      - 'peasoft-19,20,21,24|台湾|@ripaojiedian #1'
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_2
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_2
+      - ygkkk-vm-argo
+      - ygkkk-vm-ws
+      - ygkkk-vl-reality
+      - x-ui
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - peasoft-26|baipaovpn台湾省南投县
-      - 'peasoft-19|美国 CloudFlare节点 #4_1'
-      - 'peasoft-26|baipaovpn乌克兰 #6_1'
-      - 'peasoft-26|baipaovpn乌克兰 #4'
-      - 'peasoft-26|baipaovpn乌克兰 #6_2'
-      - 'peasoft-26|baipaovpn乌克兰 #1_1'
-      - 'peasoft-26|baipaovpn乌克兰 #1_2'
-      - 'peasoft-26|baipaovpn乌克兰 #5_1'
-      - peasoft-6,19,20,26|baipaovpn乌克兰
-      - 'peasoft-26|baipaovpn乌克兰 #5_2'
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_1
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_2
-      - peasoft-19,20|github.com/freefq - 台湾省新北市中华电信...
-      - peasoft-21|TW_speednode_0051
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_1
-      - 'peasoft-26|baipaovpn乌克兰 #3_1'
-      - 'peasoft-26|baipaovpn乌克兰 #2_1'
-      - 'peasoft-26|baipaovpn乌克兰 #3_2'
-      - 'peasoft-19,20|github.com/freefq - 美国CloudFla... #4'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_1
-      - 'peasoft-26|baipaovpn乌克兰 #2_2'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_1'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_2'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_2
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_1'
-      - mahdibland-%F0%9F%87%A8%F0%9F%87%B3CN-183.236.51.6-3501
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_2
-      - 'peasoft-19|美国 CloudFlare节点 #4_2'
-      - peasoft-26|baipaovpn台湾省_1
-      - peasoft-26|baipaovpn台湾省_2
-      - 'peasoft-0,3,4,9,25|🇺🇸 _US_美国 #31'
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_2'
-      - peasoft-26|baipaovpn美国
-      - peasoft-6,21|PT_speednode_0040
-      - 'peasoft-19,20,21,24|台湾|@ripaojiedian #1'
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_2
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_2
+      - ygkkk-vm-argo
+      - ygkkk-vm-ws
+      - ygkkk-vl-reality
+      - x-ui
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - peasoft-26|baipaovpn台湾省南投县
-      - 'peasoft-19|美国 CloudFlare节点 #4_1'
-      - 'peasoft-26|baipaovpn乌克兰 #6_1'
-      - 'peasoft-26|baipaovpn乌克兰 #4'
-      - 'peasoft-26|baipaovpn乌克兰 #6_2'
-      - 'peasoft-26|baipaovpn乌克兰 #1_1'
-      - 'peasoft-26|baipaovpn乌克兰 #1_2'
-      - 'peasoft-26|baipaovpn乌克兰 #5_1'
-      - peasoft-6,19,20,26|baipaovpn乌克兰
-      - 'peasoft-26|baipaovpn乌克兰 #5_2'
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_1
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_2
-      - peasoft-19,20|github.com/freefq - 台湾省新北市中华电信...
-      - peasoft-21|TW_speednode_0051
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_1
-      - 'peasoft-26|baipaovpn乌克兰 #3_1'
-      - 'peasoft-26|baipaovpn乌克兰 #2_1'
-      - 'peasoft-26|baipaovpn乌克兰 #3_2'
-      - 'peasoft-19,20|github.com/freefq - 美国CloudFla... #4'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_1
-      - 'peasoft-26|baipaovpn乌克兰 #2_2'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_1'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_2'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_2
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_1'
-      - mahdibland-%F0%9F%87%A8%F0%9F%87%B3CN-183.236.51.6-3501
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_2
-      - 'peasoft-19|美国 CloudFlare节点 #4_2'
-      - peasoft-26|baipaovpn台湾省_1
-      - peasoft-26|baipaovpn台湾省_2
-      - 'peasoft-0,3,4,9,25|🇺🇸 _US_美国 #31'
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_2'
-      - peasoft-26|baipaovpn美国
-      - peasoft-6,21|PT_speednode_0040
-      - 'peasoft-19,20,21,24|台湾|@ripaojiedian #1'
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_2
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_2
+      - ygkkk-vm-argo
+      - ygkkk-vm-ws
+      - ygkkk-vl-reality
+      - x-ui
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - peasoft-26|baipaovpn台湾省南投县
-      - 'peasoft-19|美国 CloudFlare节点 #4_1'
-      - 'peasoft-26|baipaovpn乌克兰 #6_1'
-      - 'peasoft-26|baipaovpn乌克兰 #4'
-      - 'peasoft-26|baipaovpn乌克兰 #6_2'
-      - 'peasoft-26|baipaovpn乌克兰 #1_1'
-      - 'peasoft-26|baipaovpn乌克兰 #1_2'
-      - 'peasoft-26|baipaovpn乌克兰 #5_1'
-      - peasoft-6,19,20,26|baipaovpn乌克兰
-      - 'peasoft-26|baipaovpn乌克兰 #5_2'
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_1
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_2
-      - peasoft-19,20|github.com/freefq - 台湾省新北市中华电信...
-      - peasoft-21|TW_speednode_0051
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_1
-      - 'peasoft-26|baipaovpn乌克兰 #3_1'
-      - 'peasoft-26|baipaovpn乌克兰 #2_1'
-      - 'peasoft-26|baipaovpn乌克兰 #3_2'
-      - 'peasoft-19,20|github.com/freefq - 美国CloudFla... #4'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_1
-      - 'peasoft-26|baipaovpn乌克兰 #2_2'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_1'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_2'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_2
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_1'
-      - mahdibland-%F0%9F%87%A8%F0%9F%87%B3CN-183.236.51.6-3501
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_2
-      - 'peasoft-19|美国 CloudFlare节点 #4_2'
-      - peasoft-26|baipaovpn台湾省_1
-      - peasoft-26|baipaovpn台湾省_2
-      - 'peasoft-0,3,4,9,25|🇺🇸 _US_美国 #31'
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_2'
-      - peasoft-26|baipaovpn美国
-      - peasoft-6,21|PT_speednode_0040
-      - 'peasoft-19,20,21,24|台湾|@ripaojiedian #1'
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_2
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_2
+      - ygkkk-vm-argo
+      - ygkkk-vm-ws
+      - ygkkk-vl-reality
+      - x-ui
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - peasoft-26|baipaovpn台湾省南投县
-      - 'peasoft-19|美国 CloudFlare节点 #4_1'
-      - 'peasoft-26|baipaovpn乌克兰 #6_1'
-      - 'peasoft-26|baipaovpn乌克兰 #4'
-      - 'peasoft-26|baipaovpn乌克兰 #6_2'
-      - 'peasoft-26|baipaovpn乌克兰 #1_1'
-      - 'peasoft-26|baipaovpn乌克兰 #1_2'
-      - 'peasoft-26|baipaovpn乌克兰 #5_1'
-      - peasoft-6,19,20,26|baipaovpn乌克兰
-      - 'peasoft-26|baipaovpn乌克兰 #5_2'
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_1
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_2
-      - peasoft-19,20|github.com/freefq - 台湾省新北市中华电信...
-      - peasoft-21|TW_speednode_0051
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_1
-      - 'peasoft-26|baipaovpn乌克兰 #3_1'
-      - 'peasoft-26|baipaovpn乌克兰 #2_1'
-      - 'peasoft-26|baipaovpn乌克兰 #3_2'
-      - 'peasoft-19,20|github.com/freefq - 美国CloudFla... #4'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_1
-      - 'peasoft-26|baipaovpn乌克兰 #2_2'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_1'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_2'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_2
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_1'
-      - mahdibland-%F0%9F%87%A8%F0%9F%87%B3CN-183.236.51.6-3501
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_2
-      - 'peasoft-19|美国 CloudFlare节点 #4_2'
-      - peasoft-26|baipaovpn台湾省_1
-      - peasoft-26|baipaovpn台湾省_2
-      - 'peasoft-0,3,4,9,25|🇺🇸 _US_美国 #31'
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_2'
-      - peasoft-26|baipaovpn美国
-      - peasoft-6,21|PT_speednode_0040
-      - 'peasoft-19,20,21,24|台湾|@ripaojiedian #1'
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_2
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_2
+      - ygkkk-vm-argo
+      - ygkkk-vm-ws
+      - ygkkk-vl-reality
+      - x-ui
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -413,45 +169,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - peasoft-26|baipaovpn台湾省南投县
-      - 'peasoft-19|美国 CloudFlare节点 #4_1'
-      - 'peasoft-26|baipaovpn乌克兰 #6_1'
-      - 'peasoft-26|baipaovpn乌克兰 #4'
-      - 'peasoft-26|baipaovpn乌克兰 #6_2'
-      - 'peasoft-26|baipaovpn乌克兰 #1_1'
-      - 'peasoft-26|baipaovpn乌克兰 #1_2'
-      - 'peasoft-26|baipaovpn乌克兰 #5_1'
-      - peasoft-6,19,20,26|baipaovpn乌克兰
-      - 'peasoft-26|baipaovpn乌克兰 #5_2'
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_1
-      - peasoft-19,20|github.com/freefq - 乌克兰  6_2
-      - peasoft-19,20|github.com/freefq - 台湾省新北市中华电信...
-      - peasoft-21|TW_speednode_0051
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_1
-      - 'peasoft-26|baipaovpn乌克兰 #3_1'
-      - 'peasoft-26|baipaovpn乌克兰 #2_1'
-      - 'peasoft-26|baipaovpn乌克兰 #3_2'
-      - 'peasoft-19,20|github.com/freefq - 美国CloudFla... #4'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_1
-      - 'peasoft-26|baipaovpn乌克兰 #2_2'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_1'
-      - 'peasoft-19,20,21|🇺🇸_US_美国 #29_2'
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|26_2
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_1'
-      - mahdibland-%F0%9F%87%A8%F0%9F%87%B3CN-183.236.51.6-3501
-      - peasoft-19,20|github.com/freefq - 广东省移动 27_2
-      - 'peasoft-19|美国 CloudFlare节点 #4_2'
-      - peasoft-26|baipaovpn台湾省_1
-      - peasoft-26|baipaovpn台湾省_2
-      - 'peasoft-0,3,4,9,25|🇺🇸 _US_美国 #31'
-      - 'peasoft-1,8,19,20,21|🇺🇸_US_美国 #32_2'
-      - peasoft-26|baipaovpn美国
-      - peasoft-6,21|PT_speednode_0040
-      - 'peasoft-19,20,21,24|台湾|@ripaojiedian #1'
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_1
-      - peasoft-21|🇨🇿|CZ|捷克|@wxgqlfx|8_2
-      - peasoft-19,20|github.com/freefq - 乌克兰  10_2
+      - ygkkk-vm-argo
+      - ygkkk-vm-ws
+      - ygkkk-vl-reality
+      - x-ui
 
 rules:
 # 本地/局域网地址
