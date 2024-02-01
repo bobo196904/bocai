@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-02-01 17:54:55
+# 创建时间：2024-02-01 18:32:33
 # 使用模版：V2RaySE 默认模版
-# 节点数量：11
+# 节点数量：10
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -112,7 +112,6 @@ proxy-groups:
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
       - GPT0831.135051.xyz
-      - x-ui
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -129,7 +128,6 @@ proxy-groups:
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
       - GPT0831.135051.xyz
-      - x-ui
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -146,7 +144,6 @@ proxy-groups:
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
       - GPT0831.135051.xyz
-      - x-ui
   - name: 📲 电报信息
     type: select
     proxies:
@@ -162,7 +159,6 @@ proxy-groups:
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
       - GPT0831.135051.xyz
-      - x-ui
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -178,7 +174,6 @@ proxy-groups:
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
       - GPT0831.135051.xyz
-      - x-ui
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -194,7 +189,6 @@ proxy-groups:
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
       - GPT0831.135051.xyz
-      - x-ui
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -227,7 +221,6 @@ proxy-groups:
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
       - GPT0831.135051.xyz
-      - x-ui
 
 rules:
 # 本地/局域网地址
