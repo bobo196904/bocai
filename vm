@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-02-01 18:27:24
+# 创建时间：2024-02-05 21:25:28
 # 使用模版：V2RaySE 默认模版
-# 节点数量：4
+# 节点数量：5
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,67 +86,74 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"vless-reality","type":"vless","server":"52.68.242.6","port":45471,"udp":true,"uuid":"76b9b76b-67b7-4a37-83ac-2af96fa46780","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"C8-HyYN7vnQBLpLT5Gv3GSgt6GjggNPChQKvWhKr6wM","short-id":"bfc6b389"},"client-fingerprint":"chrome"}
+  - {"name":"vless-http","type":"vless","server":"52.68.242.6","port":16008,"udp":true,"uuid":"7fdc5109-f639-42aa-b7aa-d35cc0be0358","tls":true,"servername":"www.yahoo.com","network":"http","reality-opts":{"public-key":"8OoRoDD-pxiKhufs3RRaXIBqDEi-jUCOY3czETrWo2M","short-id":"7dbac688"},"client-fingerprint":"chrome"}
+  - {"name":"lvess-grpc","type":"vless","server":"52.68.242.6","port":41307,"udp":true,"uuid":"58f8b6f5-aaaa-47a6-ac25-91e02e5f8c8b","tls":true,"servername":"www.yahoo.com","network":"grpc","reality-opts":{"public-key":"SUzEg0uI3ijhpYuNCT-9I7nz5IU_Elj6i-QdG5tg-wE","short-id":"89974d83"},"client-fingerprint":"chrome"}
   - {"name":"ygkkk-vm-argo","type":"vmess","server":"4.135051.xyz","port":8443,"cipher":"auto","uuid":"f6705eaf-1714-4495-b9ab-e86200a73726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"edge-instrumentation-bent-appropriate.trycloudflare.com","network":"ws","ws-opts":{"path":"f6705eaf-1714-4495-b9ab-e86200a73726-vm","headers":{"host":"edge-instrumentation-bent-appropriate.trycloudflare.com"}}}
-  - {"name":"ygkkk-vm-ws","type":"vmess","server":"52.68.242.6","port":8880,"cipher":"auto","uuid":"f6705eaf-1714-4495-b9ab-e86200a73726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"f6705eaf-1714-4495-b9ab-e86200a73726-vm","headers":{"host":"www.bing.com"}}}
-  - {"name":"ygkkk-vl-reality","type":"vless","server":"52.68.242.6","port":15429,"udp":true,"uuid":"f6705eaf-1714-4495-b9ab-e86200a73726","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ZJIe6TkkyUIUS3gPxshTINXLzCsbteIUFN31rPZH5Fw","short-id":"7ed1ba58"},"client-fingerprint":"chrome"}
-  - {"name":"x-ui","type":"vmess","server":"52.68.242.6","port":44463,"cipher":"auto","uuid":"ec3fe9ec-84b7-48f0-ce2a-a76527e075f3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ec3fe9ec"}}
+  - {"name":"12344","type":"vless","server":"8.135051.xyz","port":443,"uuid":"48d759f7-42e9-40e7-e4cb-7bb997a16292","tls":true,"servername":"test0202ipv6-to12344.xiaohhh.xyz","network":"ws","ws-opts":{"path":"/download","headers":{"host":"test0202ipv6-to12344.xiaohhh.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - vless-reality
+      - vless-http
+      - lvess-grpc
       - ygkkk-vm-argo
-      - ygkkk-vm-ws
-      - ygkkk-vl-reality
-      - x-ui
+      - '12344'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - vless-reality
+      - vless-http
+      - lvess-grpc
       - ygkkk-vm-argo
-      - ygkkk-vm-ws
-      - ygkkk-vl-reality
-      - x-ui
+      - '12344'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - vless-reality
+      - vless-http
+      - lvess-grpc
       - ygkkk-vm-argo
-      - ygkkk-vm-ws
-      - ygkkk-vl-reality
-      - x-ui
+      - '12344'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - vless-reality
+      - vless-http
+      - lvess-grpc
       - ygkkk-vm-argo
-      - ygkkk-vm-ws
-      - ygkkk-vl-reality
-      - x-ui
+      - '12344'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - vless-reality
+      - vless-http
+      - lvess-grpc
       - ygkkk-vm-argo
-      - ygkkk-vm-ws
-      - ygkkk-vl-reality
-      - x-ui
+      - '12344'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - vless-reality
+      - vless-http
+      - lvess-grpc
       - ygkkk-vm-argo
-      - ygkkk-vm-ws
-      - ygkkk-vl-reality
-      - x-ui
+      - '12344'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,10 +176,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - vless-reality
+      - vless-http
+      - lvess-grpc
       - ygkkk-vm-argo
-      - ygkkk-vm-ws
-      - ygkkk-vl-reality
-      - x-ui
+      - '12344'
 
 rules:
 # 本地/局域网地址
