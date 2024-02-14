@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-02-05 21:44:02
+# 创建时间：2024-02-14 13:49:00
 # 使用模版：V2RaySE 默认模版
-# 节点数量：2
+# 节点数量：3
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,53 +86,60 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"ygkkk-vm-ws","type":"vmess","server":"52.68.242.6","port":8880,"cipher":"auto","uuid":"f6705eaf-1714-4495-b9ab-e86200a73726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"f6705eaf-1714-4495-b9ab-e86200a73726-vm","headers":{"host":"www.bing.com"}}}
-  - {"name":"12344","type":"vless","server":"8.135051.xyz","port":443,"uuid":"48d759f7-42e9-40e7-e4cb-7bb997a16292","tls":true,"servername":"test0202ipv6-to12344.xiaohhh.xyz","network":"ws","ws-opts":{"path":"/download","headers":{"host":"test0202ipv6-to12344.xiaohhh.xyz"}}}
+  - {"name":"x-ui-vm","type":"vmess","server":"18.183.72.1","port":26985,"cipher":"auto","uuid":"ba9ab640-cce3-44a4-975a-505f10733296","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ba9ab640"}}
+  - {"name":"reality","type":"vless","server":"18.183.72.1","port":51546,"udp":true,"uuid":"202ea6f0-93f3-4671-ce9e-a6964fe92570","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"u5wikFSi5_2oB4hzA98AuGx8Jvw4Kg73Rl3AAUKi8xs","short-id":"408df159"},"client-fingerprint":"chrome"}
+  - {"name":"http2","type":"vless","server":"18.183.72.1","port":28650,"udp":true,"uuid":"8dc86abe-be41-404b-a9f7-64319a1a10e1","tls":true,"servername":"www.yahoo.com","network":"http","reality-opts":{"public-key":"MFz9SZwFraI54O8QkA6BGnD6qz9bVaKOGsqEcUrzeHE","short-id":"0be75310"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ygkkk-vm-ws
-      - '12344'
+      - x-ui-vm
+      - reality
+      - http2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ygkkk-vm-ws
-      - '12344'
+      - x-ui-vm
+      - reality
+      - http2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ygkkk-vm-ws
-      - '12344'
+      - x-ui-vm
+      - reality
+      - http2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ygkkk-vm-ws
-      - '12344'
+      - x-ui-vm
+      - reality
+      - http2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ygkkk-vm-ws
-      - '12344'
+      - x-ui-vm
+      - reality
+      - http2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ygkkk-vm-ws
-      - '12344'
+      - x-ui-vm
+      - reality
+      - http2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -155,8 +162,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ygkkk-vm-ws
-      - '12344'
+      - x-ui-vm
+      - reality
+      - http2
 
 rules:
 # 本地/局域网地址
