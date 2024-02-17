@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-02-14 13:47:45
+# 创建时间：2024-02-17 18:34:17
 # 使用模版：V2RaySE 默认模版
-# 节点数量：12
+# 节点数量：10
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,14 +86,12 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"12344","type":"vless","server":"4.135051.xyz","port":443,"uuid":"48d759f7-42e9-40e7-e4cb-7bb997a16292","tls":true,"servername":"test0202ipv6-to12344.xiaohhh.xyz","network":"ws","ws-opts":{"path":"/download","headers":{"host":"test0202ipv6-to12344.xiaohhh.xyz"}}}
-  - {"name":"G-A-d3test","type":"vmess","server":"d3.heartpath.one","port":2052,"cipher":"auto","uuid":"b266567c-445d-443a-eacb-b3dae315a199","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"","headers":{"host":"d3.heartpath.one"}}}
-  - {"name":"G-A0721.135051.link","type":"vless","server":"0721.135051.link","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"G-0832-tls","type":"vless","server":"8.135051.xyz","port":8443,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":true,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
   - {"name":"G-0832.135051.xyz","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":false,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
   - {"name":"G-0832.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":false,"servername":"0832.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.7993922.workers.dev"}}}
   - {"name":"G-0907.13505.pp.ua_2","type":"vless","server":"0907.13505.pp.ua","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"randomized"}
-  - {"name":"GLITCH","type":"vless","server":"4.135051.xyz","port":8443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
+  - {"name":"G-12344","type":"vless","server":"8.135051.xyz","port":443,"uuid":"48d759f7-42e9-40e7-e4cb-7bb997a16292","tls":true,"servername":"test0202ipv6-to12344.xiaohhh.xyz","network":"ws","ws-opts":{"path":"/download","headers":{"host":"test0202ipv6-to12344.xiaohhh.xyz"}}}
+  - {"name":"G-A-d3test","type":"vmess","server":"d3.heartpath.one","port":2052,"cipher":"auto","uuid":"b266567c-445d-443a-eacb-b3dae315a199","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"","headers":{"host":"d3.heartpath.one"}}}
+  - {"name":"G-A0721.135051.link","type":"vless","server":"0721.135051.link","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
   - {"name":"Gp-15s.pages.dev","type":"vless","server":"4.135051.xyz","port":2096,"uuid":"77a571fb-4fd2-4b37-8596-1b7d9728bb5c","tls":true,"servername":"p.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"p.135051.xyz"}}}
   - {"name":"gpt-GLITCH2","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":false,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
   - {"name":"gpt.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":2095,"uuid":"49f6ccb9-ee68-4b9f-83a9-0f3fc5e7fb00","tls":false,"servername":"gpt.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gpt.7993922.workers.dev"}},"client-fingerprint":"randomized"}
@@ -104,14 +102,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '12344'
-      - G-A-d3test
-      - G-A0721.135051.link
-      - G-0832-tls
       - G-0832.135051.xyz
       - G-0832.7993922.workers.dev
       - G-0907.13505.pp.ua_2
-      - GLITCH
+      - G-12344
+      - G-A-d3test
+      - G-A0721.135051.link
       - Gp-15s.pages.dev
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
@@ -122,14 +118,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - '12344'
-      - G-A-d3test
-      - G-A0721.135051.link
-      - G-0832-tls
       - G-0832.135051.xyz
       - G-0832.7993922.workers.dev
       - G-0907.13505.pp.ua_2
-      - GLITCH
+      - G-12344
+      - G-A-d3test
+      - G-A0721.135051.link
       - Gp-15s.pages.dev
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
@@ -140,14 +134,12 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '12344'
-      - G-A-d3test
-      - G-A0721.135051.link
-      - G-0832-tls
       - G-0832.135051.xyz
       - G-0832.7993922.workers.dev
       - G-0907.13505.pp.ua_2
-      - GLITCH
+      - G-12344
+      - G-A-d3test
+      - G-A0721.135051.link
       - Gp-15s.pages.dev
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
@@ -157,14 +149,12 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '12344'
-      - G-A-d3test
-      - G-A0721.135051.link
-      - G-0832-tls
       - G-0832.135051.xyz
       - G-0832.7993922.workers.dev
       - G-0907.13505.pp.ua_2
-      - GLITCH
+      - G-12344
+      - G-A-d3test
+      - G-A0721.135051.link
       - Gp-15s.pages.dev
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
@@ -174,14 +164,12 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '12344'
-      - G-A-d3test
-      - G-A0721.135051.link
-      - G-0832-tls
       - G-0832.135051.xyz
       - G-0832.7993922.workers.dev
       - G-0907.13505.pp.ua_2
-      - GLITCH
+      - G-12344
+      - G-A-d3test
+      - G-A0721.135051.link
       - Gp-15s.pages.dev
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
@@ -191,14 +179,12 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '12344'
-      - G-A-d3test
-      - G-A0721.135051.link
-      - G-0832-tls
       - G-0832.135051.xyz
       - G-0832.7993922.workers.dev
       - G-0907.13505.pp.ua_2
-      - GLITCH
+      - G-12344
+      - G-A-d3test
+      - G-A0721.135051.link
       - Gp-15s.pages.dev
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
@@ -225,14 +211,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '12344'
-      - G-A-d3test
-      - G-A0721.135051.link
-      - G-0832-tls
       - G-0832.135051.xyz
       - G-0832.7993922.workers.dev
       - G-0907.13505.pp.ua_2
-      - GLITCH
+      - G-12344
+      - G-A-d3test
+      - G-A0721.135051.link
       - Gp-15s.pages.dev
       - gpt-GLITCH2
       - gpt.7993922.workers.dev
