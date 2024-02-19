@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-12-16 09:56:47
+# 创建时间：2024-02-19 21:37:58
 # 使用模版：V2RaySE 默认模版
-# 节点数量：103
+# 节点数量：16
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,760 +86,151 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"0831.135051.xyz-HTTP-80-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_1","type":"vless","server":"104.16.60.79","port":2083,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2087_1","type":"vless","server":"0831.135051.xyz","port":2087,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2087-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":2087,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-8443_1","type":"vless","server":"0831.135051.xyz","port":8443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-443-cdn-b100.xn--b6gac.eu.org-EDtunnel","type":"vless","server":"cdn-b100.xn--b6gac.eu.org","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2053-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":2053,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_2","type":"vless","server":"104.16.60.79","port":2083,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2087-104.16.60.79-EDtunnel","type":"vless","server":"104.16.60.79","port":2087,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_1","type":"vless","server":"104.16.60.79","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2087_2","type":"vless","server":"0831.135051.xyz","port":2087,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2053_1","type":"vless","server":"0831.135051.xyz","port":2053,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_2","type":"vless","server":"104.16.60.79","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-8443-104.16.60.79-EDtunnel","type":"vless","server":"104.16.60.79","port":8443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2083_1","type":"vless","server":"0831.135051.xyz","port":2083,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-8443-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":8443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2086-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_1","type":"vless","server":"4.135051.xyz","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8880-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_1","type":"vless","server":"4.135051.xyz","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":2053,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2052-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2095_1","type":"vless","server":"0831.135051.xyz","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8880_1","type":"vless","server":"0831.135051.xyz","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_2","type":"vless","server":"4.135051.xyz","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-443-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_1","type":"vless","server":"4.135051.xyz","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":2053,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2096-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":2096,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2083-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":2083,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_2","type":"vless","server":"4.135051.xyz","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8080_1","type":"vless","server":"0831.135051.xyz","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-80_1","type":"vless","server":"0831.135051.xyz","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":2096,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-80-4.135051.xyz-EDtunnel","type":"vless","server":"4.135051.xyz","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":2096,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-443-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-8443_2","type":"vless","server":"0831.135051.xyz","port":8443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_3","type":"vless","server":"104.16.60.79","port":2083,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_2","type":"vless","server":"4.135051.xyz","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_1","type":"vless","server":"icook.hk","port":2083,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-443_1","type":"vless","server":"0831.135051.xyz","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":2083,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2053_2","type":"vless","server":"0831.135051.xyz","port":2053,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_1","type":"vless","server":"104.16.60.79","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-443_2","type":"vless","server":"0831.135051.xyz","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2087-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":2087,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2083_2","type":"vless","server":"0831.135051.xyz","port":2083,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2082-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_2","type":"vless","server":"104.16.60.79","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTPS-2096","type":"vless","server":"0831.135051.xyz","port":2096,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_1","type":"vless","server":"104.16.60.79","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_1","type":"vless","server":"104.16.60.79","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_1","type":"vless","server":"104.16.60.79","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_2","type":"vless","server":"104.16.60.79","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2082_1","type":"vless","server":"0831.135051.xyz","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8880-104.16.60.79-EDtunnel","type":"vless","server":"104.16.60.79","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2082_2","type":"vless","server":"0831.135051.xyz","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_1","type":"vless","server":"104.16.60.79","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2095_2","type":"vless","server":"0831.135051.xyz","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_2","type":"vless","server":"104.16.60.79","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_2","type":"vless","server":"104.16.60.79","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_2","type":"vless","server":"104.16.60.79","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_1","type":"vless","server":"104.16.60.79","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8080_2","type":"vless","server":"0831.135051.xyz","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8880_2","type":"vless","server":"0831.135051.xyz","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2086","type":"vless","server":"0831.135051.xyz","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_2","type":"vless","server":"104.16.60.79","port":2082,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2052_1","type":"vless","server":"0831.135051.xyz","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2086-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8880-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-80_2","type":"vless","server":"0831.135051.xyz","port":80,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2052_2","type":"vless","server":"0831.135051.xyz","port":2052,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-8080-8.135051.xyz-EDtunnel","type":"vless","server":"8.135051.xyz","port":8080,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":2086,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_2","type":"vless","server":"icook.hk","port":2095,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":false,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"random"}
-  - {"name":"0907.13505.pp.ua_2","type":"vless","server":"0907.13505.pp.ua","port":443,"uuid":"dfd47597-cc41-4601-b882-0b4443dd5c5b","tls":true,"servername":"0907.13505.pp.ua","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"randomized"}
-  - {"name":"p-15s.pages.dev","type":"vless","server":"8.135051.xyz","port":8443,"uuid":"77a571fb-4fd2-4b37-8596-1b7d9728bb5c","tls":true,"servername":"p.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"p.135051.xyz"}}}
-  - {"name":"0832-tls","type":"vless","server":"8.135051.xyz","port":8443,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":true,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
-  - {"name":"0832.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":false,"servername":"0832.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.7993922.workers.dev"}}}
-  - {"name":"1202-5","type":"vless","server":"5.135051.xyz","port":2052,"uuid":"b8effe45-fb3c-4f3b-ba2c-6664272c4c88","tls":false,"servername":"1202.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"1202.7993922.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"0831.135051.xyz_1","type":"vless","server":"104.16.60.79","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"randomized"}
-  - {"name":"0721.135051.link","type":"vless","server":"0721.135051.link","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"GLITCH","type":"vless","server":"scarlet-purring-telephone.glitch.me","port":443,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":true,"servername":"scarlet-purring-telephone.glitch.me","network":"ws","ws-opts":{"path":"/","headers":{"host":"scarlet-purring-telephone.glitch.me"}}}
-  - {"name":"0832.135051.xyz","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":false,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
-  - {"name":"GLITCH2","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"5f205058-fb79-4678-a627-6e86aa02d207","tls":false,"servername":"0911.135051.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"0911.135051.xyz"}}}
-  - {"name":"0926.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8080,"uuid":"623d1d8a-d98a-42bf-9f0a-f9a437f1ec1a","tls":false,"servername":"0926.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0926.7993922.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"0719.135051.xyz","type":"vless","server":"4.135051.xyz","port":443,"uuid":"58614a64-61f2-4248-bb55-6547d57c7752","tls":true,"servername":"0719.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0719.135051.xyz"}}}
-  - {"name":"1202域名","type":"vless","server":"4.135051.xyz","port":2052,"uuid":"b8effe45-fb3c-4f3b-ba2c-6664272c4c88","tls":false,"servername":"1202.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"1202.7993922.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"0831.135051.xyz_2","type":"vless","server":"0831.135051.xyz","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"randomized"}
-  - {"name":"0918.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"908c29f6-ab6b-44e1-88bf-1f65661237ad","tls":false,"servername":"0918.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0918.7993922.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_1","type":"vless","server":"15.165.38.107","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
+  - {"name":"🔒 VL-WS-TLS 🇯🇵 JP-43.206.146.73:8443 📡 PING-106.25-MS","type":"vless","server":"43.206.146.73","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
+  - {"name":"🔒 VL-WS-TLS 🇭🇰 HK-43.198.53.11:443 📡 PING-157.73-MS","type":"vless","server":"43.198.53.11","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
+  - {"name":"🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_2","type":"vless","server":"15.165.38.107","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
+  - {"name":"🔒 VL-WS-TLS 🇰🇷 KR-43.203.71.46:21002 📡 PING-133.54-MS","type":"vless","server":"43.203.71.46","port":21002,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
+  - {"name":"🔒 VL-WS-TLS 🇰🇷 KR-146.56.142.38:51001 📡 PING-132.70-MS","type":"vless","server":"146.56.142.38","port":51001,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"TG@ZDYZ2偷节点死吗","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
+  - {"name":"🔒 VL-WS-TLS 🇰🇷 KR-146.56.130.56:20010 📡 PING-132.77-MS","type":"vless","server":"146.56.130.56","port":20010,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"TG@ZDYZ2偷节点死吗","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
+  - {"name":"🔒 VL-WS-NA 🇫🇷 FR-137.74.218.149:17343 📡 PING-155.11-MS","type":"vless","server":"137.74.218.149","port":17343,"uuid":"c443463d-1612-4088-9f9c-cd0bdde5a398","tls":false,"servername":"speedtest.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"speedtest.net"}}}
+  - {"name":"🔒 VL-WS-TLS 🇩🇪 DE-18.159.105.97:443 📡 PING-157.79-MS","type":"vless","server":"18.159.105.97","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"edtunnel-3an.pages.dev","network":"ws","ws-opts":{"path":"TG@ZDYZ2偷节点死吗","headers":{"host":"edtunnel-3an.pages.dev"}},"client-fingerprint":"random"}
+  - {"name":"🔒 VL-WS-TLS 🇩🇪 DE-3.73.166.41:22222 📡 PING-157.73-MS","type":"vless","server":"3.73.166.41","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"🔒 VL-WS-TLS 🇰🇷 KR-152.70.248.175:20010 📡 PING-133.81-MS","type":"vless","server":"152.70.248.175","port":20010,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"TG@ZDYZ2偷节点死吗","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
+  - {"name":"🔒 VL-WS-NONE 🇬🇧 GB-178.79.142.245:8880 📡 PING-146.94-MS","type":"vless","server":"178.79.142.245","port":8880,"uuid":"fd7eea92-ae65-4e12-8679-7bb2ebbd4547","tls":false,"network":"ws","ws-opts":{"path":"/Telegram:@x2raynvpn?ed=2048"}}
+  - {"name":"🔒 VL-TCP-NONE 🇬🇧 GB-209.38.166.75:10462 📡 PING-144.29-MS","type":"vless","server":"209.38.166.75","port":10462,"uuid":"ffcb0213-9d9f-4264-a39f-fbbfedbc0dff","tls":false,"servername":"xbox.com","network":"tcp"}
+  - {"name":"🔒 VL-TCP-NONE 🇬🇧 GB-78.141.193.246:52898 📡 PING-147.07-MS","type":"vless","server":"78.141.193.246","port":52898,"uuid":"e4ec2e0e-2eb4-4ac1-b24d-1a8e2904a6bb","tls":false,"servername":"telewebion.com","network":"tcp"}
+  - {"name":"🔒 VL-WS-NA 🇳🇱 NL-45.32.187.214:22231 📡 PING-149.92-MS","type":"vless","server":"45.32.187.214","port":22231,"uuid":"48a4a587-a909-4190-a52a-bf2dfce68e95","tls":false,"network":"ws","ws-opts":{"path":"Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-"}}
+  - {"name":"🔒 VL-TCP-NA 🇳🇱 NL-108.61.188.35:44328 📡 PING-150.26-MS","type":"vless","server":"108.61.188.35","port":44328,"uuid":"81d4886c-624b-46db-b8de-cf523bd75ffe","tls":false,"servername":"dfgdfgg.pubgji.eu.org","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 0831.135051.xyz-HTTP-80-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087_1
-      - 0831.135051.xyz-HTTPS-2087-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-8443_1
-      - 0831.135051.xyz-HTTPS-443-cdn-b100.xn--b6gac.eu.org-EDtunnel
-      - 0831.135051.xyz-HTTPS-2053-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2087_2
-      - 0831.135051.xyz-HTTPS-2053_1
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_1
-      - 0831.135051.xyz-HTTPS-8443-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_1
-      - 0831.135051.xyz-HTTP-8880_1
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080_1
-      - 0831.135051.xyz-HTTP-80_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-80-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443_2
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_3
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_1
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2053_2
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_2
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_2
-      - 0831.135051.xyz-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082_1
-      - 0831.135051.xyz-HTTP-8880-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTP-2082_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080_2
-      - 0831.135051.xyz-HTTP-8880_2
-      - 0831.135051.xyz-HTTP-2086
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052_1
-      - 0831.135051.xyz-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80_2
-      - 0831.135051.xyz-HTTP-2052_2
-      - 0831.135051.xyz-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_2
-      - 0907.13505.pp.ua_2
-      - p-15s.pages.dev
-      - 0832-tls
-      - 0832.7993922.workers.dev
-      - 1202-5
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - GLITCH
-      - 0832.135051.xyz
-      - GLITCH2
-      - 0926.7993922.workers.dev
-      - 0719.135051.xyz
-      - 1202域名
-      - 0831.135051.xyz_2
-      - 0918.7993922.workers.dev
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_1
+      - 🔒 VL-WS-TLS 🇯🇵 JP-43.206.146.73:8443 📡 PING-106.25-MS
+      - 🔒 VL-WS-TLS 🇭🇰 HK-43.198.53.11:443 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_2
+      - 🔒 VL-WS-TLS 🇰🇷 KR-43.203.71.46:21002 📡 PING-133.54-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.142.38:51001 📡 PING-132.70-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.130.56:20010 📡 PING-132.77-MS
+      - 🔒 VL-WS-NA 🇫🇷 FR-137.74.218.149:17343 📡 PING-155.11-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-18.159.105.97:443 📡 PING-157.79-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-3.73.166.41:22222 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-152.70.248.175:20010 📡 PING-133.81-MS
+      - 🔒 VL-WS-NONE 🇬🇧 GB-178.79.142.245:8880 📡 PING-146.94-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-209.38.166.75:10462 📡 PING-144.29-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-78.141.193.246:52898 📡 PING-147.07-MS
+      - 🔒 VL-WS-NA 🇳🇱 NL-45.32.187.214:22231 📡 PING-149.92-MS
+      - 🔒 VL-TCP-NA 🇳🇱 NL-108.61.188.35:44328 📡 PING-150.26-MS
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 0831.135051.xyz-HTTP-80-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087_1
-      - 0831.135051.xyz-HTTPS-2087-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-8443_1
-      - 0831.135051.xyz-HTTPS-443-cdn-b100.xn--b6gac.eu.org-EDtunnel
-      - 0831.135051.xyz-HTTPS-2053-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2087_2
-      - 0831.135051.xyz-HTTPS-2053_1
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_1
-      - 0831.135051.xyz-HTTPS-8443-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_1
-      - 0831.135051.xyz-HTTP-8880_1
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080_1
-      - 0831.135051.xyz-HTTP-80_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-80-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443_2
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_3
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_1
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2053_2
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_2
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_2
-      - 0831.135051.xyz-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082_1
-      - 0831.135051.xyz-HTTP-8880-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTP-2082_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080_2
-      - 0831.135051.xyz-HTTP-8880_2
-      - 0831.135051.xyz-HTTP-2086
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052_1
-      - 0831.135051.xyz-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80_2
-      - 0831.135051.xyz-HTTP-2052_2
-      - 0831.135051.xyz-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_2
-      - 0907.13505.pp.ua_2
-      - p-15s.pages.dev
-      - 0832-tls
-      - 0832.7993922.workers.dev
-      - 1202-5
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - GLITCH
-      - 0832.135051.xyz
-      - GLITCH2
-      - 0926.7993922.workers.dev
-      - 0719.135051.xyz
-      - 1202域名
-      - 0831.135051.xyz_2
-      - 0918.7993922.workers.dev
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_1
+      - 🔒 VL-WS-TLS 🇯🇵 JP-43.206.146.73:8443 📡 PING-106.25-MS
+      - 🔒 VL-WS-TLS 🇭🇰 HK-43.198.53.11:443 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_2
+      - 🔒 VL-WS-TLS 🇰🇷 KR-43.203.71.46:21002 📡 PING-133.54-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.142.38:51001 📡 PING-132.70-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.130.56:20010 📡 PING-132.77-MS
+      - 🔒 VL-WS-NA 🇫🇷 FR-137.74.218.149:17343 📡 PING-155.11-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-18.159.105.97:443 📡 PING-157.79-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-3.73.166.41:22222 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-152.70.248.175:20010 📡 PING-133.81-MS
+      - 🔒 VL-WS-NONE 🇬🇧 GB-178.79.142.245:8880 📡 PING-146.94-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-209.38.166.75:10462 📡 PING-144.29-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-78.141.193.246:52898 📡 PING-147.07-MS
+      - 🔒 VL-WS-NA 🇳🇱 NL-45.32.187.214:22231 📡 PING-149.92-MS
+      - 🔒 VL-TCP-NA 🇳🇱 NL-108.61.188.35:44328 📡 PING-150.26-MS
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0831.135051.xyz-HTTP-80-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087_1
-      - 0831.135051.xyz-HTTPS-2087-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-8443_1
-      - 0831.135051.xyz-HTTPS-443-cdn-b100.xn--b6gac.eu.org-EDtunnel
-      - 0831.135051.xyz-HTTPS-2053-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2087_2
-      - 0831.135051.xyz-HTTPS-2053_1
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_1
-      - 0831.135051.xyz-HTTPS-8443-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_1
-      - 0831.135051.xyz-HTTP-8880_1
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080_1
-      - 0831.135051.xyz-HTTP-80_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-80-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443_2
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_3
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_1
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2053_2
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_2
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_2
-      - 0831.135051.xyz-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082_1
-      - 0831.135051.xyz-HTTP-8880-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTP-2082_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080_2
-      - 0831.135051.xyz-HTTP-8880_2
-      - 0831.135051.xyz-HTTP-2086
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052_1
-      - 0831.135051.xyz-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80_2
-      - 0831.135051.xyz-HTTP-2052_2
-      - 0831.135051.xyz-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_2
-      - 0907.13505.pp.ua_2
-      - p-15s.pages.dev
-      - 0832-tls
-      - 0832.7993922.workers.dev
-      - 1202-5
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - GLITCH
-      - 0832.135051.xyz
-      - GLITCH2
-      - 0926.7993922.workers.dev
-      - 0719.135051.xyz
-      - 1202域名
-      - 0831.135051.xyz_2
-      - 0918.7993922.workers.dev
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_1
+      - 🔒 VL-WS-TLS 🇯🇵 JP-43.206.146.73:8443 📡 PING-106.25-MS
+      - 🔒 VL-WS-TLS 🇭🇰 HK-43.198.53.11:443 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_2
+      - 🔒 VL-WS-TLS 🇰🇷 KR-43.203.71.46:21002 📡 PING-133.54-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.142.38:51001 📡 PING-132.70-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.130.56:20010 📡 PING-132.77-MS
+      - 🔒 VL-WS-NA 🇫🇷 FR-137.74.218.149:17343 📡 PING-155.11-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-18.159.105.97:443 📡 PING-157.79-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-3.73.166.41:22222 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-152.70.248.175:20010 📡 PING-133.81-MS
+      - 🔒 VL-WS-NONE 🇬🇧 GB-178.79.142.245:8880 📡 PING-146.94-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-209.38.166.75:10462 📡 PING-144.29-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-78.141.193.246:52898 📡 PING-147.07-MS
+      - 🔒 VL-WS-NA 🇳🇱 NL-45.32.187.214:22231 📡 PING-149.92-MS
+      - 🔒 VL-TCP-NA 🇳🇱 NL-108.61.188.35:44328 📡 PING-150.26-MS
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 0831.135051.xyz-HTTP-80-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087_1
-      - 0831.135051.xyz-HTTPS-2087-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-8443_1
-      - 0831.135051.xyz-HTTPS-443-cdn-b100.xn--b6gac.eu.org-EDtunnel
-      - 0831.135051.xyz-HTTPS-2053-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2087_2
-      - 0831.135051.xyz-HTTPS-2053_1
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_1
-      - 0831.135051.xyz-HTTPS-8443-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_1
-      - 0831.135051.xyz-HTTP-8880_1
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080_1
-      - 0831.135051.xyz-HTTP-80_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-80-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443_2
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_3
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_1
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2053_2
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_2
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_2
-      - 0831.135051.xyz-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082_1
-      - 0831.135051.xyz-HTTP-8880-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTP-2082_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080_2
-      - 0831.135051.xyz-HTTP-8880_2
-      - 0831.135051.xyz-HTTP-2086
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052_1
-      - 0831.135051.xyz-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80_2
-      - 0831.135051.xyz-HTTP-2052_2
-      - 0831.135051.xyz-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_2
-      - 0907.13505.pp.ua_2
-      - p-15s.pages.dev
-      - 0832-tls
-      - 0832.7993922.workers.dev
-      - 1202-5
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - GLITCH
-      - 0832.135051.xyz
-      - GLITCH2
-      - 0926.7993922.workers.dev
-      - 0719.135051.xyz
-      - 1202域名
-      - 0831.135051.xyz_2
-      - 0918.7993922.workers.dev
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_1
+      - 🔒 VL-WS-TLS 🇯🇵 JP-43.206.146.73:8443 📡 PING-106.25-MS
+      - 🔒 VL-WS-TLS 🇭🇰 HK-43.198.53.11:443 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_2
+      - 🔒 VL-WS-TLS 🇰🇷 KR-43.203.71.46:21002 📡 PING-133.54-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.142.38:51001 📡 PING-132.70-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.130.56:20010 📡 PING-132.77-MS
+      - 🔒 VL-WS-NA 🇫🇷 FR-137.74.218.149:17343 📡 PING-155.11-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-18.159.105.97:443 📡 PING-157.79-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-3.73.166.41:22222 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-152.70.248.175:20010 📡 PING-133.81-MS
+      - 🔒 VL-WS-NONE 🇬🇧 GB-178.79.142.245:8880 📡 PING-146.94-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-209.38.166.75:10462 📡 PING-144.29-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-78.141.193.246:52898 📡 PING-147.07-MS
+      - 🔒 VL-WS-NA 🇳🇱 NL-45.32.187.214:22231 📡 PING-149.92-MS
+      - 🔒 VL-TCP-NA 🇳🇱 NL-108.61.188.35:44328 📡 PING-150.26-MS
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 0831.135051.xyz-HTTP-80-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087_1
-      - 0831.135051.xyz-HTTPS-2087-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-8443_1
-      - 0831.135051.xyz-HTTPS-443-cdn-b100.xn--b6gac.eu.org-EDtunnel
-      - 0831.135051.xyz-HTTPS-2053-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2087_2
-      - 0831.135051.xyz-HTTPS-2053_1
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_1
-      - 0831.135051.xyz-HTTPS-8443-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_1
-      - 0831.135051.xyz-HTTP-8880_1
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080_1
-      - 0831.135051.xyz-HTTP-80_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-80-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443_2
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_3
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_1
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2053_2
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_2
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_2
-      - 0831.135051.xyz-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082_1
-      - 0831.135051.xyz-HTTP-8880-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTP-2082_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080_2
-      - 0831.135051.xyz-HTTP-8880_2
-      - 0831.135051.xyz-HTTP-2086
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052_1
-      - 0831.135051.xyz-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80_2
-      - 0831.135051.xyz-HTTP-2052_2
-      - 0831.135051.xyz-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_2
-      - 0907.13505.pp.ua_2
-      - p-15s.pages.dev
-      - 0832-tls
-      - 0832.7993922.workers.dev
-      - 1202-5
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - GLITCH
-      - 0832.135051.xyz
-      - GLITCH2
-      - 0926.7993922.workers.dev
-      - 0719.135051.xyz
-      - 1202域名
-      - 0831.135051.xyz_2
-      - 0918.7993922.workers.dev
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_1
+      - 🔒 VL-WS-TLS 🇯🇵 JP-43.206.146.73:8443 📡 PING-106.25-MS
+      - 🔒 VL-WS-TLS 🇭🇰 HK-43.198.53.11:443 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_2
+      - 🔒 VL-WS-TLS 🇰🇷 KR-43.203.71.46:21002 📡 PING-133.54-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.142.38:51001 📡 PING-132.70-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.130.56:20010 📡 PING-132.77-MS
+      - 🔒 VL-WS-NA 🇫🇷 FR-137.74.218.149:17343 📡 PING-155.11-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-18.159.105.97:443 📡 PING-157.79-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-3.73.166.41:22222 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-152.70.248.175:20010 📡 PING-133.81-MS
+      - 🔒 VL-WS-NONE 🇬🇧 GB-178.79.142.245:8880 📡 PING-146.94-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-209.38.166.75:10462 📡 PING-144.29-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-78.141.193.246:52898 📡 PING-147.07-MS
+      - 🔒 VL-WS-NA 🇳🇱 NL-45.32.187.214:22231 📡 PING-149.92-MS
+      - 🔒 VL-TCP-NA 🇳🇱 NL-108.61.188.35:44328 📡 PING-150.26-MS
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 0831.135051.xyz-HTTP-80-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087_1
-      - 0831.135051.xyz-HTTPS-2087-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-8443_1
-      - 0831.135051.xyz-HTTPS-443-cdn-b100.xn--b6gac.eu.org-EDtunnel
-      - 0831.135051.xyz-HTTPS-2053-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2087_2
-      - 0831.135051.xyz-HTTPS-2053_1
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_1
-      - 0831.135051.xyz-HTTPS-8443-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_1
-      - 0831.135051.xyz-HTTP-8880_1
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080_1
-      - 0831.135051.xyz-HTTP-80_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-80-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443_2
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_3
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_1
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2053_2
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_2
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_2
-      - 0831.135051.xyz-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082_1
-      - 0831.135051.xyz-HTTP-8880-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTP-2082_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080_2
-      - 0831.135051.xyz-HTTP-8880_2
-      - 0831.135051.xyz-HTTP-2086
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052_1
-      - 0831.135051.xyz-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80_2
-      - 0831.135051.xyz-HTTP-2052_2
-      - 0831.135051.xyz-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_2
-      - 0907.13505.pp.ua_2
-      - p-15s.pages.dev
-      - 0832-tls
-      - 0832.7993922.workers.dev
-      - 1202-5
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - GLITCH
-      - 0832.135051.xyz
-      - GLITCH2
-      - 0926.7993922.workers.dev
-      - 0719.135051.xyz
-      - 1202域名
-      - 0831.135051.xyz_2
-      - 0918.7993922.workers.dev
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_1
+      - 🔒 VL-WS-TLS 🇯🇵 JP-43.206.146.73:8443 📡 PING-106.25-MS
+      - 🔒 VL-WS-TLS 🇭🇰 HK-43.198.53.11:443 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_2
+      - 🔒 VL-WS-TLS 🇰🇷 KR-43.203.71.46:21002 📡 PING-133.54-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.142.38:51001 📡 PING-132.70-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.130.56:20010 📡 PING-132.77-MS
+      - 🔒 VL-WS-NA 🇫🇷 FR-137.74.218.149:17343 📡 PING-155.11-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-18.159.105.97:443 📡 PING-157.79-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-3.73.166.41:22222 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-152.70.248.175:20010 📡 PING-133.81-MS
+      - 🔒 VL-WS-NONE 🇬🇧 GB-178.79.142.245:8880 📡 PING-146.94-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-209.38.166.75:10462 📡 PING-144.29-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-78.141.193.246:52898 📡 PING-147.07-MS
+      - 🔒 VL-WS-NA 🇳🇱 NL-45.32.187.214:22231 📡 PING-149.92-MS
+      - 🔒 VL-TCP-NA 🇳🇱 NL-108.61.188.35:44328 📡 PING-150.26-MS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -862,109 +253,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 0831.135051.xyz-HTTP-80-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087_1
-      - 0831.135051.xyz-HTTPS-2087-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-8443_1
-      - 0831.135051.xyz-HTTPS-443-cdn-b100.xn--b6gac.eu.org-EDtunnel
-      - 0831.135051.xyz-HTTPS-2053-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2087_2
-      - 0831.135051.xyz-HTTPS-2053_1
-      - 0831.135051.xyz-HTTPS-443-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_1
-      - 0831.135051.xyz-HTTPS-8443-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_1
-      - 0831.135051.xyz-HTTP-8880_1
-      - 0831.135051.xyz-HTTP-2082-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2053-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080_1
-      - 0831.135051.xyz-HTTP-80_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-80-4.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2096-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-443-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8880-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-8443_2
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-2083-104.16.60.79-EDtunnel_3
-      - 0831.135051.xyz-HTTP-2082-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-8080-4.135051.xyz-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_1
-      - 0831.135051.xyz-HTTPS-2083-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2053_2
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTPS-443_2
-      - 0831.135051.xyz-HTTPS-443-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2087-icook.hk-EDtunnel
-      - 0831.135051.xyz-HTTPS-2083_2
-      - 0831.135051.xyz-HTTP-2082-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTPS-2096
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2052-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082_1
-      - 0831.135051.xyz-HTTP-8880-104.16.60.79-EDtunnel
-      - 0831.135051.xyz-HTTP-2082_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-2095_2
-      - 0831.135051.xyz-HTTP-8080-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2086-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_1
-      - 0831.135051.xyz-HTTP-8080_2
-      - 0831.135051.xyz-HTTP-8880_2
-      - 0831.135051.xyz-HTTP-2086
-      - 0831.135051.xyz-HTTP-2082-104.16.60.79-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2052_1
-      - 0831.135051.xyz-HTTP-2086-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-8880-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-80_2
-      - 0831.135051.xyz-HTTP-2052_2
-      - 0831.135051.xyz-HTTP-8080-8.135051.xyz-EDtunnel
-      - 0831.135051.xyz-HTTP-2086-icook.hk-EDtunnel_2
-      - 0831.135051.xyz-HTTP-2095-icook.hk-EDtunnel_2
-      - 0907.13505.pp.ua_2
-      - p-15s.pages.dev
-      - 0832-tls
-      - 0832.7993922.workers.dev
-      - 1202-5
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - GLITCH
-      - 0832.135051.xyz
-      - GLITCH2
-      - 0926.7993922.workers.dev
-      - 0719.135051.xyz
-      - 1202域名
-      - 0831.135051.xyz_2
-      - 0918.7993922.workers.dev
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_1
+      - 🔒 VL-WS-TLS 🇯🇵 JP-43.206.146.73:8443 📡 PING-106.25-MS
+      - 🔒 VL-WS-TLS 🇭🇰 HK-43.198.53.11:443 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-15.165.38.107:8443 📡 PING-132.83-MS_2
+      - 🔒 VL-WS-TLS 🇰🇷 KR-43.203.71.46:21002 📡 PING-133.54-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.142.38:51001 📡 PING-132.70-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-146.56.130.56:20010 📡 PING-132.77-MS
+      - 🔒 VL-WS-NA 🇫🇷 FR-137.74.218.149:17343 📡 PING-155.11-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-18.159.105.97:443 📡 PING-157.79-MS
+      - 🔒 VL-WS-TLS 🇩🇪 DE-3.73.166.41:22222 📡 PING-157.73-MS
+      - 🔒 VL-WS-TLS 🇰🇷 KR-152.70.248.175:20010 📡 PING-133.81-MS
+      - 🔒 VL-WS-NONE 🇬🇧 GB-178.79.142.245:8880 📡 PING-146.94-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-209.38.166.75:10462 📡 PING-144.29-MS
+      - 🔒 VL-TCP-NONE 🇬🇧 GB-78.141.193.246:52898 📡 PING-147.07-MS
+      - 🔒 VL-WS-NA 🇳🇱 NL-45.32.187.214:22231 📡 PING-149.92-MS
+      - 🔒 VL-TCP-NA 🇳🇱 NL-108.61.188.35:44328 📡 PING-150.26-MS
 
 rules:
 # 本地/局域网地址
