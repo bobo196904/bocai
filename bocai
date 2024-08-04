@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-03-30 17:09:02
+# 创建时间：2024-08-04 22:27:03
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：38
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,109 +86,305 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"0832-tls","type":"vless","server":"8.135051.xyz","port":8443,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":true,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
-  - {"name":"0831.135051.xyz_1","type":"vless","server":"0831.135051.xyz","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"randomized"}
-  - {"name":"0721.135051.link","type":"vless","server":"0721.135051.link","port":443,"uuid":"42315680-0fa3-4d82-aed7-f3bd5a9ebd20","tls":true,"servername":"0721.135051.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"0926.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8080,"uuid":"623d1d8a-d98a-42bf-9f0a-f9a437f1ec1a","tls":false,"servername":"0926.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0926.7993922.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"0832.135051.xyz","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":false,"servername":"0832.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.135051.xyz"}}}
-  - {"name":"0831.135051.xyz_2","type":"vless","server":"104.16.60.79","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"randomized"}
-  - {"name":"0831.135051.xyz_3","type":"vless","server":"0831.135051.xyz","port":443,"uuid":"544ac303-8d31-4455-a344-e158c404655e","tls":true,"servername":"0831.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0831.135051.xyz"}},"client-fingerprint":"randomized"}
-  - {"name":"0832.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"578e66c2-b811-4bc1-a265-6ce734bc8620","tls":false,"servername":"0832.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0832.7993922.workers.dev"}}}
-  - {"name":"0918.7993922.workers.dev","type":"vless","server":"8.135051.xyz","port":8880,"uuid":"908c29f6-ab6b-44e1-88bf-1f65661237ad","tls":false,"servername":"0918.7993922.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0918.7993922.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"p-15s.pages.dev","type":"vless","server":"8.135051.xyz","port":8443,"uuid":"77a571fb-4fd2-4b37-8596-1b7d9728bb5c","tls":true,"servername":"p.135051.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"p.135051.xyz"}}}
+  - {"name":"美国_1","type":"vless","server":"47.76.178.146","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"ju.ylks01.eu.org"}},"client-fingerprint":"random"}
+  - {"name":"美国_2","type":"vless","server":"47.76.49.246","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"巴西_1","type":"vless","server":"168.138.179.107","port":36322,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"美国_3","type":"vless","server":"158.178.245.117","port":12368,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"美国_4","type":"vless","server":"158.178.245.117","port":12368,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"美国_5","type":"vless","server":"150.230.107.234","port":32146,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.jp.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"韩国_1","type":"vless","server":"59.3.3.161","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"韩国_2","type":"vless","server":"59.3.3.161","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.kr.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"新加坡_1","type":"vless","server":"202.81.231.150","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"韩国_3","type":"vless","server":"121.164.108.217","port":28017,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.kr.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"美国_6","type":"vless","server":"172.84.92.108","port":42304,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"ju.ylks01.eu.org"}},"client-fingerprint":"random"}
+  - {"name":"荷兰","type":"vless","server":"45.159.216.147","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"印度","type":"vless","server":"35.200.154.186","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"新加坡_2","type":"vless","server":"202.81.231.150","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"韩国_4","type":"vless","server":"115.88.75.154","port":50026,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"美国_7","type":"vless","server":"152.70.123.225","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"美国_8","type":"vless","server":"129.146.46.164","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"澳大利亚_1","type":"vless","server":"43.153.103.203","port":38454,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"澳大利亚_2","type":"vless","server":"43.153.103.203","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"乌克兰_1","type":"vless","server":"95.164.62.196","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"巴西_2","type":"vless","server":"168.138.179.107","port":36322,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"美国_9","type":"vless","server":"150.230.107.234","port":53780,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"ju.ylks01.eu.org"}},"client-fingerprint":"random"}
+  - {"name":"乌克兰_2","type":"vless","server":"95.164.62.196","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"美国_10","type":"vless","server":"4.255.56.138","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"新加坡_3","type":"vless","server":"202.81.231.150","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.aliyun.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"美国_11","type":"vless","server":"47.237.8.82","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"德国_1","type":"vless","server":"94.247.42.207","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"韩国_5","type":"vless","server":"193.123.244.37","port":34237,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.kr.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"韩国_6","type":"vless","server":"146.56.154.156","port":43453,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"波兰","type":"vless","server":"193.84.2.206","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"美国_12","type":"vless","server":"150.230.107.234","port":32146,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.jp.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"美国_13","type":"vless","server":"47.236.145.85","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"德国_2","type":"vless","server":"185.135.9.15","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"美国_14","type":"vless","server":"150.230.209.239","port":51272,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.jp.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"新加坡_4","type":"vless","server":"8.222.161.86","port":32101,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
+  - {"name":"新加坡_5","type":"vless","server":"8.222.161.86","port":32101,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"美国_15","type":"vless","server":"173.249.202.215","port":8086,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"德国_3","type":"vless","server":"130.61.87.219","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 0832-tls
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - 0926.7993922.workers.dev
-      - 0832.135051.xyz
-      - 0831.135051.xyz_2
-      - 0831.135051.xyz_3
-      - 0832.7993922.workers.dev
-      - 0918.7993922.workers.dev
-      - p-15s.pages.dev
+      - 美国_1
+      - 美国_2
+      - 巴西_1
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 韩国_1
+      - 韩国_2
+      - 新加坡_1
+      - 韩国_3
+      - 美国_6
+      - 荷兰
+      - 印度
+      - 新加坡_2
+      - 韩国_4
+      - 美国_7
+      - 美国_8
+      - 澳大利亚_1
+      - 澳大利亚_2
+      - 乌克兰_1
+      - 巴西_2
+      - 美国_9
+      - 乌克兰_2
+      - 美国_10
+      - 新加坡_3
+      - 美国_11
+      - 德国_1
+      - 韩国_5
+      - 韩国_6
+      - 波兰
+      - 美国_12
+      - 美国_13
+      - 德国_2
+      - 美国_14
+      - 新加坡_4
+      - 新加坡_5
+      - 美国_15
+      - 德国_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 0832-tls
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - 0926.7993922.workers.dev
-      - 0832.135051.xyz
-      - 0831.135051.xyz_2
-      - 0831.135051.xyz_3
-      - 0832.7993922.workers.dev
-      - 0918.7993922.workers.dev
-      - p-15s.pages.dev
+      - 美国_1
+      - 美国_2
+      - 巴西_1
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 韩国_1
+      - 韩国_2
+      - 新加坡_1
+      - 韩国_3
+      - 美国_6
+      - 荷兰
+      - 印度
+      - 新加坡_2
+      - 韩国_4
+      - 美国_7
+      - 美国_8
+      - 澳大利亚_1
+      - 澳大利亚_2
+      - 乌克兰_1
+      - 巴西_2
+      - 美国_9
+      - 乌克兰_2
+      - 美国_10
+      - 新加坡_3
+      - 美国_11
+      - 德国_1
+      - 韩国_5
+      - 韩国_6
+      - 波兰
+      - 美国_12
+      - 美国_13
+      - 德国_2
+      - 美国_14
+      - 新加坡_4
+      - 新加坡_5
+      - 美国_15
+      - 德国_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 0832-tls
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - 0926.7993922.workers.dev
-      - 0832.135051.xyz
-      - 0831.135051.xyz_2
-      - 0831.135051.xyz_3
-      - 0832.7993922.workers.dev
-      - 0918.7993922.workers.dev
-      - p-15s.pages.dev
+      - 美国_1
+      - 美国_2
+      - 巴西_1
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 韩国_1
+      - 韩国_2
+      - 新加坡_1
+      - 韩国_3
+      - 美国_6
+      - 荷兰
+      - 印度
+      - 新加坡_2
+      - 韩国_4
+      - 美国_7
+      - 美国_8
+      - 澳大利亚_1
+      - 澳大利亚_2
+      - 乌克兰_1
+      - 巴西_2
+      - 美国_9
+      - 乌克兰_2
+      - 美国_10
+      - 新加坡_3
+      - 美国_11
+      - 德国_1
+      - 韩国_5
+      - 韩国_6
+      - 波兰
+      - 美国_12
+      - 美国_13
+      - 德国_2
+      - 美国_14
+      - 新加坡_4
+      - 新加坡_5
+      - 美国_15
+      - 德国_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 0832-tls
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - 0926.7993922.workers.dev
-      - 0832.135051.xyz
-      - 0831.135051.xyz_2
-      - 0831.135051.xyz_3
-      - 0832.7993922.workers.dev
-      - 0918.7993922.workers.dev
-      - p-15s.pages.dev
+      - 美国_1
+      - 美国_2
+      - 巴西_1
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 韩国_1
+      - 韩国_2
+      - 新加坡_1
+      - 韩国_3
+      - 美国_6
+      - 荷兰
+      - 印度
+      - 新加坡_2
+      - 韩国_4
+      - 美国_7
+      - 美国_8
+      - 澳大利亚_1
+      - 澳大利亚_2
+      - 乌克兰_1
+      - 巴西_2
+      - 美国_9
+      - 乌克兰_2
+      - 美国_10
+      - 新加坡_3
+      - 美国_11
+      - 德国_1
+      - 韩国_5
+      - 韩国_6
+      - 波兰
+      - 美国_12
+      - 美国_13
+      - 德国_2
+      - 美国_14
+      - 新加坡_4
+      - 新加坡_5
+      - 美国_15
+      - 德国_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 0832-tls
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - 0926.7993922.workers.dev
-      - 0832.135051.xyz
-      - 0831.135051.xyz_2
-      - 0831.135051.xyz_3
-      - 0832.7993922.workers.dev
-      - 0918.7993922.workers.dev
-      - p-15s.pages.dev
+      - 美国_1
+      - 美国_2
+      - 巴西_1
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 韩国_1
+      - 韩国_2
+      - 新加坡_1
+      - 韩国_3
+      - 美国_6
+      - 荷兰
+      - 印度
+      - 新加坡_2
+      - 韩国_4
+      - 美国_7
+      - 美国_8
+      - 澳大利亚_1
+      - 澳大利亚_2
+      - 乌克兰_1
+      - 巴西_2
+      - 美国_9
+      - 乌克兰_2
+      - 美国_10
+      - 新加坡_3
+      - 美国_11
+      - 德国_1
+      - 韩国_5
+      - 韩国_6
+      - 波兰
+      - 美国_12
+      - 美国_13
+      - 德国_2
+      - 美国_14
+      - 新加坡_4
+      - 新加坡_5
+      - 美国_15
+      - 德国_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 0832-tls
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - 0926.7993922.workers.dev
-      - 0832.135051.xyz
-      - 0831.135051.xyz_2
-      - 0831.135051.xyz_3
-      - 0832.7993922.workers.dev
-      - 0918.7993922.workers.dev
-      - p-15s.pages.dev
+      - 美国_1
+      - 美国_2
+      - 巴西_1
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 韩国_1
+      - 韩国_2
+      - 新加坡_1
+      - 韩国_3
+      - 美国_6
+      - 荷兰
+      - 印度
+      - 新加坡_2
+      - 韩国_4
+      - 美国_7
+      - 美国_8
+      - 澳大利亚_1
+      - 澳大利亚_2
+      - 乌克兰_1
+      - 巴西_2
+      - 美国_9
+      - 乌克兰_2
+      - 美国_10
+      - 新加坡_3
+      - 美国_11
+      - 德国_1
+      - 韩国_5
+      - 韩国_6
+      - 波兰
+      - 美国_12
+      - 美国_13
+      - 德国_2
+      - 美国_14
+      - 新加坡_4
+      - 新加坡_5
+      - 美国_15
+      - 德国_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -211,16 +407,44 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 0832-tls
-      - 0831.135051.xyz_1
-      - 0721.135051.link
-      - 0926.7993922.workers.dev
-      - 0832.135051.xyz
-      - 0831.135051.xyz_2
-      - 0831.135051.xyz_3
-      - 0832.7993922.workers.dev
-      - 0918.7993922.workers.dev
-      - p-15s.pages.dev
+      - 美国_1
+      - 美国_2
+      - 巴西_1
+      - 美国_3
+      - 美国_4
+      - 美国_5
+      - 韩国_1
+      - 韩国_2
+      - 新加坡_1
+      - 韩国_3
+      - 美国_6
+      - 荷兰
+      - 印度
+      - 新加坡_2
+      - 韩国_4
+      - 美国_7
+      - 美国_8
+      - 澳大利亚_1
+      - 澳大利亚_2
+      - 乌克兰_1
+      - 巴西_2
+      - 美国_9
+      - 乌克兰_2
+      - 美国_10
+      - 新加坡_3
+      - 美国_11
+      - 德国_1
+      - 韩国_5
+      - 韩国_6
+      - 波兰
+      - 美国_12
+      - 美国_13
+      - 德国_2
+      - 美国_14
+      - 新加坡_4
+      - 新加坡_5
+      - 美国_15
+      - 德国_3
 
 rules:
 # 本地/局域网地址
