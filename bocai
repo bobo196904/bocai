@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-04 22:27:03
+# 创建时间：2024-08-05 21:58:54
 # 使用模版：V2RaySE 默认模版
-# 节点数量：38
+# 节点数量：20
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,305 +86,179 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"美国_1","type":"vless","server":"47.76.178.146","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"ju.ylks01.eu.org"}},"client-fingerprint":"random"}
-  - {"name":"美国_2","type":"vless","server":"47.76.49.246","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"巴西_1","type":"vless","server":"168.138.179.107","port":36322,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"美国_3","type":"vless","server":"158.178.245.117","port":12368,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"美国_4","type":"vless","server":"158.178.245.117","port":12368,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"美国_5","type":"vless","server":"150.230.107.234","port":32146,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.jp.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"韩国_1","type":"vless","server":"59.3.3.161","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"韩国_2","type":"vless","server":"59.3.3.161","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.kr.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"新加坡_1","type":"vless","server":"202.81.231.150","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"韩国_3","type":"vless","server":"121.164.108.217","port":28017,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.kr.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"美国_6","type":"vless","server":"172.84.92.108","port":42304,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"ju.ylks01.eu.org"}},"client-fingerprint":"random"}
-  - {"name":"荷兰","type":"vless","server":"45.159.216.147","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"印度","type":"vless","server":"35.200.154.186","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"新加坡_2","type":"vless","server":"202.81.231.150","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"韩国_4","type":"vless","server":"115.88.75.154","port":50026,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"美国_7","type":"vless","server":"152.70.123.225","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"美国_8","type":"vless","server":"129.146.46.164","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"澳大利亚_1","type":"vless","server":"43.153.103.203","port":38454,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"澳大利亚_2","type":"vless","server":"43.153.103.203","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"乌克兰_1","type":"vless","server":"95.164.62.196","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"巴西_2","type":"vless","server":"168.138.179.107","port":36322,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"美国_9","type":"vless","server":"150.230.107.234","port":53780,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"ju.ylks01.eu.org"}},"client-fingerprint":"random"}
-  - {"name":"乌克兰_2","type":"vless","server":"95.164.62.196","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"美国_10","type":"vless","server":"4.255.56.138","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"新加坡_3","type":"vless","server":"202.81.231.150","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.aliyun.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"美国_11","type":"vless","server":"47.237.8.82","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"德国_1","type":"vless","server":"94.247.42.207","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"韩国_5","type":"vless","server":"193.123.244.37","port":34237,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.kr.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"韩国_6","type":"vless","server":"146.56.154.156","port":43453,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"波兰","type":"vless","server":"193.84.2.206","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"美国_12","type":"vless","server":"150.230.107.234","port":32146,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.jp.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"美国_13","type":"vless","server":"47.236.145.85","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"德国_2","type":"vless","server":"185.135.9.15","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"美国_14","type":"vless","server":"150.230.209.239","port":51272,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.jp.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"新加坡_4","type":"vless","server":"8.222.161.86","port":32101,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ju.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ju.ylks01.eu.org"}}}
-  - {"name":"新加坡_5","type":"vless","server":"8.222.161.86","port":32101,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.sg.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"美国_15","type":"vless","server":"173.249.202.215","port":8086,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ku.ylks.xyz"}}}
-  - {"name":"德国_3","type":"vless","server":"130.61.87.219","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ku.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io","headers":{"host":"ku.ylks.xyz"}}}
+  - {"name":"💦 BPB - IPv4_2 : 443","type":"vless","server":"104.21.57.33","port":443,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bPb.BOci.US.kG","network":"ws","ws-opts":{"path":"/xHU2aD0FrrrSJGyB?ed=2560","headers":{"host":"bPb.BOci.US.kG"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - IPv4_1 : 2087","type":"vless","server":"172.67.188.236","port":2087,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bPb.boCI.Us.Kg","network":"ws","ws-opts":{"path":"/N1YXfsovPr6cKNTi?ed=2560","headers":{"host":"bPb.boCI.Us.Kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - IPv4_1 : 443","type":"vless","server":"172.67.188.236","port":443,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bpb.bOci.uS.kG","network":"ws","ws-opts":{"path":"/zTByRKTd4aHMasNB?ed=2560","headers":{"host":"bpb.bOci.uS.kG"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - IPv4_2 : 2053","type":"vless","server":"104.21.57.33","port":2053,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bPb.BocI.US.kg","network":"ws","ws-opts":{"path":"/2PrTutTGqlypxgxu?ed=2560","headers":{"host":"bPb.BocI.US.kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - IPv4_1 : 2083","type":"vless","server":"172.67.188.236","port":2083,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bpb.boCI.us.KG","network":"ws","ws-opts":{"path":"/D6Ctmo1XuNB1ajNW?ed=2560","headers":{"host":"bpb.boCI.us.KG"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - IPv4_2 : 2083","type":"vless","server":"104.21.57.33","port":2083,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bPB.BOCI.US.kg","network":"ws","ws-opts":{"path":"/2qf9vhJaCD2tv3wY?ed=2560","headers":{"host":"bPB.BOCI.US.kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - IPv4_1 : 2096","type":"vless","server":"172.67.188.236","port":2096,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"BPB.BOCi.US.KG","network":"ws","ws-opts":{"path":"/VnZrESQnYO3CY2Cg?ed=2560","headers":{"host":"BPB.BOCi.US.KG"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - IPv4_1 : 2053","type":"vless","server":"172.67.188.236","port":2053,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bpb.boCi.uS.Kg","network":"ws","ws-opts":{"path":"/NFYCqzjr8vffChVp?ed=2560","headers":{"host":"bpb.boCi.uS.Kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_1 : 2096","type":"vless","server":"bpb.boci.us.kg","port":2096,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"BPB.bocI.Us.KG","network":"ws","ws-opts":{"path":"/R2SmaQBy4UhaVgXM?ed=2560","headers":{"host":"BPB.bocI.Us.KG"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_1 : 8443","type":"vless","server":"bpb.boci.us.kg","port":8443,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bpb.BOCI.uS.kg","network":"ws","ws-opts":{"path":"/C7JsHalOOJQnGIDM?ed=2560","headers":{"host":"bpb.BOCI.uS.kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_2 : 8443","type":"vless","server":"www.speedtest.net","port":8443,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"BpB.BOci.US.kg","network":"ws","ws-opts":{"path":"/EN6EkXYXlyqOyzOu?ed=2560","headers":{"host":"BpB.BOci.US.kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_2 : 2096","type":"vless","server":"www.speedtest.net","port":2096,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bpB.bOCi.Us.kG","network":"ws","ws-opts":{"path":"/dwJ45fsiUYp8R192?ed=2560","headers":{"host":"bpB.bOCi.Us.kG"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_2 : 2087","type":"vless","server":"www.speedtest.net","port":2087,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"BPb.boCI.US.kG","network":"ws","ws-opts":{"path":"/xtK2IvuMuLfn8NfJ?ed=2560","headers":{"host":"BPb.boCI.US.kG"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_2 : 2083","type":"vless","server":"www.speedtest.net","port":2083,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"BPB.BocI.us.kg","network":"ws","ws-opts":{"path":"/txNxt9Yx0Hlxn4Da?ed=2560","headers":{"host":"BPB.BocI.us.kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_1 : 443","type":"vless","server":"bpb.boci.us.kg","port":443,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bpb.bOci.US.Kg","network":"ws","ws-opts":{"path":"/R7QHZTLpwdivji1Z?ed=2560","headers":{"host":"bpb.bOci.US.Kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_1 : 2083","type":"vless","server":"bpb.boci.us.kg","port":2083,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bPb.BOCI.uS.Kg","network":"ws","ws-opts":{"path":"/xhPaJAFDX0m3xfuZ?ed=2560","headers":{"host":"bPb.BOCI.uS.Kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_1 : 2087","type":"vless","server":"bpb.boci.us.kg","port":2087,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"BPb.bOCi.Us.KG","network":"ws","ws-opts":{"path":"/xNXWex00miLncsKm?ed=2560","headers":{"host":"BPb.bOCi.Us.KG"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_2 : 443","type":"vless","server":"www.speedtest.net","port":443,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"BPb.BocI.us.kG","network":"ws","ws-opts":{"path":"/JAxvEaQsXyYUrGLQ?ed=2560","headers":{"host":"BPb.BocI.us.kG"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - Domain_2 : 2053","type":"vless","server":"www.speedtest.net","port":2053,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"bPb.bocI.Us.Kg","network":"ws","ws-opts":{"path":"/0pD57MaxMy5eQxmT?ed=2560","headers":{"host":"bPb.bocI.Us.Kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"💦 BPB - IPv4_1 : 8443","type":"vless","server":"172.67.188.236","port":8443,"uuid":"71fe7c02-c895-4b57-91af-cc8020627a99","tls":true,"servername":"BPB.BOcI.uS.Kg","network":"ws","ws-opts":{"path":"/VGcO76aWqVJDO3dq?ed=2560","headers":{"host":"BPB.BOcI.uS.Kg"}},"alpn":["h2","http/1.1"],"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国_1
-      - 美国_2
-      - 巴西_1
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_1
-      - 韩国_3
-      - 美国_6
-      - 荷兰
-      - 印度
-      - 新加坡_2
-      - 韩国_4
-      - 美国_7
-      - 美国_8
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 乌克兰_1
-      - 巴西_2
-      - 美国_9
-      - 乌克兰_2
-      - 美国_10
-      - 新加坡_3
-      - 美国_11
-      - 德国_1
-      - 韩国_5
-      - 韩国_6
-      - 波兰
-      - 美国_12
-      - 美国_13
-      - 德国_2
-      - 美国_14
-      - 新加坡_4
-      - 新加坡_5
-      - 美国_15
-      - 德国_3
+      - '💦 BPB - IPv4_2 : 443'
+      - '💦 BPB - IPv4_1 : 2087'
+      - '💦 BPB - IPv4_1 : 443'
+      - '💦 BPB - IPv4_2 : 2053'
+      - '💦 BPB - IPv4_1 : 2083'
+      - '💦 BPB - IPv4_2 : 2083'
+      - '💦 BPB - IPv4_1 : 2096'
+      - '💦 BPB - IPv4_1 : 2053'
+      - '💦 BPB - Domain_1 : 2096'
+      - '💦 BPB - Domain_1 : 8443'
+      - '💦 BPB - Domain_2 : 8443'
+      - '💦 BPB - Domain_2 : 2096'
+      - '💦 BPB - Domain_2 : 2087'
+      - '💦 BPB - Domain_2 : 2083'
+      - '💦 BPB - Domain_1 : 443'
+      - '💦 BPB - Domain_1 : 2083'
+      - '💦 BPB - Domain_1 : 2087'
+      - '💦 BPB - Domain_2 : 443'
+      - '💦 BPB - Domain_2 : 2053'
+      - '💦 BPB - IPv4_1 : 8443'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国_1
-      - 美国_2
-      - 巴西_1
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_1
-      - 韩国_3
-      - 美国_6
-      - 荷兰
-      - 印度
-      - 新加坡_2
-      - 韩国_4
-      - 美国_7
-      - 美国_8
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 乌克兰_1
-      - 巴西_2
-      - 美国_9
-      - 乌克兰_2
-      - 美国_10
-      - 新加坡_3
-      - 美国_11
-      - 德国_1
-      - 韩国_5
-      - 韩国_6
-      - 波兰
-      - 美国_12
-      - 美国_13
-      - 德国_2
-      - 美国_14
-      - 新加坡_4
-      - 新加坡_5
-      - 美国_15
-      - 德国_3
+      - '💦 BPB - IPv4_2 : 443'
+      - '💦 BPB - IPv4_1 : 2087'
+      - '💦 BPB - IPv4_1 : 443'
+      - '💦 BPB - IPv4_2 : 2053'
+      - '💦 BPB - IPv4_1 : 2083'
+      - '💦 BPB - IPv4_2 : 2083'
+      - '💦 BPB - IPv4_1 : 2096'
+      - '💦 BPB - IPv4_1 : 2053'
+      - '💦 BPB - Domain_1 : 2096'
+      - '💦 BPB - Domain_1 : 8443'
+      - '💦 BPB - Domain_2 : 8443'
+      - '💦 BPB - Domain_2 : 2096'
+      - '💦 BPB - Domain_2 : 2087'
+      - '💦 BPB - Domain_2 : 2083'
+      - '💦 BPB - Domain_1 : 443'
+      - '💦 BPB - Domain_1 : 2083'
+      - '💦 BPB - Domain_1 : 2087'
+      - '💦 BPB - Domain_2 : 443'
+      - '💦 BPB - Domain_2 : 2053'
+      - '💦 BPB - IPv4_1 : 8443'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国_1
-      - 美国_2
-      - 巴西_1
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_1
-      - 韩国_3
-      - 美国_6
-      - 荷兰
-      - 印度
-      - 新加坡_2
-      - 韩国_4
-      - 美国_7
-      - 美国_8
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 乌克兰_1
-      - 巴西_2
-      - 美国_9
-      - 乌克兰_2
-      - 美国_10
-      - 新加坡_3
-      - 美国_11
-      - 德国_1
-      - 韩国_5
-      - 韩国_6
-      - 波兰
-      - 美国_12
-      - 美国_13
-      - 德国_2
-      - 美国_14
-      - 新加坡_4
-      - 新加坡_5
-      - 美国_15
-      - 德国_3
+      - '💦 BPB - IPv4_2 : 443'
+      - '💦 BPB - IPv4_1 : 2087'
+      - '💦 BPB - IPv4_1 : 443'
+      - '💦 BPB - IPv4_2 : 2053'
+      - '💦 BPB - IPv4_1 : 2083'
+      - '💦 BPB - IPv4_2 : 2083'
+      - '💦 BPB - IPv4_1 : 2096'
+      - '💦 BPB - IPv4_1 : 2053'
+      - '💦 BPB - Domain_1 : 2096'
+      - '💦 BPB - Domain_1 : 8443'
+      - '💦 BPB - Domain_2 : 8443'
+      - '💦 BPB - Domain_2 : 2096'
+      - '💦 BPB - Domain_2 : 2087'
+      - '💦 BPB - Domain_2 : 2083'
+      - '💦 BPB - Domain_1 : 443'
+      - '💦 BPB - Domain_1 : 2083'
+      - '💦 BPB - Domain_1 : 2087'
+      - '💦 BPB - Domain_2 : 443'
+      - '💦 BPB - Domain_2 : 2053'
+      - '💦 BPB - IPv4_1 : 8443'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国_1
-      - 美国_2
-      - 巴西_1
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_1
-      - 韩国_3
-      - 美国_6
-      - 荷兰
-      - 印度
-      - 新加坡_2
-      - 韩国_4
-      - 美国_7
-      - 美国_8
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 乌克兰_1
-      - 巴西_2
-      - 美国_9
-      - 乌克兰_2
-      - 美国_10
-      - 新加坡_3
-      - 美国_11
-      - 德国_1
-      - 韩国_5
-      - 韩国_6
-      - 波兰
-      - 美国_12
-      - 美国_13
-      - 德国_2
-      - 美国_14
-      - 新加坡_4
-      - 新加坡_5
-      - 美国_15
-      - 德国_3
+      - '💦 BPB - IPv4_2 : 443'
+      - '💦 BPB - IPv4_1 : 2087'
+      - '💦 BPB - IPv4_1 : 443'
+      - '💦 BPB - IPv4_2 : 2053'
+      - '💦 BPB - IPv4_1 : 2083'
+      - '💦 BPB - IPv4_2 : 2083'
+      - '💦 BPB - IPv4_1 : 2096'
+      - '💦 BPB - IPv4_1 : 2053'
+      - '💦 BPB - Domain_1 : 2096'
+      - '💦 BPB - Domain_1 : 8443'
+      - '💦 BPB - Domain_2 : 8443'
+      - '💦 BPB - Domain_2 : 2096'
+      - '💦 BPB - Domain_2 : 2087'
+      - '💦 BPB - Domain_2 : 2083'
+      - '💦 BPB - Domain_1 : 443'
+      - '💦 BPB - Domain_1 : 2083'
+      - '💦 BPB - Domain_1 : 2087'
+      - '💦 BPB - Domain_2 : 443'
+      - '💦 BPB - Domain_2 : 2053'
+      - '💦 BPB - IPv4_1 : 8443'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国_1
-      - 美国_2
-      - 巴西_1
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_1
-      - 韩国_3
-      - 美国_6
-      - 荷兰
-      - 印度
-      - 新加坡_2
-      - 韩国_4
-      - 美国_7
-      - 美国_8
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 乌克兰_1
-      - 巴西_2
-      - 美国_9
-      - 乌克兰_2
-      - 美国_10
-      - 新加坡_3
-      - 美国_11
-      - 德国_1
-      - 韩国_5
-      - 韩国_6
-      - 波兰
-      - 美国_12
-      - 美国_13
-      - 德国_2
-      - 美国_14
-      - 新加坡_4
-      - 新加坡_5
-      - 美国_15
-      - 德国_3
+      - '💦 BPB - IPv4_2 : 443'
+      - '💦 BPB - IPv4_1 : 2087'
+      - '💦 BPB - IPv4_1 : 443'
+      - '💦 BPB - IPv4_2 : 2053'
+      - '💦 BPB - IPv4_1 : 2083'
+      - '💦 BPB - IPv4_2 : 2083'
+      - '💦 BPB - IPv4_1 : 2096'
+      - '💦 BPB - IPv4_1 : 2053'
+      - '💦 BPB - Domain_1 : 2096'
+      - '💦 BPB - Domain_1 : 8443'
+      - '💦 BPB - Domain_2 : 8443'
+      - '💦 BPB - Domain_2 : 2096'
+      - '💦 BPB - Domain_2 : 2087'
+      - '💦 BPB - Domain_2 : 2083'
+      - '💦 BPB - Domain_1 : 443'
+      - '💦 BPB - Domain_1 : 2083'
+      - '💦 BPB - Domain_1 : 2087'
+      - '💦 BPB - Domain_2 : 443'
+      - '💦 BPB - Domain_2 : 2053'
+      - '💦 BPB - IPv4_1 : 8443'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国_1
-      - 美国_2
-      - 巴西_1
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_1
-      - 韩国_3
-      - 美国_6
-      - 荷兰
-      - 印度
-      - 新加坡_2
-      - 韩国_4
-      - 美国_7
-      - 美国_8
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 乌克兰_1
-      - 巴西_2
-      - 美国_9
-      - 乌克兰_2
-      - 美国_10
-      - 新加坡_3
-      - 美国_11
-      - 德国_1
-      - 韩国_5
-      - 韩国_6
-      - 波兰
-      - 美国_12
-      - 美国_13
-      - 德国_2
-      - 美国_14
-      - 新加坡_4
-      - 新加坡_5
-      - 美国_15
-      - 德国_3
+      - '💦 BPB - IPv4_2 : 443'
+      - '💦 BPB - IPv4_1 : 2087'
+      - '💦 BPB - IPv4_1 : 443'
+      - '💦 BPB - IPv4_2 : 2053'
+      - '💦 BPB - IPv4_1 : 2083'
+      - '💦 BPB - IPv4_2 : 2083'
+      - '💦 BPB - IPv4_1 : 2096'
+      - '💦 BPB - IPv4_1 : 2053'
+      - '💦 BPB - Domain_1 : 2096'
+      - '💦 BPB - Domain_1 : 8443'
+      - '💦 BPB - Domain_2 : 8443'
+      - '💦 BPB - Domain_2 : 2096'
+      - '💦 BPB - Domain_2 : 2087'
+      - '💦 BPB - Domain_2 : 2083'
+      - '💦 BPB - Domain_1 : 443'
+      - '💦 BPB - Domain_1 : 2083'
+      - '💦 BPB - Domain_1 : 2087'
+      - '💦 BPB - Domain_2 : 443'
+      - '💦 BPB - Domain_2 : 2053'
+      - '💦 BPB - IPv4_1 : 8443'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -407,44 +281,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国_1
-      - 美国_2
-      - 巴西_1
-      - 美国_3
-      - 美国_4
-      - 美国_5
-      - 韩国_1
-      - 韩国_2
-      - 新加坡_1
-      - 韩国_3
-      - 美国_6
-      - 荷兰
-      - 印度
-      - 新加坡_2
-      - 韩国_4
-      - 美国_7
-      - 美国_8
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 乌克兰_1
-      - 巴西_2
-      - 美国_9
-      - 乌克兰_2
-      - 美国_10
-      - 新加坡_3
-      - 美国_11
-      - 德国_1
-      - 韩国_5
-      - 韩国_6
-      - 波兰
-      - 美国_12
-      - 美国_13
-      - 德国_2
-      - 美国_14
-      - 新加坡_4
-      - 新加坡_5
-      - 美国_15
-      - 德国_3
+      - '💦 BPB - IPv4_2 : 443'
+      - '💦 BPB - IPv4_1 : 2087'
+      - '💦 BPB - IPv4_1 : 443'
+      - '💦 BPB - IPv4_2 : 2053'
+      - '💦 BPB - IPv4_1 : 2083'
+      - '💦 BPB - IPv4_2 : 2083'
+      - '💦 BPB - IPv4_1 : 2096'
+      - '💦 BPB - IPv4_1 : 2053'
+      - '💦 BPB - Domain_1 : 2096'
+      - '💦 BPB - Domain_1 : 8443'
+      - '💦 BPB - Domain_2 : 8443'
+      - '💦 BPB - Domain_2 : 2096'
+      - '💦 BPB - Domain_2 : 2087'
+      - '💦 BPB - Domain_2 : 2083'
+      - '💦 BPB - Domain_1 : 443'
+      - '💦 BPB - Domain_1 : 2083'
+      - '💦 BPB - Domain_1 : 2087'
+      - '💦 BPB - Domain_2 : 443'
+      - '💦 BPB - Domain_2 : 2053'
+      - '💦 BPB - IPv4_1 : 8443'
 
 rules:
 # 本地/局域网地址
