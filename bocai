@@ -58,7 +58,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://djjc.cfd/api/v1/client/subscribe?token=daafd188d933eb44d101df3f1dc8c28d"
+    url: "https://djjc.cfd/api/v1/client/subscribe?token=daafd188d933eb44d101df3f1dc8c28d&flag=meta"
     
   大白:
     type: http
