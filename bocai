@@ -38,7 +38,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://bpb.boci.us.kg/sub/71fe7c02-c895-4b57-91af-cc8020627a99?app=clash#BPB-Normal" #BPB 
+    url: "https://bpb.boci.us.kg/sub/71fe7c02-c895-4b57-91af-cc8020627a99?app=clash#BPB-Normal" #BPB 
     
   Free Cloud:
     type: http
