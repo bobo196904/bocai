@@ -48,7 +48,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://prob.xn--l9qyaz082a.cn/api/v1/client/subscribe?token=a63aa839e4c6ee1aed3221d2001fce90"
+    #url: "https://prob.xn--l9qyaz082a.cn/api/v1/client/subscribe?token=a63aa839e4c6ee1aed3221d2001fce90"
   
   顶级机场:
     type: http
