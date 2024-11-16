@@ -28,7 +28,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://dyq.7868.pp.ua/7868"
+    url: "https://dyq.7868.pp.ua/7868"
     
   BPB:
     type: http
@@ -48,7 +48,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://prob.xn--l9qyaz082a.cn/api/v1/client/subscribe?token=a63aa839e4c6ee1aed3221d2001fce90"
+    url: "https://prob.xn--l9qyaz082a.cn/api/v1/client/subscribe?token=a63aa839e4c6ee1aed3221d2001fce90"
   
   顶级机场:
     type: http
@@ -58,7 +58,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://djjc.cfd/api/v1/client/subscribe?token=daafd188d933eb44d101df3f1dc8c28d&flag=meta"
+    #url: "https://djjc.cfd/api/v1/client/subscribe?token=daafd188d933eb44d101df3f1dc8c28d&flag=meta"
     
   大白:
     type: http
@@ -78,7 +78,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://edgesub.bboo.us.kg/sub/clash-meta?url=https%253A%252F%252Flinke.phantasy.life%252Fapi%252Fv1%252Fclient%252Fsubscribe%253Ftoken%253D46dc6620b8c79c0568a1db3e14e1bbf6%2526flag%253Dmeta%7C%7Chttps%253A%252F%252Fproc.xn--l9qyaz082a.cn%252Fapi%252Fv1%252Fclient%252Fsubscribe%253Ftoken%253Da63aa839e4c6ee1aed3221d2001fce90&remote_config=__DEFAULT__&udp=true" 
+    url: "https://edgesub.bboo.us.kg/sub/clash-meta?url=https%253A%252F%252Flinke.phantasy.life%252Fapi%252Fv1%252Fclient%252Fsubscribe%253Ftoken%253D46dc6620b8c79c0568a1db3e14e1bbf6%2526flag%253Dmeta%7C%7Chttps%253A%252F%252Fproc.xn--l9qyaz082a.cn%252Fapi%252Fv1%252Fclient%252Fsubscribe%253Ftoken%253Da63aa839e4c6ee1aed3221d2001fce90&remote_config=__DEFAULT__&udp=true" 
       
 # 用于下载订阅时指定UA
 global-ua: clash
