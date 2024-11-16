@@ -10,7 +10,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=699d0f09dd72b2c71c276558beb349ee" #cac
   
-  itdog:
+  勇哥:
     type: http
     interval: 1800
     health-check:
@@ -18,7 +18,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://linke.phantasy.life/api/v1/client/subscribe?token=46dc6620b8c79c0568a1db3e14e1bbf6&flag=meta"
+    url: "https://yg0724.bboo.us.kg/a585845d-d430-4acb-b44f-6cf596059551/pcl"
     
   订阅器:
     type: http
