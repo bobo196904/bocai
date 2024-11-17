@@ -20,7 +20,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://yg0724.bboo.us.kg/a585845d-d430-4acb-b44f-6cf596059551/pcl"
     
-  订阅器:
+  EMO:
     type: http
     interval: 1800
     health-check:
@@ -28,7 +28,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://dyq.7868.pp.ua/7868"
+    #url: "https://soa.689861.xyz/api/v1/client/subscribe?token=79b12cffe94678d1449db4c640fb09aa"
     
   BPB:
     type: http
@@ -68,7 +68,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1"
+    url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1"
     
   edge天成:
     type: http
