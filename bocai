@@ -70,7 +70,7 @@ proxy-providers:
     proxy: 🟢 直连
     #url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1"
     
-  edgesub.bboo.us.kg:
+  edge天成:
     type: http
     interval: 1800
     health-check:
@@ -78,7 +78,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://edgesub.bboo.us.kg/sub/clash-meta?url=https%253A%252F%252Flinke.phantasy.life%252Fapi%252Fv1%252Fclient%252Fsubscribe%253Ftoken%253D46dc6620b8c79c0568a1db3e14e1bbf6%2526flag%253Dmeta%7C%7Chttps%253A%252F%252Fproc.xn--l9qyaz082a.cn%252Fapi%252Fv1%252Fclient%252Fsubscribe%253Ftoken%253Da63aa839e4c6ee1aed3221d2001fce90&remote_config=__DEFAULT__&udp=true" 
+    url: "https://edge.xubo.us.kg/37a4b7c5-5590-4f15-9b4a-7d9fe5b0c080?sub=alvless.comorg.us.kg" 
       
 # 用于下载订阅时指定UA
 global-ua: clash
