@@ -28,7 +28,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://soa.689861.xyz/api/v1/client/subscribe?token=79b12cffe94678d1449db4c640fb09aa"
+    url: "https://soa.689861.xyz/api/v1/client/subscribe?token=79b12cffe94678d1449db4c640fb09aa"
     
   BPB:
     type: http
