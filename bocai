@@ -1,6 +1,6 @@
 # 机场订阅，名称不能重复
 proxy-providers:
-  CAC:
+  星雨:
     type: http
     interval: 1800
     health-check:
@@ -8,7 +8,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=699d0f09dd72b2c71c276558beb349ee" #cac
+    url: "https://subone.xyjc.xyz/api/xyjcxyz?token=6c50b9556ea13418b58817a79cb76e67&flag=meta" #cac
   
   勇哥:
     type: http
