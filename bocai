@@ -30,7 +30,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://vot.689861.xyz/api/v1/client/subscribe?token=79b12cffe94678d1449db4c640fb09aa"
     
-  BPB:
+  edge:
     type: http
     interval: 1800
     health-check:
@@ -38,7 +38,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://bpb.boci.us.kg/sub/71fe7c02-c895-4b57-91af-cc8020627a99?app=clash#BPB-Normal" #BPB 
+    url: "https://edge.xubo.us.kg/37a4b7c5-5590-4f15-9b4a-7d9fe5b0c080?clash" #BPB 
     
   Free Cloud:
     type: http
