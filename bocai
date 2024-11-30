@@ -70,7 +70,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://jd.cnmsbb.cn/api/v1/client/subscribe?token=deba6e432d32167fea2b2b1f689ce16b"
     
-  edge天成:
+  勇哥1130:
     type: http
     interval: 1800
     health-check:
@@ -78,7 +78,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://edge.xubo.us.kg/37a4b7c5-5590-4f15-9b4a-7d9fe5b0c080?sub=alvless.comorg.us.kg" 
+    url: "https://yg1130.15254496.workers.dev/86c50e3a-5b87-49dd-bd20-03c7f2735e40/cl" 
   
 大白:
     type: http
