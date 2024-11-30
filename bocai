@@ -80,7 +80,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://yg1130.15254496.workers.dev/86c50e3a-5b87-49dd-bd20-03c7f2735e40/cl" 
   
-大白:
+  大白:
     type: http
     interval: 1800
     health-check:
