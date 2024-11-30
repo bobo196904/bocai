@@ -50,7 +50,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://prob.xn--l9qyaz082a.cn/api/v1/client/subscribe?token=a63aa839e4c6ee1aed3221d2001fce90"
   
-  顶级机场:
+  CAC Apex(2112373177):
     type: http
     interval: 1800
     health-check:
@@ -58,7 +58,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://djjc.cfd/api/v1/client/subscribe?token=daafd188d933eb44d101df3f1dc8c28d&flag=meta"
+    url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=1d5f2b90b32505d97283b6e319acfe33"
     
   雨薪云:
     type: http
