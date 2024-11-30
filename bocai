@@ -78,7 +78,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://yg1130.15254496.workers.dev/86c50e3a-5b87-49dd-bd20-03c7f2735e40/cl" 
+    url: "https://yg1130.boci.us.kg/d5dbee47-1502-4ed8-88c6-9ce3f9040c55/pcl" 
   
   大白:
     type: http
