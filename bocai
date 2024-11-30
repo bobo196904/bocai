@@ -79,6 +79,16 @@ proxy-providers:
       interval: 300
     proxy: 🟢 直连
     url: "https://edge.xubo.us.kg/37a4b7c5-5590-4f15-9b4a-7d9fe5b0c080?sub=alvless.comorg.us.kg" 
+  
+大白:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 🟢 直连
+    url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1" 
       
 # 用于下载订阅时指定UA
 global-ua: clash
