@@ -78,9 +78,9 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-url: "https://yg1130.15254496.workers.dev/86c50e3a-5b87-49dd-bd20-03c7f2735e40/cl" 
+    url: "https://yg1130.15254496.workers.dev/86c50e3a-5b87-49dd-bd20-03c7f2735e40/cl" 
   
- 大白:
+大白:
     type: http
     interval: 1800
     health-check:
@@ -88,7 +88,7 @@ url: "https://yg1130.15254496.workers.dev/86c50e3a-5b87-49dd-bd20-03c7f2735e40/c
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1" 
+    url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1" 
       
 # 用于下载订阅时指定UA
 global-ua: clash
@@ -170,7 +170,6 @@ dns:
   ipv6: false
   respect-rules: true
   # 模式切换 redir-host / fake-ip
-  enhanced-mode: fake-ip
   fake-ip-range: 28.0.0.1/8
   # 模式切换 whitelist/blacklist 
   # 黑名单模式表示如果匹配成功则不返回 Fake-IP, 白名单模式时只有匹配成功才返回 Fake-IP
