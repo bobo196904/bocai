@@ -78,9 +78,9 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://yg1130.15254496.workers.dev/86c50e3a-5b87-49dd-bd20-03c7f2735e40/cl" 
+url: "https://yg1130.15254496.workers.dev/86c50e3a-5b87-49dd-bd20-03c7f2735e40/cl" 
   
-大白:
+ 大白:
     type: http
     interval: 1800
     health-check:
@@ -88,7 +88,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1" 
+url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1" 
       
 # 用于下载订阅时指定UA
 global-ua: clash
