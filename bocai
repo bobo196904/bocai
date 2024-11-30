@@ -60,7 +60,7 @@ proxy-providers:
     proxy: 🟢 直连
     #url: "https://djjc.cfd/api/v1/client/subscribe?token=daafd188d933eb44d101df3f1dc8c28d&flag=meta"
     
-  大白:
+  雨薪云:
     type: http
     interval: 1800
     health-check:
@@ -68,7 +68,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1"
+    url: "https://jd.cnmsbb.cn/api/v1/client/subscribe?token=deba6e432d32167fea2b2b1f689ce16b"
     
   edge天成:
     type: http
