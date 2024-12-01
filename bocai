@@ -1,6 +1,6 @@
 # 机场订阅，名称不能重复
 proxy-providers:
-  星雨:
+  漏网之鱼星雨:
     type: http
     interval: 1800
     health-check:
@@ -8,7 +8,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://subone.xyjc.xyz/api/xyjcxyz?token=6c50b9556ea13418b58817a79cb76e67&flag=meta" 
+    url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=1d5f2b90b32505d97283b6e319acfe33" 
   
   勇哥:
     type: http
