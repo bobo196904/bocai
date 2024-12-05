@@ -60,7 +60,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=1d5f2b90b32505d97283b6e319acfe33"
     
-  雨薪云:
+  bpb:
     type: http
     interval: 1800
     health-check:
@@ -68,7 +68,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://jd.cnmsbb.cn/api/v1/client/subscribe?token=deba6e432d32167fea2b2b1f689ce16b"
+    url: "https://bpb-worker-panel-45u.pages.dev/sub/17a9cc55-c896-4688-9480-ec67519b4bcd?app=clash#BPB-Full-Normal"
     
   勇哥1130:
     type: http
