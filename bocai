@@ -68,7 +68,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://bpb-worker-panel-45u.pages.dev/sub/17a9cc55-c896-4688-9480-ec67519b4bcd?app=clash#BPB-Full-Normal"
+    url: "https://bpb.7868.pp.ua/sub/17a9cc55-c896-4688-9480-ec67519b4bcd?app=clash#BPB-Full-Normal"
     
   勇哥1130:
     type: http
