@@ -10,7 +10,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=1d5f2b90b32505d97283b6e319acfe33" 
   
-  勇哥:
+  疾雷云机场:
     type: http
     interval: 1800
     health-check:
@@ -18,7 +18,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://yg0724.bboo.us.kg/a585845d-d430-4acb-b44f-6cf596059551/pcl"
+    url: "https://sub.jileiyun.top/api/v1/client/subscribe?token=a5091d3d7e4e1a012a7862cbc12676a6"
     
   BPB-Warp:
     type: http
