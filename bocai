@@ -18,7 +18,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://sub.jileiyun.top/api/v1/client/subscribe?token=a5091d3d7e4e1a012a7862cbc12676a6"
+    url: "https://suo.yt/bTpP7lU"
     
   BPB-Warp:
     type: http
