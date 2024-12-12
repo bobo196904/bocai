@@ -20,7 +20,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://suo.yt/bTpP7lU"
     
-  BPB-Warp:
+  56云:
     type: http
     interval: 1800
     health-check:
@@ -28,7 +28,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://bpb.7868.pp.ua/warpsub/17a9cc55-c896-4688-9480-ec67519b4bcd?app=clash#BPB-Warp"
+    url: "https://569cdn.1010520.click/api/v1/client/subscribe?token=8f9f19aa8c1d64e0f59d4c9963d89476"
     
   勇哥1212:
     type: http
