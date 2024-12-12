@@ -30,7 +30,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://bpb.7868.pp.ua/warpsub/17a9cc55-c896-4688-9480-ec67519b4bcd?app=clash#BPB-Warp"
     
-  edge:
+  勇哥1212:
     type: http
     interval: 1800
     health-check:
@@ -38,7 +38,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://edge.xubo.us.kg/37a4b7c5-5590-4f15-9b4a-7d9fe5b0c080?clash" #BPB 
+    #url: "https://yg1212.boci.us.kg/7868/pcl" #BPB 
     
   Free Cloud:
     type: http
