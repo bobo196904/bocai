@@ -60,7 +60,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=1d5f2b90b32505d97283b6e319acfe33"
     
-  bpb:
+  edg1:
     type: http
     interval: 1800
     health-check:
@@ -68,7 +68,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://bp12.1350.us.kg/sub/146dec4b-d1ae-47f1-91fc-916d9f549ad8?app=clash#BPB-Full-Normal"
+    url: "https://edg1.1350.us.kg/439f0bd7-8edf-4f2a-8bc5-c4f2436c4050?clash"
     
   勇哥1130:
     type: http
