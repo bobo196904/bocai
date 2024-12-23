@@ -1,6 +1,6 @@
 # 机场订阅，名称不能重复
 proxy-providers:
-  漏网之鱼星雨:
+  网速猫:
     type: http
     interval: 1800
     health-check:
@@ -8,7 +8,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=1d5f2b90b32505d97283b6e319acfe33" 
+    url: "https://suo.yt/iDvn2HC" 
   
   疾雷云机场:
     type: http
@@ -20,7 +20,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://suo.yt/bTpP7lU"
     
-  56云:
+  569:
     type: http
     interval: 1800
     health-check:
@@ -28,7 +28,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://https://569cdn.1010520.click/api/v1/client/subscribe?token=8f9f19aa8c1d64e0f59d4c9963d89476&flag=meta"
+    url: "http://569cdn.1010520.click/api/v1/client/subscribe?token=9b5bca01956718b22849bcfa6dd97ddb&flag=meta"
     
   勇哥1212:
     type: http
