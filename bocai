@@ -70,7 +70,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://edg1.1350.us.kg/439f0bd7-8edf-4f2a-8bc5-c4f2436c4050?clash"
     
-  勇哥1130:
+  订阅器-勇哥1130:
     type: http
     interval: 1800
     health-check:
@@ -78,7 +78,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://yg1130.135051.filegear-sg.me/d5dbee47-1502-4ed8-88c6-9ce3f9040c55/pcl" 
+    url: "https://dyq.bboo.us.kg/7868" 
   
   大白:
     type: http
