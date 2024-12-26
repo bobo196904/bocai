@@ -78,7 +78,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://dyq.bboo.us.kg/7868" 
+    url: "https://dyq.135051.filegear-sg.me/7868" 
   
   大白:
     type: http
