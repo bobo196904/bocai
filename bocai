@@ -80,7 +80,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://dyq.135051.filegear-sg.me/7868" 
   
-  大白:
+  Itdog大白:
     type: http
     interval: 1800
     health-check:
@@ -88,7 +88,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://www.dabai.in/link/z9JsA0VuUUlgrcTX?clash=1" 
+    url: "https://linke.phantasy.life/api/v1/client/subscribe?token=46dc6620b8c79c0568a1db3e14e1bbf6&flag=meta" 
       
 # 用于下载订阅时指定UA
 global-ua: clash
