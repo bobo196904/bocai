@@ -30,7 +30,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "http://569cdn.1010520.click/api/v1/client/subscribe?token=9b5bca01956718b22849bcfa6dd97ddb&flag=meta"
     
-  勇哥1212:
+  勇哥1130:
     type: http
     interval: 1800
     health-check:
@@ -38,8 +38,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    #url: "https://yg1212.boci.us.kg/7868/pcl"
-    
+    url: "https://yg1130.135051.filegear-sg.me/d5dbee47-1502-4ed8-88c6-9ce3f9040c55/pcl"  
   Free Cloud:
     type: http
     interval: 1800
@@ -70,7 +69,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://edg1.1350.us.kg/439f0bd7-8edf-4f2a-8bc5-c4f2436c4050?clash"
     
-  订阅器-勇哥1130:
+  订阅器:
     type: http
     interval: 1800
     health-check:
