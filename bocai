@@ -39,6 +39,7 @@ proxy-providers:
       interval: 300
     proxy: 🟢 直连
     url: "https://yg1130.135051.filegear-sg.me/d5dbee47-1502-4ed8-88c6-9ce3f9040c55/pcl"  
+  
   Free Cloud:
     type: http
     interval: 1800
