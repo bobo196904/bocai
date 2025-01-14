@@ -10,7 +10,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "https://suo.yt/iDvn2HC" 
   
-  合并:
+  s15.serv00.com合并订阅:
     type: http
     interval: 1800
     health-check:
@@ -18,7 +18,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://hb.1350.us.kg/888"
+    url: "https://hb.boci.us.kg/888"
     
   569:
     type: http
