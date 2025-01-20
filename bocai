@@ -68,7 +68,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://edg1.1350.us.kg/439f0bd7-8edf-4f2a-8bc5-c4f2436c4050?clash"
+    url: "https://edg1.1350.us.kg/7868?sub"
     
   订阅器:
     type: http
