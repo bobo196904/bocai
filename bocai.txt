@@ -8,7 +8,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://suo.yt/iDvn2HC" 
+    url: "https://suo.yt/iDvn2HC" #qqq
   
   s15.serv00.com合并订阅:
     type: http
